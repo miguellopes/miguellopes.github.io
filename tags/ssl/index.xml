@@ -19,31 +19,11 @@ Para o webmitm funcionar correctamente também são necessários completar alg
     </item>
     
     <item>
-      <title>Ataques ao SSL com webmitm</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</link>
-      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</guid>
-      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
-Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
-    </item>
-    
-    <item>
       <title>Ataques ao SSL com SSLStrip</title>
       <link>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</link>
       <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</guid>
-      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
-Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
-    </item>
-    
-    <item>
-      <title>Ataques ao SSL com SSLStrip</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</link>
-      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</guid>
       <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
 Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
     </item>

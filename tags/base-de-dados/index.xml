@@ -18,15 +18,5 @@
 Notações Básicas Na arquitectura de dados do modelo relacional existem duas formas de descrever a mesma, formal e informal. Na descrição informal lida-se com os termos práticos tabelas, linhas e colunas; Na descrição formal utiliza-se termos como Relação, Tupla e Cabeçalho.</description>
     </item>
     
-    <item>
-      <title>Normalização de dados</title>
-      <link>https://miguellopes.net/blog/en/normalizacao-de-dados/</link>
-      <pubDate>Tue, 25 Oct 2011 17:44:29 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/normalizacao-de-dados/</guid>
-      <description>A normalização de dados no modelo relacional é uma serie de etapas que permitem reduzir a redundancia e inconsistencia de dados, numa base de dados relacional. Existem varias formas normais no entanto considera-se que as bases de dados estão normalizadas se obedecerem á 3ª forma normal.
-Notações Básicas Na arquitectura de dados do modelo relacional existem duas formas de descrever a mesma, formal e informal. Na descrição informal lida-se com os termos práticos tabelas, linhas e colunas; Na descrição formal utiliza-se termos como Relação, Tupla e Cabeçalho.</description>
-    </item>
-    
   </channel>
 </rss>

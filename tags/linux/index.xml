@@ -19,16 +19,5 @@ Segundo a pagina da distro têm o proposito de tornar um computador inseguro, co
 Esta é apenas uma das versões existem também outras que não estão disponíveis para o publico so para membros das varias agências depois de apresentarem os motivos para a sua utilização já que essas distros vêm preparadas para se ligar aos sistemas do Departamento de Defesa.</description>
     </item>
     
-    <item>
-      <title>Departamento de Defesa dos USA lança o LPS</title>
-      <link>https://miguellopes.net/blog/en/departamento-de-defesa-dos-usa-lanca-o-lps/</link>
-      <pubDate>Tue, 26 Jul 2011 12:14:17 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/departamento-de-defesa-dos-usa-lanca-o-lps/</guid>
-      <description>O Departamento de Defesa dos Estados unidos lançou uma distro de linux publicamente, com o nome de _Lightweight Portable Security _ou LPS-public.
-Segundo a pagina da distro têm o proposito de tornar um computador inseguro, como por exemplo um computador de casa num computador seguro já que tudo se passa na RAM e como não escreve no disco não ficam marcas permanentes da presença da sua utilização.
-Esta é apenas uma das versões existem também outras que não estão disponíveis para o publico so para membros das varias agências depois de apresentarem os motivos para a sua utilização já que essas distros vêm preparadas para se ligar aos sistemas do Departamento de Defesa.</description>
-    </item>
-    
   </channel>
 </rss>

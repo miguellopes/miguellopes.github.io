@@ -18,15 +18,5 @@
 Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
     </item>
     
-    <item>
-      <title>Ataques ao SSL com webmitm</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</link>
-      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</guid>
-      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
-Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
-    </item>
-    
   </channel>
 </rss>

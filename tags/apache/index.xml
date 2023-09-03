@@ -19,16 +19,5 @@ No Apache basta adicionar um ficheiro .htaccess no directorio principal com o se
 RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
     </item>
     
-    <item>
-      <title>Remover extensões de ficheiros com .htaccess</title>
-      <link>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</link>
-      <pubDate>Wed, 18 May 2011 14:16:39 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</guid>
-      <description>Agora com a web 2.0, existem muita atenção aos pormenores, e a técnicas SEO. Alterar o url para um ficheiro é apenas mais uma, ajuda no SEO porque se torna mais facil para os motores de busca e fica sempre mais apelativo.
-No Apache basta adicionar um ficheiro .htaccess no directorio principal com o seguinte conteudo:
-RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
-    </item>
-    
   </channel>
 </rss>

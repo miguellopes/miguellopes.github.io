@@ -18,15 +18,5 @@
 Jon McCoy Ninja Patching .</description>
     </item>
     
-    <item>
-      <title>Injectar Codigo em Aplicações .NET</title>
-      <link>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</link>
-      <pubDate>Sun, 13 Mar 2011 19:22:53 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</guid>
-      <description>Aqui está um vídeo educativo sobre segurança em .NET. Jon McCoy com o seu DotNetasploit, faz com que as aplicações .NET funcionem para o servir, com a aplicação dele é possível injectar novo código em qualquer aplicação. NET. No vídeo, ele mostra um pouco do que pode ser feito com o programa, desde modificar a interface gráfica até passar o formulário de registo da aplicação. (fonte: Irongeek).
-Jon McCoy Ninja Patching .</description>
-    </item>
-    
   </channel>
 </rss>

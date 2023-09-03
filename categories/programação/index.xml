@@ -20,35 +20,11 @@ RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILEN
     </item>
     
     <item>
-      <title>Remover extensões de ficheiros com .htaccess</title>
-      <link>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</link>
-      <pubDate>Wed, 18 May 2011 14:16:39 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</guid>
-      <description>Agora com a web 2.0, existem muita atenção aos pormenores, e a técnicas SEO. Alterar o url para um ficheiro é apenas mais uma, ajuda no SEO porque se torna mais facil para os motores de busca e fica sempre mais apelativo.
-No Apache basta adicionar um ficheiro .htaccess no directorio principal com o seguinte conteudo:
-RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
-    </item>
-    
-    <item>
       <title>Novas funcionalidades do Chrome Dev Tools</title>
       <link>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</link>
       <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</guid>
-      <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
-Entre as novidades temos :
-Melhorias no Controlo dos estilos e Manipulação CSS
-Debugging remoto
-Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do CSS permitem-nos fazer alterações &amp;ldquo;ao vivo&amp;rdquo; no browser. Estas alterações tanto pode ser feitas po painel lateral do menu dos Elementos, ou nas folhas de estilos no menu recursos.</description>
-    </item>
-    
-    <item>
-      <title>Novas funcionalidades do Chrome Dev Tools</title>
-      <link>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</link>
-      <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</guid>
       <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
 Entre as novidades temos :
 Melhorias no Controlo dos estilos e Manipulação CSS
@@ -67,16 +43,6 @@ Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas win
     </item>
     
     <item>
-      <title>O código-fonte da Botnet Zeus caiu na internet</title>
-      <link>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</link>
-      <pubDate>Sun, 15 May 2011 02:20:40 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</guid>
-      <description>O famoso botnet Zeus/Zbot, criado especificamente para roubar informações bancarias, teve o seu código-fonte publicado na internet. E assim começa uma corrida, entre os script kiddies e as empresas de anti-virus. Com este desenvolvimento é agora possível para qualquer pessoa fazer novos modulos para o virus ou compilarem para uso proprio.
-Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas windows, XP/Vista/7 para desktops, e 2003/2003R2/2008/2008R2 em servidores. O virus foi concebido para as versões 32 bits no entanto funciona também em 64 bits.</description>
-    </item>
-    
-    <item>
       <title>Slow Post com R.U.D.Y.</title>
       <link>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</link>
       <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
@@ -86,29 +52,11 @@ Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas win
     </item>
     
     <item>
-      <title>Slow Post com R.U.D.Y.</title>
-      <link>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</link>
-      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</guid>
-      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
-    </item>
-    
-    <item>
       <title>LOIC a arma dos Anónimos para os ataques DoS</title>
       <link>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
       <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
-      <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
-    </item>
-    
-    <item>
-      <title>LOIC a arma dos Anónimos para os ataques DoS</title>
-      <link>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
-      <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
       <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
     </item>
     
@@ -123,30 +71,11 @@ Jon McCoy Ninja Patching .</description>
     </item>
     
     <item>
-      <title>Injectar Codigo em Aplicações .NET</title>
-      <link>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</link>
-      <pubDate>Sun, 13 Mar 2011 19:22:53 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</guid>
-      <description>Aqui está um vídeo educativo sobre segurança em .NET. Jon McCoy com o seu DotNetasploit, faz com que as aplicações .NET funcionem para o servir, com a aplicação dele é possível injectar novo código em qualquer aplicação. NET. No vídeo, ele mostra um pouco do que pode ser feito com o programa, desde modificar a interface gráfica até passar o formulário de registo da aplicação. (fonte: Irongeek).
-Jon McCoy Ninja Patching .</description>
-    </item>
-    
-    <item>
       <title>Partilhas do Windows no Mac</title>
       <link>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</link>
       <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</guid>
-      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
-    </item>
-    
-    <item>
-      <title>Partilhas do Windows no Mac</title>
-      <link>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</link>
-      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</guid>
       <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
     </item>
     
@@ -160,31 +89,11 @@ Jon McCoy Ninja Patching .</description>
     </item>
     
     <item>
-      <title>Testar Lista de Proxys</title>
-      <link>https://miguellopes.net/blog/en/testar-lista-de-proxys/</link>
-      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/testar-lista-de-proxys/</guid>
-      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
-    </item>
-    
-    <item>
       <title>Receptor de GPS Bluetooth (Python)</title>
       <link>https://miguellopes.net/blog/bluetooth-gps-python/</link>
       <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/bluetooth-gps-python/</guid>
-      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
-No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
-O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
-    </item>
-    
-    <item>
-      <title>Receptor de GPS Bluetooth (Python)</title>
-      <link>https://miguellopes.net/blog/en/bluetooth-gps-python/</link>
-      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/bluetooth-gps-python/</guid>
       <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
 No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
 O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>

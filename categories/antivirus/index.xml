@@ -18,15 +18,5 @@
 Upon uploading the file it would get delete before I could execute it.</description>
     </item>
     
-    <item>
-      <title>Evading AV detection with encryption and side-channels</title>
-      <link>https://miguellopes.net/blog/en/evading-av-detection-with-encryption-and-side-channels/</link>
-      <pubDate>Thu, 13 Oct 2016 08:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/evading-av-detection-with-encryption-and-side-channels/</guid>
-      <description>On a recent pentest I had as main objective to gain access into a database of a client which had a few websites running on their server. After a few hours of examining the server I had found a file upload form which would allow me to upload php scripts so I tried to send a php shell that I had written a few years ago.
-Upon uploading the file it would get delete before I could execute it.</description>
-    </item>
-    
   </channel>
 </rss>

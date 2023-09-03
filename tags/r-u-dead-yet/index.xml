@@ -17,14 +17,5 @@
       <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
     </item>
     
-    <item>
-      <title>Slow Post com R.U.D.Y.</title>
-      <link>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</link>
-      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</guid>
-      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
-    </item>
-    
   </channel>
 </rss>

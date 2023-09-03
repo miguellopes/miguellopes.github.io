@@ -19,16 +19,5 @@ No processo de desenvolvimento do projecto necessitei de um programa/script que 
 O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
     </item>
     
-    <item>
-      <title>Receptor de GPS Bluetooth (Python)</title>
-      <link>https://miguellopes.net/blog/en/bluetooth-gps-python/</link>
-      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/bluetooth-gps-python/</guid>
-      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
-No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
-O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
-    </item>
-    
   </channel>
 </rss>

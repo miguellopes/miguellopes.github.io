@@ -19,16 +19,6 @@ Upon uploading the file it would get delete before I could execute it.</descript
     </item>
     
     <item>
-      <title>Evading AV detection with encryption and side-channels</title>
-      <link>https://miguellopes.net/blog/en/evading-av-detection-with-encryption-and-side-channels/</link>
-      <pubDate>Thu, 13 Oct 2016 08:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/evading-av-detection-with-encryption-and-side-channels/</guid>
-      <description>On a recent pentest I had as main objective to gain access into a database of a client which had a few websites running on their server. After a few hours of examining the server I had found a file upload form which would allow me to upload php scripts so I tried to send a php shell that I had written a few years ago.
-Upon uploading the file it would get delete before I could execute it.</description>
-    </item>
-    
-    <item>
       <title>Honeypots part one</title>
       <link>https://miguellopes.net/blog/honeypots-part-one/</link>
       <pubDate>Mon, 19 Sep 2016 17:57:13 +0000</pubDate>
@@ -39,31 +29,11 @@ So I decided to move to real honeypots with more services that just http. So yes
     </item>
     
     <item>
-      <title>Honeypots part one</title>
-      <link>https://miguellopes.net/blog/en/honeypots-part-one/</link>
-      <pubDate>Mon, 19 Sep 2016 17:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/honeypots-part-one/</guid>
-      <description>After a previous post I decided to create some honeypots to compare the data from diffrent ISPs. My first tries didn&amp;rsquo;t get me far I created some nginx instances that would reply with a 200 status, but without any real code the bots wouldn&amp;rsquo;t do much more than sending the first request.
-So I decided to move to real honeypots with more services that just http. So yesterday night I left a few honeypots running on ports 21, 22, 80, 1433, 3306 and 3389 the objective wasn&amp;rsquo;t to deceive a human opponent but just to try it out against automated bots.</description>
-    </item>
-    
-    <item>
       <title>(In)Secure Digital Wallets</title>
       <link>https://miguellopes.net/blog/insecure-digital-wallets/</link>
       <pubDate>Thu, 08 Sep 2016 07:57:13 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/insecure-digital-wallets/</guid>
-      <description>After a pentest to a Portuguese financial institution I decided to keep an eye on the sector and look for potential flaws. What I have found is at least concerning and makes me ask when will legislation to oblige (at least) financial institutions to properly assess the vulnerabilities of their software and infrastructure.
-One of the players in the market that I was analysing had an App to be used as a digital wallet.</description>
-    </item>
-    
-    <item>
-      <title>(In)Secure Digital Wallets</title>
-      <link>https://miguellopes.net/blog/en/insecure-digital-wallets/</link>
-      <pubDate>Thu, 08 Sep 2016 07:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/insecure-digital-wallets/</guid>
       <description>After a pentest to a Portuguese financial institution I decided to keep an eye on the sector and look for potential flaws. What I have found is at least concerning and makes me ask when will legislation to oblige (at least) financial institutions to properly assess the vulnerabilities of their software and infrastructure.
 One of the players in the market that I was analysing had an App to be used as a digital wallet.</description>
     </item>

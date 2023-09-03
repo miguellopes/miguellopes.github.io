@@ -553,3 +553,11 @@ text-align:center;
         display: block;
     }
 }
+.list-inline.text-center {
+    text-align: center;
+}
+
+.list-inline.text-center > li {
+    display: inline-block;
+    /* Add additional styles if needed */
+}

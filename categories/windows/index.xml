@@ -19,16 +19,6 @@ Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, 
     </item>
     
     <item>
-      <title>Conversas Seguras por Email e Chat</title>
-      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
-      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
-      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
-Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
-    </item>
-    
-    <item>
       <title>O código-fonte da Botnet Zeus caiu na internet</title>
       <link>https://miguellopes.net/blog/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</link>
       <pubDate>Sun, 15 May 2011 02:20:40 +0000</pubDate>
@@ -39,31 +29,11 @@ Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas win
     </item>
     
     <item>
-      <title>O código-fonte da Botnet Zeus caiu na internet</title>
-      <link>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</link>
-      <pubDate>Sun, 15 May 2011 02:20:40 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</guid>
-      <description>O famoso botnet Zeus/Zbot, criado especificamente para roubar informações bancarias, teve o seu código-fonte publicado na internet. E assim começa uma corrida, entre os script kiddies e as empresas de anti-virus. Com este desenvolvimento é agora possível para qualquer pessoa fazer novos modulos para o virus ou compilarem para uso proprio.
-Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas windows, XP/Vista/7 para desktops, e 2003/2003R2/2008/2008R2 em servidores. O virus foi concebido para as versões 32 bits no entanto funciona também em 64 bits.</description>
-    </item>
-    
-    <item>
       <title>Aumenta a Performance do MySQL com o cache das querys</title>
       <link>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
       <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
-      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
-Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
-    </item>
-    
-    <item>
-      <title>Aumenta a Performance do MySQL com o cache das querys</title>
-      <link>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
-      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
       <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
 Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
     </item>

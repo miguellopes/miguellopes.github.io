@@ -20,17 +20,6 @@ Aqui fica a lista com aproximadamente 8 MB, notem que os ips que estiverem offli
     </item>
     
     <item>
-      <title>Lista de mais de 135.000 proxies</title>
-      <link>https://miguellopes.net/blog/en/lista-de-mais-de-135-000-proxies/</link>
-      <pubDate>Thu, 01 Sep 2011 14:23:14 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/lista-de-mais-de-135-000-proxies/</guid>
-      <description>Em julho, centenas de proxies chineses na porta 8909 começaram a aparecer todos os dias nas listas públicas de proxies. Em agosto, o números diários ficaram passaram aos milhares.
-Esta explosão de proxies abertos presume-se que se deva a adesão dos chineses a _media clients _que por defeito criem um proxy publico na porta 8909.
-Aqui fica a lista com aproximadamente 8 MB, notem que os ips que estiverem offline pode voltar a ficar online assim que os utilizadores iniciem o programa que controla o proxy.</description>
-    </item>
-    
-    <item>
       <title>Extrair ficheiros de Capturas de rede</title>
       <link>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</link>
       <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
@@ -41,31 +30,11 @@ Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet q
     </item>
     
     <item>
-      <title>Extrair ficheiros de Capturas de rede</title>
-      <link>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</link>
-      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</guid>
-      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
-Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
-    </item>
-    
-    <item>
       <title>Vê as informações que o facebook armazena sobre ti</title>
       <link>https://miguellopes.net/blog/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</link>
       <pubDate>Fri, 29 Apr 2011 16:10:21 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</guid>
-      <description>O maior problema do facebook é como lida com as informações dos seus utilizadores. Se perderem tempo a ler os termos e condições, que só estão disponíveis em Inglês, podem observar que tudo o que é lá colocado passa a ser deles para utilizarem como quiserem.
-Um exemplo disso é experimentarem desactivar a vossa conta, essa opção só faz com que o vosso perfil deixe de estar publico, qualquer das informações que tenham colocado no facebook continua com eles, se recriarem a conta tudo o que lá tinham reaparece nada é perdido.</description>
-    </item>
-    
-    <item>
-      <title>Vê as informações que o facebook armazena sobre ti</title>
-      <link>https://miguellopes.net/blog/en/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</link>
-      <pubDate>Fri, 29 Apr 2011 16:10:21 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</guid>
       <description>O maior problema do facebook é como lida com as informações dos seus utilizadores. Se perderem tempo a ler os termos e condições, que só estão disponíveis em Inglês, podem observar que tudo o que é lá colocado passa a ser deles para utilizarem como quiserem.
 Um exemplo disso é experimentarem desactivar a vossa conta, essa opção só faz com que o vosso perfil deixe de estar publico, qualquer das informações que tenham colocado no facebook continua com eles, se recriarem a conta tudo o que lá tinham reaparece nada é perdido.</description>
     </item>
@@ -82,31 +51,11 @@ Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open so
     </item>
     
     <item>
-      <title>Encripta os teus dados com o TrueCrypt</title>
-      <link>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</link>
-      <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</guid>
-      <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
-Neste artigo irei explicar como criar um ficheiro encriptado.
-Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>
-    </item>
-    
-    <item>
       <title>Remover metadata no Mac</title>
       <link>https://miguellopes.net/blog/remover-metadata-no-mac/</link>
       <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/remover-metadata-no-mac/</guid>
-      <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
-    </item>
-    
-    <item>
-      <title>Remover metadata no Mac</title>
-      <link>https://miguellopes.net/blog/en/remover-metadata-no-mac/</link>
-      <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/remover-metadata-no-mac/</guid>
       <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
     </item>
     
@@ -123,32 +72,11 @@ Teste de Proxy</description>
     </item>
     
     <item>
-      <title>Testa a tua ligação anonima</title>
-      <link>https://miguellopes.net/blog/en/testa-a-tua-ligacao-anonima/</link>
-      <pubDate>Mon, 11 Apr 2011 23:10:31 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/testa-a-tua-ligacao-anonima/</guid>
-      <description>Aqui vão alguns links para testares a tua ligação seja ela por proxy, i2p, vpn, ssh, etc&amp;hellip;
-DeCloack
-Teste de anonimização
-Teste de Proxy</description>
-    </item>
-    
-    <item>
       <title>Zon viola a privacidade dos clientes</title>
       <link>https://miguellopes.net/blog/zon-viola-a-privacidade-dos-clientes/</link>
       <pubDate>Sun, 13 Mar 2011 20:00:08 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/zon-viola-a-privacidade-dos-clientes/</guid>
-      <description>Alguns ISP europeus têm adotado o Middleware Jungo para os routers dos clientes, no caso de Portugal a Zon. Este software controla todas as ligações feitas pelo router e registas, para que a Zon possa ter acesso aos dados sempre que assim o queira. Este acesso é omitido aos utilizadores todos e não pode ser desligado. Este acesso ao router permite alterar mais definições do que o acesso utilizado pelo utilizador.</description>
-    </item>
-    
-    <item>
-      <title>Zon viola a privacidade dos clientes</title>
-      <link>https://miguellopes.net/blog/en/zon-viola-a-privacidade-dos-clientes/</link>
-      <pubDate>Sun, 13 Mar 2011 20:00:08 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/zon-viola-a-privacidade-dos-clientes/</guid>
       <description>Alguns ISP europeus têm adotado o Middleware Jungo para os routers dos clientes, no caso de Portugal a Zon. Este software controla todas as ligações feitas pelo router e registas, para que a Zon possa ter acesso aos dados sempre que assim o queira. Este acesso é omitido aos utilizadores todos e não pode ser desligado. Este acesso ao router permite alterar mais definições do que o acesso utilizado pelo utilizador.</description>
     </item>
     
@@ -162,15 +90,6 @@ Teste de Proxy</description>
     </item>
     
     <item>
-      <title>Testar Lista de Proxys</title>
-      <link>https://miguellopes.net/blog/en/testar-lista-de-proxys/</link>
-      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/testar-lista-de-proxys/</guid>
-      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
-    </item>
-    
-    <item>
       <title>Pesquisas Anonimas no Google</title>
       <link>https://miguellopes.net/blog/pesquisas-no-google-anonimas/</link>
       <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
@@ -180,32 +99,11 @@ Teste de Proxy</description>
     </item>
     
     <item>
-      <title>Pesquisas Anonimas no Google</title>
-      <link>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</link>
-      <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</guid>
-      <description>Encontrei por acaso este site https://ssl.scroogle.org/, que permite fazer pesquisas no google totalmente anonimo. Não tenho o design que têm o Google mas da uma segurança superior ja que usa ssl, e apaga os logs dentro de 48h.</description>
-    </item>
-    
-    <item>
       <title>Navegue em Anonimato</title>
       <link>https://miguellopes.net/blog/navegue-anonimamente/</link>
       <pubDate>Fri, 11 Mar 2011 08:14:42 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/navegue-anonimamente/</guid>
-      <description>De certeza que todos ja viram aqueles banners de forums e páginas que identificam o browser que está a utilizar, o País e a cidade de onde é proveniente, entre outras informações.
-Isso tudo é possível através das informações que o teu computador envia, nomeadamente o User-Agente (identificação do browser é um parametro por defeito do HTTP) e o IP que nos é atribuido pelo ISP.
-Localização
-Como referi o IP, varia por várias razões e cada IP pode ser localizado numa certa area de um pais (ex: Distrito).</description>
-    </item>
-    
-    <item>
-      <title>Navegue em Anonimato</title>
-      <link>https://miguellopes.net/blog/en/navegue-anonimamente/</link>
-      <pubDate>Fri, 11 Mar 2011 08:14:42 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/navegue-anonimamente/</guid>
       <description>De certeza que todos ja viram aqueles banners de forums e páginas que identificam o browser que está a utilizar, o País e a cidade de onde é proveniente, entre outras informações.
 Isso tudo é possível através das informações que o teu computador envia, nomeadamente o User-Agente (identificação do browser é um parametro por defeito do HTTP) e o IP que nos é atribuido pelo ISP.
 Localização

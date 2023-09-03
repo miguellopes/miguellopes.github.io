@@ -18,15 +18,5 @@
 $ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
     </item>
     
-    <item>
-      <title>Túneis SSH</title>
-      <link>https://miguellopes.net/blog/en/tuneis-ssh/</link>
-      <pubDate>Sat, 21 May 2011 22:27:07 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/tuneis-ssh/</guid>
-      <description>No ultimo post falei da segurança ou da falta dela em WebVPNs, e da alternativa dos túneis SSH. Pois aqui ficam algumas indicações para o fazerem.
-$ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
-    </item>
-    
   </channel>
 </rss>

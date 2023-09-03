@@ -18,15 +18,5 @@
 Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas windows, XP/Vista/7 para desktops, e 2003/2003R2/2008/2008R2 em servidores. O virus foi concebido para as versões 32 bits no entanto funciona também em 64 bits.</description>
     </item>
     
-    <item>
-      <title>O código-fonte da Botnet Zeus caiu na internet</title>
-      <link>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</link>
-      <pubDate>Sun, 15 May 2011 02:20:40 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</guid>
-      <description>O famoso botnet Zeus/Zbot, criado especificamente para roubar informações bancarias, teve o seu código-fonte publicado na internet. E assim começa uma corrida, entre os script kiddies e as empresas de anti-virus. Com este desenvolvimento é agora possível para qualquer pessoa fazer novos modulos para o virus ou compilarem para uso proprio.
-Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas windows, XP/Vista/7 para desktops, e 2003/2003R2/2008/2008R2 em servidores. O virus foi concebido para as versões 32 bits no entanto funciona também em 64 bits.</description>
-    </item>
-    
   </channel>
 </rss>

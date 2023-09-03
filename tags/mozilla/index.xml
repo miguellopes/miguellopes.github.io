@@ -18,15 +18,5 @@
 Esta nova versão apresenta-se com um novo design, melhor desempenho, através de uma velocidade superior aos seus antecessores, protecção contra crashes e o novo motor 3D WebGL que permite tirar proveito das novas e potentes placas gráficas.</description>
     </item>
     
-    <item>
-      <title>Firefox 4</title>
-      <link>https://miguellopes.net/blog/en/firefox-4/</link>
-      <pubDate>Wed, 23 Mar 2011 19:35:52 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/firefox-4/</guid>
-      <description>O novo Firefox 4 saiu esta semana e ja ultrapassou os (9) 10 milhões de downloads, segundo o site que a Mozilla criou para a visualização das estatísticas de downloads do Firefox 4.
-Esta nova versão apresenta-se com um novo design, melhor desempenho, através de uma velocidade superior aos seus antecessores, protecção contra crashes e o novo motor 3D WebGL que permite tirar proveito das novas e potentes placas gráficas.</description>
-    </item>
-    
   </channel>
 </rss>

@@ -18,15 +18,5 @@
 A auditmark afirma que o seu produto pode ser usado para proteger os algoritmos em aplicações javascript, prevenir a reutilização, modificação e a execução do código não autorizada.</description>
     </item>
     
-    <item>
-      <title>Análise ao Jscrambler</title>
-      <link>https://miguellopes.net/blog/en/analise-jscrambler/</link>
-      <pubDate>Tue, 17 Sep 2013 19:36:07 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/analise-jscrambler/</guid>
-      <description>A Auditmark é uma empresa de segurança informática, iniciada na UPTEC, com a missão de desenvolver soluções para os problemas de segurança da web. O jscrambler é o ofuscador de código javascript da Auditmark, que permite ofuscar facilmente projetos inteiros (ficheiros html e js).
-A auditmark afirma que o seu produto pode ser usado para proteger os algoritmos em aplicações javascript, prevenir a reutilização, modificação e a execução do código não autorizada.</description>
-    </item>
-    
   </channel>
 </rss>

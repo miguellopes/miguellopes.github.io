@@ -19,16 +19,5 @@ O site é de facil utilização basta introduzir o email e clicar em _check it _
 shouldichangemypassword.com</description>
     </item>
     
-    <item>
-      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
-      <link>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
-      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
-      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
-O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
-shouldichangemypassword.com</description>
-    </item>
-    
   </channel>
 </rss>

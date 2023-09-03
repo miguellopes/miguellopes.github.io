@@ -20,17 +20,6 @@ shouldichangemypassword.com</description>
     </item>
     
     <item>
-      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
-      <link>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
-      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
-      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
-O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
-shouldichangemypassword.com</description>
-    </item>
-    
-    <item>
       <title>Passwords Seguras</title>
       <link>https://miguellopes.net/blog/passwords-seguras/</link>
       <pubDate>Tue, 10 May 2011 18:17:55 +0000</pubDate>
@@ -41,40 +30,11 @@ Por isso aqui vai um metodo que torna a vossa password segura na medida em que s
     </item>
     
     <item>
-      <title>Passwords Seguras</title>
-      <link>https://miguellopes.net/blog/en/passwords-seguras/</link>
-      <pubDate>Tue, 10 May 2011 18:17:55 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/passwords-seguras/</guid>
-      <description>Muitas pessoas utilizam passwords obvias/fáceis (Top 100 das Passwords mais frequentes em Portugal) por falta de metodo para criar algo melhor sendo facil de recordar.
-Por isso aqui vai um metodo que torna a vossa password segura na medida em que se torna muito difícil ou impossível de adivinhar ou prever no entanto torna se facil de recordar. Para começar comecemos por uma frase &amp;ldquo;Uma boa password é facil de ser relembrada pelo dono; mais nada.</description>
-    </item>
-    
-    <item>
       <title>CeWL uma ferramenta de geração de passwords</title>
       <link>https://miguellopes.net/blog/cewl-uma-ferramenta-de-geracao-de-passwords/</link>
       <pubDate>Mon, 25 Apr 2011 16:18:23 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/cewl-uma-ferramenta-de-geracao-de-passwords/</guid>
-      <description>O CeWL é uma ferramenta desenvolvida pelo Dijininja, para criar listas de passwords baseadas em palavras encontradas num site do alvo. Para o download da versão 3.0 podem utilizar este link.
-Instalação Esta aplicação foi desenvolvida em ruby gems e por isso para a instalação é necessario satisfazer algumas dependências.
-As _gems _das quais o CeWL depende são as seguintes:
-hpricot
-http_configuration
-mime-types
-exiftool
-mini_exiftool
-rubyzip
-spider
-Para instalar estas gems basta executar o comando como root</description>
-    </item>
-    
-    <item>
-      <title>CeWL uma ferramenta de geração de passwords</title>
-      <link>https://miguellopes.net/blog/en/cewl-uma-ferramenta-de-geracao-de-passwords/</link>
-      <pubDate>Mon, 25 Apr 2011 16:18:23 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/cewl-uma-ferramenta-de-geracao-de-passwords/</guid>
       <description>O CeWL é uma ferramenta desenvolvida pelo Dijininja, para criar listas de passwords baseadas em palavras encontradas num site do alvo. Para o download da versão 3.0 podem utilizar este link.
 Instalação Esta aplicação foi desenvolvida em ruby gems e por isso para a instalação é necessario satisfazer algumas dependências.
 As _gems _das quais o CeWL depende são as seguintes:

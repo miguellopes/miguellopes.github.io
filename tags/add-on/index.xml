@@ -18,15 +18,5 @@
 Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
     </item>
     
-    <item>
-      <title>Apreensão de dominios</title>
-      <link>https://miguellopes.net/blog/en/apreensao-de-dominios/</link>
-      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/apreensao-de-dominios/</guid>
-      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
-Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
-    </item>
-    
   </channel>
 </rss>

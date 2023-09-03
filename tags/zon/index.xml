@@ -19,30 +19,11 @@ Nos últimos routers distribuídos pela ZON é utilizado um sistema desenvolvido
     </item>
     
     <item>
-      <title>Dentro dos routers da Zon</title>
-      <link>https://miguellopes.net/blog/en/dentro-dos-routers-da-zon/</link>
-      <pubDate>Wed, 13 Feb 2013 08:19:18 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/dentro-dos-routers-da-zon/</guid>
-      <description>Tenho investigado várias versões de firmware dos routers da ZON, para tentar perceber até que ponto é que os mesmos lidam com o acesso que possuem às redes dos clientes.
-Nos últimos routers distribuídos pela ZON é utilizado um sistema desenvolvido pela Jungo, o OpenRG. E como a própria Jungo anuncia o OpenRG foi concebido para aumentar o controlo que o ISP têm sobre a rede do cliente evitando assim os custos de ter de enviar um técnico para resolver o problema em casa do cliente, ou de ter de empregar mais pessoas no call center.</description>
-    </item>
-    
-    <item>
       <title>Zon viola a privacidade dos clientes</title>
       <link>https://miguellopes.net/blog/zon-viola-a-privacidade-dos-clientes/</link>
       <pubDate>Sun, 13 Mar 2011 20:00:08 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/zon-viola-a-privacidade-dos-clientes/</guid>
-      <description>Alguns ISP europeus têm adotado o Middleware Jungo para os routers dos clientes, no caso de Portugal a Zon. Este software controla todas as ligações feitas pelo router e registas, para que a Zon possa ter acesso aos dados sempre que assim o queira. Este acesso é omitido aos utilizadores todos e não pode ser desligado. Este acesso ao router permite alterar mais definições do que o acesso utilizado pelo utilizador.</description>
-    </item>
-    
-    <item>
-      <title>Zon viola a privacidade dos clientes</title>
-      <link>https://miguellopes.net/blog/en/zon-viola-a-privacidade-dos-clientes/</link>
-      <pubDate>Sun, 13 Mar 2011 20:00:08 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/zon-viola-a-privacidade-dos-clientes/</guid>
       <description>Alguns ISP europeus têm adotado o Middleware Jungo para os routers dos clientes, no caso de Portugal a Zon. Este software controla todas as ligações feitas pelo router e registas, para que a Zon possa ter acesso aos dados sempre que assim o queira. Este acesso é omitido aos utilizadores todos e não pode ser desligado. Este acesso ao router permite alterar mais definições do que o acesso utilizado pelo utilizador.</description>
     </item>
     

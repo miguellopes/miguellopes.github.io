@@ -19,32 +19,11 @@ O nmap possui desde o inicio da versão 5 um motor de scripts, isto permite auto
     </item>
     
     <item>
-      <title>Ataques ao Windows (Parte 2)</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-windows-parte-2/</link>
-      <pubDate>Fri, 25 Mar 2011 12:28:19 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-windows-parte-2/</guid>
-      <description>No post anterior mostrei um pouco sobre as funcionalidades do nmap, hoje pretendo mostrar mais uma função do nmap e dar uma pequena demonstração da utilização do metasploit.
-O nmap possui desde o inicio da versão 5 um motor de scripts, isto permite automatizar certas tarefas e/ou proceder com o aumento de funcionalidades desta potente aplicação. Uma das funcionalidades adicionada ao nmap pelo motor de scripts (NSE - Nmap Script Engine) permite identificar maquinas infectadas com Conficker ( um worm recente que explora a vulnerabilidade_ MS08-067 _) bem como maquinas vulneráveis.</description>
-    </item>
-    
-    <item>
       <title>Ataques ao Windows (Parte 1)</title>
       <link>https://miguellopes.net/blog/ataques-ao-windows-1/</link>
       <pubDate>Thu, 24 Mar 2011 06:12:14 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/ataques-ao-windows-1/</guid>
-      <description>Decidi começar uma serie de posts relacionados com testes de segurança informática em maquinas windows.
-Neste primeiro post iremos começar com o reconhecimento. É o primeiro paço em qualquer ataque informático, neste caso iremos usar uma das melhores ferramentas disponíveis actualmente, para cumprir esse propósito, o nmap.
-Nesta etapa é importante recolher o máximo de informação possível sobre os alvos para com isso poder seleccionar melhor o vector de ataque. Para está demonstração irei utilizar um alvo, nomeadamente o ip 192.</description>
-    </item>
-    
-    <item>
-      <title>Ataques ao Windows (Parte 1)</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-windows-1/</link>
-      <pubDate>Thu, 24 Mar 2011 06:12:14 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-windows-1/</guid>
       <description>Decidi começar uma serie de posts relacionados com testes de segurança informática em maquinas windows.
 Neste primeiro post iremos começar com o reconhecimento. É o primeiro paço em qualquer ataque informático, neste caso iremos usar uma das melhores ferramentas disponíveis actualmente, para cumprir esse propósito, o nmap.
 Nesta etapa é importante recolher o máximo de informação possível sobre os alvos para com isso poder seleccionar melhor o vector de ataque. Para está demonstração irei utilizar um alvo, nomeadamente o ip 192.</description>

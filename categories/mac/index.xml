@@ -19,31 +19,11 @@ Charlie Miller, um consultor da firma de segurança de sistemas de informação�
     </item>
     
     <item>
-      <title>Atacar o Mac através da bateria</title>
-      <link>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</link>
-      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</guid>
-      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
-Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
-    </item>
-    
-    <item>
       <title>Mac OS X Lion</title>
       <link>https://miguellopes.net/blog/mac-os-x-lion/</link>
       <pubDate>Wed, 20 Jul 2011 12:53:14 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/mac-os-x-lion/</guid>
-      <description>Mac OS X 10.7 Lion, o novo sistema operativo da Apple, está agora disponível para aquisição na App Store Mac por 23,99 €, com peso de 3.49GB.
-O Lion têm mais de 250 novas funcionalidades, incluindo os novos comandos com o Multi-Touch, todo sistema suporta agora suporta para funcionar em fullscreen, o Controlo de Missão para ver tudo que se encontra em funcionamento no seu Mac, inclui também a aplicação Mail completamente redesenhada.</description>
-    </item>
-    
-    <item>
-      <title>Mac OS X Lion</title>
-      <link>https://miguellopes.net/blog/en/mac-os-x-lion/</link>
-      <pubDate>Wed, 20 Jul 2011 12:53:14 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/mac-os-x-lion/</guid>
       <description>Mac OS X 10.7 Lion, o novo sistema operativo da Apple, está agora disponível para aquisição na App Store Mac por 23,99 €, com peso de 3.49GB.
 O Lion têm mais de 250 novas funcionalidades, incluindo os novos comandos com o Multi-Touch, todo sistema suporta agora suporta para funcionar em fullscreen, o Controlo de Missão para ver tudo que se encontra em funcionamento no seu Mac, inclui também a aplicação Mail completamente redesenhada.</description>
     </item>
@@ -59,31 +39,11 @@ Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, 
     </item>
     
     <item>
-      <title>Conversas Seguras por Email e Chat</title>
-      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
-      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
-      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
-Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
-    </item>
-    
-    <item>
       <title>Ataques ao SSL com SSLStrip</title>
       <link>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</link>
       <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</guid>
-      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
-Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
-    </item>
-    
-    <item>
-      <title>Ataques ao SSL com SSLStrip</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</link>
-      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</guid>
       <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
 Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
     </item>
@@ -99,30 +59,11 @@ $ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma 
     </item>
     
     <item>
-      <title>Túneis SSH</title>
-      <link>https://miguellopes.net/blog/en/tuneis-ssh/</link>
-      <pubDate>Sat, 21 May 2011 22:27:07 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/tuneis-ssh/</guid>
-      <description>No ultimo post falei da segurança ou da falta dela em WebVPNs, e da alternativa dos túneis SSH. Pois aqui ficam algumas indicações para o fazerem.
-$ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
-    </item>
-    
-    <item>
       <title>Liberta a memoria RAM que não esta a ser utilizada no Mac</title>
       <link>https://miguellopes.net/blog/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</link>
       <pubDate>Wed, 18 May 2011 08:49:29 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</guid>
-      <description>Quem utiliza-se o seu mac intensivamente, sabe que para gastar toda a RAM não é preciso muito. O Mac OS X armazena os dados das aplicações que acabamos de usar para se as utilizar-mos outra vez elas ja estarem prontas, no entanto para quem utiliza muitos programas &amp;ldquo;pesados&amp;rdquo; e precisa de flexibilidade para poder fechar uns programas e abrir outros, são poucas as soluções. Existem programas pagos como o Memory Cleaner, ou podemos recorrer ao terminal.</description>
-    </item>
-    
-    <item>
-      <title>Liberta a memoria RAM que não esta a ser utilizada no Mac</title>
-      <link>https://miguellopes.net/blog/en/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</link>
-      <pubDate>Wed, 18 May 2011 08:49:29 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</guid>
       <description>Quem utiliza-se o seu mac intensivamente, sabe que para gastar toda a RAM não é preciso muito. O Mac OS X armazena os dados das aplicações que acabamos de usar para se as utilizar-mos outra vez elas ja estarem prontas, no entanto para quem utiliza muitos programas &amp;ldquo;pesados&amp;rdquo; e precisa de flexibilidade para poder fechar uns programas e abrir outros, são poucas as soluções. Existem programas pagos como o Memory Cleaner, ou podemos recorrer ao terminal.</description>
     </item>
     
@@ -137,30 +78,11 @@ Este sistema de base-dados por muito bom que seja não vêm totalmente optimizad
     </item>
     
     <item>
-      <title>Aumenta a Performance do MySQL com o cache das querys</title>
-      <link>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
-      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
-      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
-Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
-    </item>
-    
-    <item>
       <title>Atalhos do teclado para o Mac</title>
       <link>https://miguellopes.net/blog/atalhos-do-teclado-para-o-mac/</link>
       <pubDate>Fri, 22 Apr 2011 02:19:43 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/atalhos-do-teclado-para-o-mac/</guid>
-      <description>Tenho andado a testar maneiras para aumentar a minha produtividade. Até agora tenho utilizado o Spaces com 8 ambientes de trabalho, no entanto isso pode-s tornar um pouco caotico, por isso decidi testar outros metodos e reduzi o numero de ambientes de trabalho para 4 e voltei ao processo de minimização das janelas. Visto que a minha Dock se esconde automaticamente para poupar espaço de trabalho, restaurar a janela depois de ter sido minimizada pode ser um pouco chato e acabar com o proposito de aumentar a produtividade.</description>
-    </item>
-    
-    <item>
-      <title>Atalhos do teclado para o Mac</title>
-      <link>https://miguellopes.net/blog/en/atalhos-do-teclado-para-o-mac/</link>
-      <pubDate>Fri, 22 Apr 2011 02:19:43 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/atalhos-do-teclado-para-o-mac/</guid>
       <description>Tenho andado a testar maneiras para aumentar a minha produtividade. Até agora tenho utilizado o Spaces com 8 ambientes de trabalho, no entanto isso pode-s tornar um pouco caotico, por isso decidi testar outros metodos e reduzi o numero de ambientes de trabalho para 4 e voltei ao processo de minimização das janelas. Visto que a minha Dock se esconde automaticamente para poupar espaço de trabalho, restaurar a janela depois de ter sido minimizada pode ser um pouco chato e acabar com o proposito de aumentar a produtividade.</description>
     </item>
     
@@ -174,29 +96,11 @@ Este sistema de base-dados por muito bom que seja não vêm totalmente optimizad
     </item>
     
     <item>
-      <title>Remover metadata no Mac</title>
-      <link>https://miguellopes.net/blog/en/remover-metadata-no-mac/</link>
-      <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/remover-metadata-no-mac/</guid>
-      <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
-    </item>
-    
-    <item>
       <title>Partilhas do Windows no Mac</title>
       <link>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</link>
       <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</guid>
-      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
-    </item>
-    
-    <item>
-      <title>Partilhas do Windows no Mac</title>
-      <link>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</link>
-      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</guid>
       <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
     </item>
     

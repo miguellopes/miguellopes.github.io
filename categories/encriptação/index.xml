@@ -19,31 +19,11 @@ The software in question uses a lot of open source, it uses the Eclipse Rich Cli
     </item>
     
     <item>
-      <title>Cryptography is only part of the solution</title>
-      <link>https://miguellopes.net/blog/en/cryptography-is-only-part-of-the-solution/</link>
-      <pubDate>Fri, 10 Jun 2016 07:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/cryptography-is-only-part-of-the-solution/</guid>
-      <description>On my previous post I set out to do some reverse engineering on portuguese software. This time I took a look at a billing software. Since the requirement to use billing software came into law, their market has grown a lot. With some good and bad examples.
-The software in question uses a lot of open source, it uses the Eclipse Rich Client Platform, with a couple of plugins like Birt.</description>
-    </item>
-    
-    <item>
       <title>Defeating bad cryptographic implementations</title>
       <link>https://miguellopes.net/blog/defeating-bad-crypto-implementations/</link>
       <pubDate>Fri, 15 Apr 2016 07:57:13 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/defeating-bad-crypto-implementations/</guid>
-      <description>Lately I have been doing some reverse engineering, and I decided to try to test a wide range of portuguese software and write a few posts about it. So for the first batch I picked up some software, that I got to known through a google advertisement.
-I got interested about the company because they dealt with payments, and I thought their software would be a nice candidate for the first post.</description>
-    </item>
-    
-    <item>
-      <title>Defeating bad cryptographic implementations</title>
-      <link>https://miguellopes.net/blog/en/defeating-bad-crypto-implementations/</link>
-      <pubDate>Fri, 15 Apr 2016 07:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/defeating-bad-crypto-implementations/</guid>
       <description>Lately I have been doing some reverse engineering, and I decided to try to test a wide range of portuguese software and write a few posts about it. So for the first batch I picked up some software, that I got to known through a google advertisement.
 I got interested about the company because they dealt with payments, and I thought their software would be a nice candidate for the first post.</description>
     </item>
@@ -59,31 +39,11 @@ Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não considera
     </item>
     
     <item>
-      <title>Comunicações seguras no Android</title>
-      <link>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</link>
-      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</guid>
-      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
-Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
-    </item>
-    
-    <item>
       <title>Escutas com equipamentos da Vodafone UK</title>
       <link>https://miguellopes.net/blog/escutas-com-equipamentos-da-vodafone-uk/</link>
       <pubDate>Thu, 14 Jul 2011 02:52:47 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/escutas-com-equipamentos-da-vodafone-uk/</guid>
-      <description>_**O site THC anunciou ontem ter pirateado um equipamento da Vodafone e que assim é possível fazer escutas aos equipamentos da rede Vodafone.**_
-Este tipo de sistema de escutas não é novo já existem varios aparelhos similares que tornam estas escutas possíveis, o problema neste caso é que a Vodafone disponibiliza dados de acesso de todos os clientes da sua rede a estes dispositivos, e desta forma compromete todos os clientes.</description>
-    </item>
-    
-    <item>
-      <title>Escutas com equipamentos da Vodafone UK</title>
-      <link>https://miguellopes.net/blog/en/escutas-com-equipamentos-da-vodafone-uk/</link>
-      <pubDate>Thu, 14 Jul 2011 02:52:47 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/escutas-com-equipamentos-da-vodafone-uk/</guid>
       <description>_**O site THC anunciou ontem ter pirateado um equipamento da Vodafone e que assim é possível fazer escutas aos equipamentos da rede Vodafone.**_
 Este tipo de sistema de escutas não é novo já existem varios aparelhos similares que tornam estas escutas possíveis, o problema neste caso é que a Vodafone disponibiliza dados de acesso de todos os clientes da sua rede a estes dispositivos, e desta forma compromete todos os clientes.</description>
     </item>
@@ -99,16 +59,6 @@ Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, 
     </item>
     
     <item>
-      <title>Conversas Seguras por Email e Chat</title>
-      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
-      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
-      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
-Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
-    </item>
-    
-    <item>
       <title>Ataques ao SSL com webmitm</title>
       <link>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</link>
       <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
@@ -119,31 +69,11 @@ Para o webmitm funcionar correctamente também são necessários completar alg
     </item>
     
     <item>
-      <title>Ataques ao SSL com webmitm</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</link>
-      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</guid>
-      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
-Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
-    </item>
-    
-    <item>
       <title>Ataques ao SSL com SSLStrip</title>
       <link>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</link>
       <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</guid>
-      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
-Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
-    </item>
-    
-    <item>
-      <title>Ataques ao SSL com SSLStrip</title>
-      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</link>
-      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</guid>
       <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
 Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
     </item>
@@ -160,33 +90,11 @@ O OpenVPN ALS (Adito) é uma solução WebVPN que permite a criação de varios 
     </item>
     
     <item>
-      <title>A segurança de WebVPNs</title>
-      <link>https://miguellopes.net/blog/en/a-seguranca-de-webvpns/</link>
-      <pubDate>Sat, 21 May 2011 20:24:43 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/a-seguranca-de-webvpns/</guid>
-      <description>As WebVPNs ou VPN SSL, são aplicações web que pretendem disponibilizar acesso a recursos dentro da sua rede a utilizadores que venham do exterior. Este tipo de sistema actua como um proxy para os varios serviços dentro da rede.
-Este tipo de VPN é útil quando não é possível configurar uma VPN normal.
-O OpenVPN ALS (Adito) é uma solução WebVPN que permite a criação de varios grupos e utilizadores, e também definir o acesso aos serviços dentro da rede conforme o utilizador que acede.</description>
-    </item>
-    
-    <item>
       <title>Encripta os teus dados com o TrueCrypt</title>
       <link>https://miguellopes.net/blog/encripta-a-tua-informacao-com-o-truecrypt/</link>
       <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/encripta-a-tua-informacao-com-o-truecrypt/</guid>
-      <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
-Neste artigo irei explicar como criar um ficheiro encriptado.
-Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>
-    </item>
-    
-    <item>
-      <title>Encripta os teus dados com o TrueCrypt</title>
-      <link>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</link>
-      <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</guid>
       <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
 Neste artigo irei explicar como criar um ficheiro encriptado.
 Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>

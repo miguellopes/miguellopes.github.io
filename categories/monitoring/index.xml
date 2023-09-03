@@ -17,14 +17,5 @@
       <description>On march I moved my server and I had little time to do it I was handling 3 projects and all of them with a very tight schedule. On that transition I forgot to update the logrotate configuration. My http logs are on a directory that differs from the standard so they were left out of the rotation. A couple of days ago I went to check my logs and found an access log wich was about 62MB.</description>
     </item>
     
-    <item>
-      <title>Analyzing 3 months of attacks</title>
-      <link>https://miguellopes.net/blog/en/analyzing-3-months-of-attacks/</link>
-      <pubDate>Sun, 19 Jun 2016 07:57:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/analyzing-3-months-of-attacks/</guid>
-      <description>On march I moved my server and I had little time to do it I was handling 3 projects and all of them with a very tight schedule. On that transition I forgot to update the logrotate configuration. My http logs are on a directory that differs from the standard so they were left out of the rotation. A couple of days ago I went to check my logs and found an access log wich was about 62MB.</description>
-    </item>
-    
   </channel>
 </rss>

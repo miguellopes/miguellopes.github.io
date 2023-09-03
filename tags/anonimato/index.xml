@@ -21,18 +21,6 @@ Teste de Proxy</description>
     </item>
     
     <item>
-      <title>Testa a tua ligação anonima</title>
-      <link>https://miguellopes.net/blog/en/testa-a-tua-ligacao-anonima/</link>
-      <pubDate>Mon, 11 Apr 2011 23:10:31 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/testa-a-tua-ligacao-anonima/</guid>
-      <description>Aqui vão alguns links para testares a tua ligação seja ela por proxy, i2p, vpn, ssh, etc&amp;hellip;
-DeCloack
-Teste de anonimização
-Teste de Proxy</description>
-    </item>
-    
-    <item>
       <title>Pesquisas Anonimas no Google</title>
       <link>https://miguellopes.net/blog/pesquisas-no-google-anonimas/</link>
       <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
@@ -42,32 +30,11 @@ Teste de Proxy</description>
     </item>
     
     <item>
-      <title>Pesquisas Anonimas no Google</title>
-      <link>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</link>
-      <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</guid>
-      <description>Encontrei por acaso este site https://ssl.scroogle.org/, que permite fazer pesquisas no google totalmente anonimo. Não tenho o design que têm o Google mas da uma segurança superior ja que usa ssl, e apaga os logs dentro de 48h.</description>
-    </item>
-    
-    <item>
       <title>Navegue em Anonimato</title>
       <link>https://miguellopes.net/blog/navegue-anonimamente/</link>
       <pubDate>Fri, 11 Mar 2011 08:14:42 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/navegue-anonimamente/</guid>
-      <description>De certeza que todos ja viram aqueles banners de forums e páginas que identificam o browser que está a utilizar, o País e a cidade de onde é proveniente, entre outras informações.
-Isso tudo é possível através das informações que o teu computador envia, nomeadamente o User-Agente (identificação do browser é um parametro por defeito do HTTP) e o IP que nos é atribuido pelo ISP.
-Localização
-Como referi o IP, varia por várias razões e cada IP pode ser localizado numa certa area de um pais (ex: Distrito).</description>
-    </item>
-    
-    <item>
-      <title>Navegue em Anonimato</title>
-      <link>https://miguellopes.net/blog/en/navegue-anonimamente/</link>
-      <pubDate>Fri, 11 Mar 2011 08:14:42 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/navegue-anonimamente/</guid>
       <description>De certeza que todos ja viram aqueles banners de forums e páginas que identificam o browser que está a utilizar, o País e a cidade de onde é proveniente, entre outras informações.
 Isso tudo é possível através das informações que o teu computador envia, nomeadamente o User-Agente (identificação do browser é um parametro por defeito do HTTP) e o IP que nos é atribuido pelo ISP.
 Localização

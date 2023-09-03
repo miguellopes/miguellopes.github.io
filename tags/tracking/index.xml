@@ -17,14 +17,5 @@
       <description>Recently I felt the need to use an old trick. I needed to know when an email has been seen without expressly asking the recipient to do so. Yesterday before sending an email I was considering possible outcomes and decided to resort to what is now called a tracking pixel. A tracking pixel is a technique that consists in creating a link that is inserted in a email as an image, the nice part is that we record the event so we know when it happened.</description>
     </item>
     
-    <item>
-      <title>Simple Tracking Pixel</title>
-      <link>https://miguellopes.net/blog/en/simple-tracking-pixel/</link>
-      <pubDate>Fri, 18 Dec 2015 00:30:41 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/simple-tracking-pixel/</guid>
-      <description>Recently I felt the need to use an old trick. I needed to know when an email has been seen without expressly asking the recipient to do so. Yesterday before sending an email I was considering possible outcomes and decided to resort to what is now called a tracking pixel. A tracking pixel is a technique that consists in creating a link that is inserted in a email as an image, the nice part is that we record the event so we know when it happened.</description>
-    </item>
-    
   </channel>
 </rss>

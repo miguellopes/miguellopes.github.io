@@ -19,16 +19,5 @@ Esta explosão de proxies abertos presume-se que se deva a adesão dos chineses 
 Aqui fica a lista com aproximadamente 8 MB, notem que os ips que estiverem offline pode voltar a ficar online assim que os utilizadores iniciem o programa que controla o proxy.</description>
     </item>
     
-    <item>
-      <title>Lista de mais de 135.000 proxies</title>
-      <link>https://miguellopes.net/blog/en/lista-de-mais-de-135-000-proxies/</link>
-      <pubDate>Thu, 01 Sep 2011 14:23:14 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/lista-de-mais-de-135-000-proxies/</guid>
-      <description>Em julho, centenas de proxies chineses na porta 8909 começaram a aparecer todos os dias nas listas públicas de proxies. Em agosto, o números diários ficaram passaram aos milhares.
-Esta explosão de proxies abertos presume-se que se deva a adesão dos chineses a _media clients _que por defeito criem um proxy publico na porta 8909.
-Aqui fica a lista com aproximadamente 8 MB, notem que os ips que estiverem offline pode voltar a ficar online assim que os utilizadores iniciem o programa que controla o proxy.</description>
-    </item>
-    
   </channel>
 </rss>

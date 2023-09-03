@@ -18,15 +18,5 @@
 Since it&amp;rsquo;s conception it has been gathering data and now that I have about a week of data is time to prepare for the next stage which is make predictions on the availability of the parking lot. For that I have chosen linear regression.</description>
     </item>
     
-    <item>
-      <title>Predictions with linear regression</title>
-      <link>https://miguellopes.net/blog/en/predictions-with-linear-regression/</link>
-      <pubDate>Mon, 17 Oct 2016 02:37:13 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/predictions-with-linear-regression/</guid>
-      <description>As I wrote on a previous post I recently made an webapp that displays the number of currently available parking spots on the FEUP campus parking lot.
-Since it&amp;rsquo;s conception it has been gathering data and now that I have about a week of data is time to prepare for the next stage which is make predictions on the availability of the parking lot. For that I have chosen linear regression.</description>
-    </item>
-    
   </channel>
 </rss>

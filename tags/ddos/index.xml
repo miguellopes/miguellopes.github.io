@@ -18,29 +18,11 @@
     </item>
     
     <item>
-      <title>Ataques com o LOIC</title>
-      <link>https://miguellopes.net/blog/en/ataques-com-o-loic/</link>
-      <pubDate>Mon, 25 Apr 2011 01:11:28 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/ataques-com-o-loic/</guid>
-      <description>_Neste artigo irei explicar o funcionamento basico do LOIC, com a intenção de transmitir a ideia de como funciona, e não estou de maneira alguma a tentar incentivar ou a explicar a alguém como infringir a Lei. Não se esqueçam usarem um loic ou uma ferramenta do genero numa maquina vossa é um teste á capacidade de resposta do vosso servidor, enquanto que numa maquina que não seja vossa é um DDoS.</description>
-    </item>
-    
-    <item>
       <title>LOIC a arma dos Anónimos para os ataques DoS</title>
       <link>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
       <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
-      <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
-    </item>
-    
-    <item>
-      <title>LOIC a arma dos Anónimos para os ataques DoS</title>
-      <link>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
-      <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
       <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
     </item>
     

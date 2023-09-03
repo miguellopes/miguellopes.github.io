@@ -19,34 +19,11 @@ Este ano têm começado com bastantes propostas para criar sistemas e ferramenta
     </item>
     
     <item>
-      <title>A Google vai se opor aos sistemas de bloqueio Anti-Pirataria</title>
-      <link>https://miguellopes.net/blog/en/a-google-vai-se-opor-aos-sistemas-de-bloqueio-anti-pirataria/</link>
-      <pubDate>Thu, 19 May 2011 09:25:36 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/a-google-vai-se-opor-aos-sistemas-de-bloqueio-anti-pirataria/</guid>
-      <description>A Google, o motor de buscar mais utilizado em todo o mundo afirmou ontem que iria combater as propostas que se estão apresentar nos Estados Unidos e no Reino Unido, que pretendem o bloqueio dos sites que infrinjam as leis anti-pirataria.
-Este ano têm começado com bastantes propostas para criar sistemas e ferramentas que bloqueiem o acesso a sites pirata, desde A Grande Firewall Europeia ás propostas para criminalizar a partilha ilícita de musicas e filmes, nos Estados Unidos.</description>
-    </item>
-    
-    <item>
       <title>Novas funcionalidades do Chrome Dev Tools</title>
       <link>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</link>
       <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</guid>
-      <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
-Entre as novidades temos :
-Melhorias no Controlo dos estilos e Manipulação CSS
-Debugging remoto
-Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do CSS permitem-nos fazer alterações &amp;ldquo;ao vivo&amp;rdquo; no browser. Estas alterações tanto pode ser feitas po painel lateral do menu dos Elementos, ou nas folhas de estilos no menu recursos.</description>
-    </item>
-    
-    <item>
-      <title>Novas funcionalidades do Chrome Dev Tools</title>
-      <link>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</link>
-      <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</guid>
       <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
 Entre as novidades temos :
 Melhorias no Controlo dos estilos e Manipulação CSS
@@ -64,15 +41,6 @@ Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do C
     </item>
     
     <item>
-      <title>Recolha de informação com o Google</title>
-      <link>https://miguellopes.net/blog/en/recolha-de-informacao-com-o-google/</link>
-      <pubDate>Tue, 03 May 2011 21:15:35 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/recolha-de-informacao-com-o-google/</guid>
-      <description>O Google com ou sem os seus problemas de privacidade que têm perante os utilizadores é uma grande ferramenta para recolha de informação. Seja para pesquisar sobre algum assunto ou encontrar aquele site que visitamos no outro dia e que vale mais pesquisar no google do que procurar no historico, no entanto á quem suba a fasquia e utilize o google para bastante mais, um desses casos é o chamado _Google Hacking _este é um metodo que é utilizado para descobrir mais informações sobre um certo alvo, ou procurar certos tipos de software que possuam falhas (um pouco como o shodan).</description>
-    </item>
-    
-    <item>
       <title>Google Translate</title>
       <link>https://miguellopes.net/blog/google-translate/</link>
       <pubDate>Tue, 12 Apr 2011 22:44:53 +0000</pubDate>
@@ -83,30 +51,11 @@ Nem todas as Lingua têm um voz para se poder ouvir a tradução, no entanto Por
     </item>
     
     <item>
-      <title>Google Translate</title>
-      <link>https://miguellopes.net/blog/en/google-translate/</link>
-      <pubDate>Tue, 12 Apr 2011 22:44:53 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/google-translate/</guid>
-      <description>O serviço de tradução da Google disponibiliza para além do serviço de tradução por escrito o serviço de leitura da tradução por um tradutor cujo a lingua mãe é a lingua em que o texto está escrito. Para alem disto ainda disponibiliza a representação fonética das palavras/frase.
-Nem todas as Lingua têm um voz para se poder ouvir a tradução, no entanto Portugal que já teve um tradutor de Portugal e agora passou a ter uma tradutora do Brazil!</description>
-    </item>
-    
-    <item>
       <title>Pesquisas Anonimas no Google</title>
       <link>https://miguellopes.net/blog/pesquisas-no-google-anonimas/</link>
       <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
       
       <guid>https://miguellopes.net/blog/pesquisas-no-google-anonimas/</guid>
-      <description>Encontrei por acaso este site https://ssl.scroogle.org/, que permite fazer pesquisas no google totalmente anonimo. Não tenho o design que têm o Google mas da uma segurança superior ja que usa ssl, e apaga os logs dentro de 48h.</description>
-    </item>
-    
-    <item>
-      <title>Pesquisas Anonimas no Google</title>
-      <link>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</link>
-      <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</guid>
       <description>Encontrei por acaso este site https://ssl.scroogle.org/, que permite fazer pesquisas no google totalmente anonimo. Não tenho o design que têm o Google mas da uma segurança superior ja que usa ssl, e apaga os logs dentro de 48h.</description>
     </item>
     

@@ -18,15 +18,5 @@
 Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
     </item>
     
-    <item>
-      <title>Conversas Seguras por Email e Chat</title>
-      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
-      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
-      
-      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
-      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
-Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
-    </item>
-    
   </channel>
 </rss>
