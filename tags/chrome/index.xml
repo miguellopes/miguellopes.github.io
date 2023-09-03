@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chrome on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/chrome/</link>
+    <description>Recent content in chrome on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 17 May 2011 14:19:33 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novas funcionalidades do Chrome Dev Tools</title>
+      <link>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</link>
+      <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</guid>
+      <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
+Entre as novidades temos :
+Melhorias no Controlo dos estilos e Manipulação CSS
+Debugging remoto
+Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do CSS permitem-nos fazer alterações &amp;ldquo;ao vivo&amp;rdquo; no browser. Estas alterações tanto pode ser feitas po painel lateral do menu dos Elementos, ou nas folhas de estilos no menu recursos.</description>
+    </item>
+    
+    <item>
+      <title>Novas funcionalidades do Chrome Dev Tools</title>
+      <link>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</link>
+      <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</guid>
+      <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
+Entre as novidades temos :
+Melhorias no Controlo dos estilos e Manipulação CSS
+Debugging remoto
+Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do CSS permitem-nos fazer alterações &amp;ldquo;ao vivo&amp;rdquo; no browser. Estas alterações tanto pode ser feitas po painel lateral do menu dos Elementos, ou nas folhas de estilos no menu recursos.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>memoria ram on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/memoria-ram/</link>
+    <description>Recent content in memoria ram on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 18 May 2011 08:49:29 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/memoria-ram/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liberta a memoria RAM que não esta a ser utilizada no Mac</title>
+      <link>https://miguellopes.net/blog/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</link>
+      <pubDate>Wed, 18 May 2011 08:49:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</guid>
+      <description>Quem utiliza-se o seu mac intensivamente, sabe que para gastar toda a RAM não é preciso muito. O Mac OS X armazena os dados das aplicações que acabamos de usar para se as utilizar-mos outra vez elas ja estarem prontas, no entanto para quem utiliza muitos programas &amp;ldquo;pesados&amp;rdquo; e precisa de flexibilidade para poder fechar uns programas e abrir outros, são poucas as soluções. Existem programas pagos como o Memory Cleaner, ou podemos recorrer ao terminal.</description>
+    </item>
+    
+    <item>
+      <title>Liberta a memoria RAM que não esta a ser utilizada no Mac</title>
+      <link>https://miguellopes.net/blog/en/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</link>
+      <pubDate>Wed, 18 May 2011 08:49:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</guid>
+      <description>Quem utiliza-se o seu mac intensivamente, sabe que para gastar toda a RAM não é preciso muito. O Mac OS X armazena os dados das aplicações que acabamos de usar para se as utilizar-mos outra vez elas ja estarem prontas, no entanto para quem utiliza muitos programas &amp;ldquo;pesados&amp;rdquo; e precisa de flexibilidade para poder fechar uns programas e abrir outros, são poucas as soluções. Existem programas pagos como o Memory Cleaner, ou podemos recorrer ao terminal.</description>
+    </item>
+    
+  </channel>
+</rss>

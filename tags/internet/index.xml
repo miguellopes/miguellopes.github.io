@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/internet/</link>
+    <description>Recent content in Internet on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Mar 2011 16:17:55 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Um Motor de Pesquisa para Computadores</title>
+      <link>https://miguellopes.net/blog/um-motor-de-pesquisa-para-computadores/</link>
+      <pubDate>Fri, 11 Mar 2011 16:17:55 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/um-motor-de-pesquisa-para-computadores/</guid>
+      <description>O SHODAN é um motor de Pesquisa que permite localizar dispositivos na internet, como computadores, webcams, routers, etc&amp;hellip;
+Está ferramenta permite filtrar resultados por País,serviço e termo. É uma ferramenta certamente útil para detectar vulnerabilidades ou localizar certos tipos de hardware.</description>
+    </item>
+    
+    <item>
+      <title>Um Motor de Pesquisa para Computadores</title>
+      <link>https://miguellopes.net/blog/en/um-motor-de-pesquisa-para-computadores/</link>
+      <pubDate>Fri, 11 Mar 2011 16:17:55 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/um-motor-de-pesquisa-para-computadores/</guid>
+      <description>O SHODAN é um motor de Pesquisa que permite localizar dispositivos na internet, como computadores, webcams, routers, etc&amp;hellip;
+Está ferramenta permite filtrar resultados por País,serviço e termo. É uma ferramenta certamente útil para detectar vulnerabilidades ou localizar certos tipos de hardware.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NSA on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/nsa/</link>
+    <description>Recent content in NSA on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 23 Jan 2012 18:48:08 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/nsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SE Android</title>
+      <link>https://miguellopes.net/blog/se-android/</link>
+      <pubDate>Mon, 23 Jan 2012 18:48:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/se-android/</guid>
+      <description>Security Enhanced (SE) Android é um projeto para identificar e resolver falhas críticas na segurança do Android. Inicialmente, o projeto SE Android iria permitir o uso de SELinux no Android, a fim de limitar os danos que pode ser feitos por falhas em aplicações ou virus e, a fim de reforçar as garantias de separação entre Apps. No entanto, o projeto SE Android não se limita ao SELinux.
+Um dos maiores problemas do Android têm sido a segurança que oferece aos seus utilizadores, muitas aplicações são copiadas e modificadas para prejudicar ou danificar o utilizador.</description>
+    </item>
+    
+    <item>
+      <title>SE Android</title>
+      <link>https://miguellopes.net/blog/en/se-android/</link>
+      <pubDate>Mon, 23 Jan 2012 18:48:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/se-android/</guid>
+      <description>Security Enhanced (SE) Android é um projeto para identificar e resolver falhas críticas na segurança do Android. Inicialmente, o projeto SE Android iria permitir o uso de SELinux no Android, a fim de limitar os danos que pode ser feitos por falhas em aplicações ou virus e, a fim de reforçar as garantias de separação entre Apps. No entanto, o projeto SE Android não se limita ao SELinux.
+Um dos maiores problemas do Android têm sido a segurança que oferece aos seus utilizadores, muitas aplicações são copiadas e modificadas para prejudicar ou danificar o utilizador.</description>
+    </item>
+    
+    <item>
+      <title>Dicas da NSA para tornar o seu computador seguro</title>
+      <link>https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</link>
+      <pubDate>Fri, 11 Mar 2011 06:14:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</guid>
+      <description>Aqui estão alguns manuais de procedimentos de segurança tomados pela NSA para aumentar a segurança nos diferentes sistemas operativos segurança, Windows da Microsoft, as varias distribuições de linux e claro o Mac OSX da Apple.
+http://www.nsa.gov/ia/guidance/security_configuration_guides/operating_systems.shtml</description>
+    </item>
+    
+    <item>
+      <title>Dicas da NSA para tornar o seu computador seguro</title>
+      <link>https://miguellopes.net/blog/en/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</link>
+      <pubDate>Fri, 11 Mar 2011 06:14:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</guid>
+      <description>Aqui estão alguns manuais de procedimentos de segurança tomados pela NSA para aumentar a segurança nos diferentes sistemas operativos segurança, Windows da Microsoft, as varias distribuições de linux e claro o Mac OSX da Apple.
+http://www.nsa.gov/ia/guidance/security_configuration_guides/operating_systems.shtml</description>
+    </item>
+    
+  </channel>
+</rss>

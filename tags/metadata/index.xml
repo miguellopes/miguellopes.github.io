@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>metadata on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/metadata/</link>
+    <description>Recent content in metadata on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 14 Apr 2011 15:00:40 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/metadata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remover metadata no Mac</title>
+      <link>https://miguellopes.net/blog/remover-metadata-no-mac/</link>
+      <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/remover-metadata-no-mac/</guid>
+      <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
+    </item>
+    
+    <item>
+      <title>Remover metadata no Mac</title>
+      <link>https://miguellopes.net/blog/en/remover-metadata-no-mac/</link>
+      <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/remover-metadata-no-mac/</guid>
+      <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emails on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/emails/</link>
+    <description>Recent content in emails on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 21 Jun 2011 23:12:34 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/emails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
+      <link>https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
+      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
+      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
+O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
+shouldichangemypassword.com</description>
+    </item>
+    
+    <item>
+      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
+      <link>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
+      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
+      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
+O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
+shouldichangemypassword.com</description>
+    </item>
+    
+  </channel>
+</rss>

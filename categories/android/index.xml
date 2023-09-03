@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on miguellopes.net</title>
+    <link>https://miguellopes.net/categories/android/</link>
+    <description>Recent content in Android on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 08 Sep 2016 07:57:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(In)Secure Digital Wallets</title>
+      <link>https://miguellopes.net/blog/insecure-digital-wallets/</link>
+      <pubDate>Thu, 08 Sep 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/insecure-digital-wallets/</guid>
+      <description>After a pentest to a Portuguese financial institution I decided to keep an eye on the sector and look for potential flaws. What I have found is at least concerning and makes me ask when will legislation to oblige (at least) financial institutions to properly assess the vulnerabilities of their software and infrastructure.
+One of the players in the market that I was analysing had an App to be used as a digital wallet.</description>
+    </item>
+    
+    <item>
+      <title>(In)Secure Digital Wallets</title>
+      <link>https://miguellopes.net/blog/en/insecure-digital-wallets/</link>
+      <pubDate>Thu, 08 Sep 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/insecure-digital-wallets/</guid>
+      <description>After a pentest to a Portuguese financial institution I decided to keep an eye on the sector and look for potential flaws. What I have found is at least concerning and makes me ask when will legislation to oblige (at least) financial institutions to properly assess the vulnerabilities of their software and infrastructure.
+One of the players in the market that I was analysing had an App to be used as a digital wallet.</description>
+    </item>
+    
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+  </channel>
+</rss>

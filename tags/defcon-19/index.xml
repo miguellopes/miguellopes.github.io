@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DefCon 19 on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/defcon-19/</link>
+    <description>Recent content in DefCon 19 on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 16 Aug 2011 13:53:18 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/defcon-19/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DefCon 19 (Slides)</title>
+      <link>https://miguellopes.net/blog/defcon-19-slides/</link>
+      <pubDate>Tue, 16 Aug 2011 13:53:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/defcon-19-slides/</guid>
+      <description>A DefCon é uma das convenções mais aguardadas pelas comunidades ligadas a segurança informatica, é lá que muitos dos ataques levados a cabo por centenas de hackers são analisados e demonstrados. É também sempre um ponto de referencia para as actualizações de programas utilizados por estas comunidades, já que estes programas recebem uma enorme atenção nesta convenção.
+Depois da convenção terminar são colocados os videos das apresentações em conjunto com os slides, visto que estes ainda não estão disponíveis no site oficial, deixo aqui um link para os slides que ja se encontram disponíveis.</description>
+    </item>
+    
+    <item>
+      <title>DefCon 19 (Slides)</title>
+      <link>https://miguellopes.net/blog/en/defcon-19-slides/</link>
+      <pubDate>Tue, 16 Aug 2011 13:53:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/defcon-19-slides/</guid>
+      <description>A DefCon é uma das convenções mais aguardadas pelas comunidades ligadas a segurança informatica, é lá que muitos dos ataques levados a cabo por centenas de hackers são analisados e demonstrados. É também sempre um ponto de referencia para as actualizações de programas utilizados por estas comunidades, já que estes programas recebem uma enorme atenção nesta convenção.
+Depois da convenção terminar são colocados os videos das apresentações em conjunto com os slides, visto que estes ainda não estão disponíveis no site oficial, deixo aqui um link para os slides que ja se encontram disponíveis.</description>
+    </item>
+    
+  </channel>
+</rss>

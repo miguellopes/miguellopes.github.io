@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>truecrypt on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/truecrypt/</link>
+    <description>Recent content in truecrypt on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 24 Apr 2011 02:38:29 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/truecrypt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encripta os teus dados com o TrueCrypt</title>
+      <link>https://miguellopes.net/blog/encripta-a-tua-informacao-com-o-truecrypt/</link>
+      <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/encripta-a-tua-informacao-com-o-truecrypt/</guid>
+      <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
+Neste artigo irei explicar como criar um ficheiro encriptado.
+Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>
+    </item>
+    
+    <item>
+      <title>Encripta os teus dados com o TrueCrypt</title>
+      <link>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</link>
+      <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</guid>
+      <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
+Neste artigo irei explicar como criar um ficheiro encriptado.
+Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

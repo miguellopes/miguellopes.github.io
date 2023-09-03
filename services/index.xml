@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on miguellopes.net</title>
+    <link>https://miguellopes.net/services/</link>
+    <description>Recent content in Services on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 26 Dec 2010 15:14:20 +0000</lastBuildDate><atom:link href="https://miguellopes.net/services/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ISMAI on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/ismai/</link>
+    <description>Recent content in ISMAI on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 13 Mar 2011 19:11:59 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/ismai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Partilhas do Windows no Mac</title>
+      <link>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</link>
+      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</guid>
+      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
+    </item>
+    
+    <item>
+      <title>Partilhas do Windows no Mac</title>
+      <link>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</link>
+      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</guid>
+      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
+    </item>
+    
+  </channel>
+</rss>

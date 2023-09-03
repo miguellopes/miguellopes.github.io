@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on miguellopes.net</title>
+    <link>https://miguellopes.net/categories/internet/</link>
+    <description>Recent content in Internet on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 13 Feb 2013 08:19:18 +0000</lastBuildDate><atom:link href="https://miguellopes.net/categories/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dentro dos routers da Zon</title>
+      <link>https://miguellopes.net/blog/dentro-dos-routers-da-zon/</link>
+      <pubDate>Wed, 13 Feb 2013 08:19:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/dentro-dos-routers-da-zon/</guid>
+      <description>Tenho investigado várias versões de firmware dos routers da ZON, para tentar perceber até que ponto é que os mesmos lidam com o acesso que possuem às redes dos clientes.
+Nos últimos routers distribuídos pela ZON é utilizado um sistema desenvolvido pela Jungo, o OpenRG. E como a própria Jungo anuncia o OpenRG foi concebido para aumentar o controlo que o ISP têm sobre a rede do cliente evitando assim os custos de ter de enviar um técnico para resolver o problema em casa do cliente, ou de ter de empregar mais pessoas no call center.</description>
+    </item>
+    
+    <item>
+      <title>Dentro dos routers da Zon</title>
+      <link>https://miguellopes.net/blog/en/dentro-dos-routers-da-zon/</link>
+      <pubDate>Wed, 13 Feb 2013 08:19:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/dentro-dos-routers-da-zon/</guid>
+      <description>Tenho investigado várias versões de firmware dos routers da ZON, para tentar perceber até que ponto é que os mesmos lidam com o acesso que possuem às redes dos clientes.
+Nos últimos routers distribuídos pela ZON é utilizado um sistema desenvolvido pela Jungo, o OpenRG. E como a própria Jungo anuncia o OpenRG foi concebido para aumentar o controlo que o ISP têm sobre a rede do cliente evitando assim os custos de ter de enviar um técnico para resolver o problema em casa do cliente, ou de ter de empregar mais pessoas no call center.</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/en/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+  </channel>
+</rss>

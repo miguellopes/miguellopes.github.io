@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CeWL on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/cewl/</link>
+    <description>Recent content in CeWL on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 25 Apr 2011 16:18:23 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/cewl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CeWL uma ferramenta de geração de passwords</title>
+      <link>https://miguellopes.net/blog/cewl-uma-ferramenta-de-geracao-de-passwords/</link>
+      <pubDate>Mon, 25 Apr 2011 16:18:23 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/cewl-uma-ferramenta-de-geracao-de-passwords/</guid>
+      <description>O CeWL é uma ferramenta desenvolvida pelo Dijininja, para criar listas de passwords baseadas em palavras encontradas num site do alvo. Para o download da versão 3.0 podem utilizar este link.
+Instalação Esta aplicação foi desenvolvida em ruby gems e por isso para a instalação é necessario satisfazer algumas dependências.
+As _gems _das quais o CeWL depende são as seguintes:
+hpricot
+http_configuration
+mime-types
+exiftool
+mini_exiftool
+rubyzip
+spider
+Para instalar estas gems basta executar o comando como root</description>
+    </item>
+    
+    <item>
+      <title>CeWL uma ferramenta de geração de passwords</title>
+      <link>https://miguellopes.net/blog/en/cewl-uma-ferramenta-de-geracao-de-passwords/</link>
+      <pubDate>Mon, 25 Apr 2011 16:18:23 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/cewl-uma-ferramenta-de-geracao-de-passwords/</guid>
+      <description>O CeWL é uma ferramenta desenvolvida pelo Dijininja, para criar listas de passwords baseadas em palavras encontradas num site do alvo. Para o download da versão 3.0 podem utilizar este link.
+Instalação Esta aplicação foi desenvolvida em ruby gems e por isso para a instalação é necessario satisfazer algumas dependências.
+As _gems _das quais o CeWL depende são as seguintes:
+hpricot
+http_configuration
+mime-types
+exiftool
+mini_exiftool
+rubyzip
+spider
+Para instalar estas gems basta executar o comando como root</description>
+    </item>
+    
+  </channel>
+</rss>

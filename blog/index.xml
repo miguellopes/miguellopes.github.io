@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on miguellopes.net</title>
+    <link>https://miguellopes.net/blog/</link>
+    <description>Recent content in Blog on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 17 Oct 2016 02:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predictions with linear regression</title>
+      <link>https://miguellopes.net/blog/predictions-with-linear-regression/</link>
+      <pubDate>Mon, 17 Oct 2016 02:37:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/predictions-with-linear-regression/</guid>
+      <description>As I wrote on a previous post I recently made an webapp that displays the number of currently available parking spots on the FEUP campus parking lot.
+Since it&amp;rsquo;s conception it has been gathering data and now that I have about a week of data is time to prepare for the next stage which is make predictions on the availability of the parking lot. For that I have chosen linear regression.</description>
+    </item>
+    
+    <item>
+      <title>Predictions with linear regression</title>
+      <link>https://miguellopes.net/blog/en/predictions-with-linear-regression/</link>
+      <pubDate>Mon, 17 Oct 2016 02:37:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/predictions-with-linear-regression/</guid>
+      <description>As I wrote on a previous post I recently made an webapp that displays the number of currently available parking spots on the FEUP campus parking lot.
+Since it&amp;rsquo;s conception it has been gathering data and now that I have about a week of data is time to prepare for the next stage which is make predictions on the availability of the parking lot. For that I have chosen linear regression.</description>
+    </item>
+    
+    <item>
+      <title>Evading AV detection with encryption and side-channels</title>
+      <link>https://miguellopes.net/blog/evading-av-detection-with-encryption-and-side-channels/</link>
+      <pubDate>Thu, 13 Oct 2016 08:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/evading-av-detection-with-encryption-and-side-channels/</guid>
+      <description>On a recent pentest I had as main objective to gain access into a database of a client which had a few websites running on their server. After a few hours of examining the server I had found a file upload form which would allow me to upload php scripts so I tried to send a php shell that I had written a few years ago.
+Upon uploading the file it would get delete before I could execute it.</description>
+    </item>
+    
+    <item>
+      <title>Evading AV detection with encryption and side-channels</title>
+      <link>https://miguellopes.net/blog/en/evading-av-detection-with-encryption-and-side-channels/</link>
+      <pubDate>Thu, 13 Oct 2016 08:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/evading-av-detection-with-encryption-and-side-channels/</guid>
+      <description>On a recent pentest I had as main objective to gain access into a database of a client which had a few websites running on their server. After a few hours of examining the server I had found a file upload form which would allow me to upload php scripts so I tried to send a php shell that I had written a few years ago.
+Upon uploading the file it would get delete before I could execute it.</description>
+    </item>
+    
+    <item>
+      <title>Parking at FEUP</title>
+      <link>https://miguellopes.net/blog/parking-at-feup/</link>
+      <pubDate>Mon, 10 Oct 2016 08:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/parking-at-feup/</guid>
+      <description>Since I got admitted at FEUP (Faculdade de Engenharia da Universidade do Porto) one of the biggest inconveniences was to find a place to park the car. Depending at what time the classes started it could be easy or almost impossible to park anywhere near the campus.
+The student parking lot can only hold about 370 cars and at the beginning of this semester there was a big change. The parking space around the campus is now paid so the students can only park either on the campus parking lot or leave their cars far away from campus to avoid having to pay.</description>
+    </item>
+    
+    <item>
+      <title>Parking at FEUP</title>
+      <link>https://miguellopes.net/blog/en/parking-at-feup/</link>
+      <pubDate>Mon, 10 Oct 2016 08:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/parking-at-feup/</guid>
+      <description>Since I got admitted at FEUP (Faculdade de Engenharia da Universidade do Porto) one of the biggest inconveniences was to find a place to park the car. Depending at what time the classes started it could be easy or almost impossible to park anywhere near the campus.
+The student parking lot can only hold about 370 cars and at the beginning of this semester there was a big change. The parking space around the campus is now paid so the students can only park either on the campus parking lot or leave their cars far away from campus to avoid having to pay.</description>
+    </item>
+    
+    <item>
+      <title>Building my own VPC</title>
+      <link>https://miguellopes.net/blog/building-my-own-vpc/</link>
+      <pubDate>Sat, 08 Oct 2016 17:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/building-my-own-vpc/</guid>
+      <description>At home I have about 5 computers which I have repurposed to serve a few virtual machines and a backup server as well as a VPN server to be able to connect back to access the services I have at home. This setup has been useful but as time goes by the old hardware starts failing, on summers the heat generated by the computers becomes uncomfortable as well as the cost of the electricity to keep everything running and cold.</description>
+    </item>
+    
+    <item>
+      <title>Building my own VPC</title>
+      <link>https://miguellopes.net/blog/en/building-my-own-vpc/</link>
+      <pubDate>Sat, 08 Oct 2016 17:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/building-my-own-vpc/</guid>
+      <description>At home I have about 5 computers which I have repurposed to serve a few virtual machines and a backup server as well as a VPN server to be able to connect back to access the services I have at home. This setup has been useful but as time goes by the old hardware starts failing, on summers the heat generated by the computers becomes uncomfortable as well as the cost of the electricity to keep everything running and cold.</description>
+    </item>
+    
+    <item>
+      <title>Honeypots part one</title>
+      <link>https://miguellopes.net/blog/honeypots-part-one/</link>
+      <pubDate>Mon, 19 Sep 2016 17:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/honeypots-part-one/</guid>
+      <description>After a previous post I decided to create some honeypots to compare the data from diffrent ISPs. My first tries didn&amp;rsquo;t get me far I created some nginx instances that would reply with a 200 status, but without any real code the bots wouldn&amp;rsquo;t do much more than sending the first request.
+So I decided to move to real honeypots with more services that just http. So yesterday night I left a few honeypots running on ports 21, 22, 80, 1433, 3306 and 3389 the objective wasn&amp;rsquo;t to deceive a human opponent but just to try it out against automated bots.</description>
+    </item>
+    
+    <item>
+      <title>Honeypots part one</title>
+      <link>https://miguellopes.net/blog/en/honeypots-part-one/</link>
+      <pubDate>Mon, 19 Sep 2016 17:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/honeypots-part-one/</guid>
+      <description>After a previous post I decided to create some honeypots to compare the data from diffrent ISPs. My first tries didn&amp;rsquo;t get me far I created some nginx instances that would reply with a 200 status, but without any real code the bots wouldn&amp;rsquo;t do much more than sending the first request.
+So I decided to move to real honeypots with more services that just http. So yesterday night I left a few honeypots running on ports 21, 22, 80, 1433, 3306 and 3389 the objective wasn&amp;rsquo;t to deceive a human opponent but just to try it out against automated bots.</description>
+    </item>
+    
+    <item>
+      <title>(In)Secure Digital Wallets</title>
+      <link>https://miguellopes.net/blog/insecure-digital-wallets/</link>
+      <pubDate>Thu, 08 Sep 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/insecure-digital-wallets/</guid>
+      <description>After a pentest to a Portuguese financial institution I decided to keep an eye on the sector and look for potential flaws. What I have found is at least concerning and makes me ask when will legislation to oblige (at least) financial institutions to properly assess the vulnerabilities of their software and infrastructure.
+One of the players in the market that I was analysing had an App to be used as a digital wallet.</description>
+    </item>
+    
+    <item>
+      <title>(In)Secure Digital Wallets</title>
+      <link>https://miguellopes.net/blog/en/insecure-digital-wallets/</link>
+      <pubDate>Thu, 08 Sep 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/insecure-digital-wallets/</guid>
+      <description>After a pentest to a Portuguese financial institution I decided to keep an eye on the sector and look for potential flaws. What I have found is at least concerning and makes me ask when will legislation to oblige (at least) financial institutions to properly assess the vulnerabilities of their software and infrastructure.
+One of the players in the market that I was analysing had an App to be used as a digital wallet.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing 3 months of attacks</title>
+      <link>https://miguellopes.net/blog/analyzing-3-months-of-attacks/</link>
+      <pubDate>Sun, 19 Jun 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/analyzing-3-months-of-attacks/</guid>
+      <description>On march I moved my server and I had little time to do it I was handling 3 projects and all of them with a very tight schedule. On that transition I forgot to update the logrotate configuration. My http logs are on a directory that differs from the standard so they were left out of the rotation. A couple of days ago I went to check my logs and found an access log wich was about 62MB.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing 3 months of attacks</title>
+      <link>https://miguellopes.net/blog/en/analyzing-3-months-of-attacks/</link>
+      <pubDate>Sun, 19 Jun 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/analyzing-3-months-of-attacks/</guid>
+      <description>On march I moved my server and I had little time to do it I was handling 3 projects and all of them with a very tight schedule. On that transition I forgot to update the logrotate configuration. My http logs are on a directory that differs from the standard so they were left out of the rotation. A couple of days ago I went to check my logs and found an access log wich was about 62MB.</description>
+    </item>
+    
+    <item>
+      <title>Cryptography is only part of the solution</title>
+      <link>https://miguellopes.net/blog/cryptography-is-only-part-of-the-solution/</link>
+      <pubDate>Fri, 10 Jun 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/cryptography-is-only-part-of-the-solution/</guid>
+      <description>On my previous post I set out to do some reverse engineering on portuguese software. This time I took a look at a billing software. Since the requirement to use billing software came into law, their market has grown a lot. With some good and bad examples.
+The software in question uses a lot of open source, it uses the Eclipse Rich Client Platform, with a couple of plugins like Birt.</description>
+    </item>
+    
+    <item>
+      <title>Cryptography is only part of the solution</title>
+      <link>https://miguellopes.net/blog/en/cryptography-is-only-part-of-the-solution/</link>
+      <pubDate>Fri, 10 Jun 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/cryptography-is-only-part-of-the-solution/</guid>
+      <description>On my previous post I set out to do some reverse engineering on portuguese software. This time I took a look at a billing software. Since the requirement to use billing software came into law, their market has grown a lot. With some good and bad examples.
+The software in question uses a lot of open source, it uses the Eclipse Rich Client Platform, with a couple of plugins like Birt.</description>
+    </item>
+    
+    <item>
+      <title>Defeating bad cryptographic implementations</title>
+      <link>https://miguellopes.net/blog/defeating-bad-crypto-implementations/</link>
+      <pubDate>Fri, 15 Apr 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/defeating-bad-crypto-implementations/</guid>
+      <description>Lately I have been doing some reverse engineering, and I decided to try to test a wide range of portuguese software and write a few posts about it. So for the first batch I picked up some software, that I got to known through a google advertisement.
+I got interested about the company because they dealt with payments, and I thought their software would be a nice candidate for the first post.</description>
+    </item>
+    
+    <item>
+      <title>Defeating bad cryptographic implementations</title>
+      <link>https://miguellopes.net/blog/en/defeating-bad-crypto-implementations/</link>
+      <pubDate>Fri, 15 Apr 2016 07:57:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/defeating-bad-crypto-implementations/</guid>
+      <description>Lately I have been doing some reverse engineering, and I decided to try to test a wide range of portuguese software and write a few posts about it. So for the first batch I picked up some software, that I got to known through a google advertisement.
+I got interested about the company because they dealt with payments, and I thought their software would be a nice candidate for the first post.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Elasticsearch, Logstash and Kibana for QA and debugging</title>
+      <link>https://miguellopes.net/blog/setting-up-elasticsearch-logstash-and-kibana-for-qa/</link>
+      <pubDate>Fri, 04 Mar 2016 00:28:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/setting-up-elasticsearch-logstash-and-kibana-for-qa/</guid>
+      <description>One of my latests projects involves a deamon working with a lot of threads and the only valueable output is in the log file. Up until here is like every other daemon except that the number of threads that will be managed by the daemon is somewhat big. In 16h it has outputed almost 10000 lines each one corresponding to an event. Monitoring and debuging this daemon on the log file alone seems like a lost cause, so I turned to the ELK stack ( Elasticsearch, Logstash and Kibana) to make this task manageble.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Elasticsearch, Logstash and Kibana for QA and debugging</title>
+      <link>https://miguellopes.net/blog/en/setting-up-elasticsearch-logstash-and-kibana-for-qa/</link>
+      <pubDate>Fri, 04 Mar 2016 00:28:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/setting-up-elasticsearch-logstash-and-kibana-for-qa/</guid>
+      <description>One of my latests projects involves a deamon working with a lot of threads and the only valueable output is in the log file. Up until here is like every other daemon except that the number of threads that will be managed by the daemon is somewhat big. In 16h it has outputed almost 10000 lines each one corresponding to an event. Monitoring and debuging this daemon on the log file alone seems like a lost cause, so I turned to the ELK stack ( Elasticsearch, Logstash and Kibana) to make this task manageble.</description>
+    </item>
+    
+    <item>
+      <title>Simple Tracking Pixel</title>
+      <link>https://miguellopes.net/blog/simple-tracking-pixel/</link>
+      <pubDate>Fri, 18 Dec 2015 00:30:41 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/simple-tracking-pixel/</guid>
+      <description>Recently I felt the need to use an old trick. I needed to know when an email has been seen without expressly asking the recipient to do so. Yesterday before sending an email I was considering possible outcomes and decided to resort to what is now called a tracking pixel. A tracking pixel is a technique that consists in creating a link that is inserted in a email as an image, the nice part is that we record the event so we know when it happened.</description>
+    </item>
+    
+    <item>
+      <title>Simple Tracking Pixel</title>
+      <link>https://miguellopes.net/blog/en/simple-tracking-pixel/</link>
+      <pubDate>Fri, 18 Dec 2015 00:30:41 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/simple-tracking-pixel/</guid>
+      <description>Recently I felt the need to use an old trick. I needed to know when an email has been seen without expressly asking the recipient to do so. Yesterday before sending an email I was considering possible outcomes and decided to resort to what is now called a tracking pixel. A tracking pixel is a technique that consists in creating a link that is inserted in a email as an image, the nice part is that we record the event so we know when it happened.</description>
+    </item>
+    
+    <item>
+      <title>Rebuilding my website</title>
+      <link>https://miguellopes.net/blog/rebuilding-my-website/</link>
+      <pubDate>Mon, 16 Nov 2015 18:29:56 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/rebuilding-my-website/</guid>
+      <description>It has been about 2 years since my last update to this site, I have been invested in other projects but now I should be back to posting regularly. In the past this website served as playground to test my skills on a live server, pushing low server resources to the maximum and being able to compete against much more well equiped servers. Now I think I need a more presentable website, a place where I can redirect potential customers so they can learn more about me, and this is where we are.</description>
+    </item>
+    
+    <item>
+      <title>Rebuilding my website</title>
+      <link>https://miguellopes.net/blog/en/rebuilding-my-website/</link>
+      <pubDate>Mon, 16 Nov 2015 18:29:56 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/rebuilding-my-website/</guid>
+      <description>It has been about 2 years since my last update to this site, I have been invested in other projects but now I should be back to posting regularly. In the past this website served as playground to test my skills on a live server, pushing low server resources to the maximum and being able to compete against much more well equiped servers. Now I think I need a more presentable website, a place where I can redirect potential customers so they can learn more about me, and this is where we are.</description>
+    </item>
+    
+    <item>
+      <title>Análise ao Jscrambler</title>
+      <link>https://miguellopes.net/blog/analise-jscrambler/</link>
+      <pubDate>Tue, 17 Sep 2013 19:36:07 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/analise-jscrambler/</guid>
+      <description>A Auditmark é uma empresa de segurança informática, iniciada na UPTEC, com a missão de desenvolver soluções para os problemas de segurança da web. O jscrambler é o ofuscador de código javascript da Auditmark, que permite ofuscar facilmente projetos inteiros (ficheiros html e js).
+A auditmark afirma que o seu produto pode ser usado para proteger os algoritmos em aplicações javascript, prevenir a reutilização, modificação e a execução do código não autorizada.</description>
+    </item>
+    
+    <item>
+      <title>Análise ao Jscrambler</title>
+      <link>https://miguellopes.net/blog/en/analise-jscrambler/</link>
+      <pubDate>Tue, 17 Sep 2013 19:36:07 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/analise-jscrambler/</guid>
+      <description>A Auditmark é uma empresa de segurança informática, iniciada na UPTEC, com a missão de desenvolver soluções para os problemas de segurança da web. O jscrambler é o ofuscador de código javascript da Auditmark, que permite ofuscar facilmente projetos inteiros (ficheiros html e js).
+A auditmark afirma que o seu produto pode ser usado para proteger os algoritmos em aplicações javascript, prevenir a reutilização, modificação e a execução do código não autorizada.</description>
+    </item>
+    
+    <item>
+      <title>Dentro dos routers da Zon</title>
+      <link>https://miguellopes.net/blog/dentro-dos-routers-da-zon/</link>
+      <pubDate>Wed, 13 Feb 2013 08:19:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/dentro-dos-routers-da-zon/</guid>
+      <description>Tenho investigado várias versões de firmware dos routers da ZON, para tentar perceber até que ponto é que os mesmos lidam com o acesso que possuem às redes dos clientes.
+Nos últimos routers distribuídos pela ZON é utilizado um sistema desenvolvido pela Jungo, o OpenRG. E como a própria Jungo anuncia o OpenRG foi concebido para aumentar o controlo que o ISP têm sobre a rede do cliente evitando assim os custos de ter de enviar um técnico para resolver o problema em casa do cliente, ou de ter de empregar mais pessoas no call center.</description>
+    </item>
+    
+    <item>
+      <title>Dentro dos routers da Zon</title>
+      <link>https://miguellopes.net/blog/en/dentro-dos-routers-da-zon/</link>
+      <pubDate>Wed, 13 Feb 2013 08:19:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/dentro-dos-routers-da-zon/</guid>
+      <description>Tenho investigado várias versões de firmware dos routers da ZON, para tentar perceber até que ponto é que os mesmos lidam com o acesso que possuem às redes dos clientes.
+Nos últimos routers distribuídos pela ZON é utilizado um sistema desenvolvido pela Jungo, o OpenRG. E como a própria Jungo anuncia o OpenRG foi concebido para aumentar o controlo que o ISP têm sobre a rede do cliente evitando assim os custos de ter de enviar um técnico para resolver o problema em casa do cliente, ou de ter de empregar mais pessoas no call center.</description>
+    </item>
+    
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+    <item>
+      <title>SE Android</title>
+      <link>https://miguellopes.net/blog/se-android/</link>
+      <pubDate>Mon, 23 Jan 2012 18:48:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/se-android/</guid>
+      <description>Security Enhanced (SE) Android é um projeto para identificar e resolver falhas críticas na segurança do Android. Inicialmente, o projeto SE Android iria permitir o uso de SELinux no Android, a fim de limitar os danos que pode ser feitos por falhas em aplicações ou virus e, a fim de reforçar as garantias de separação entre Apps. No entanto, o projeto SE Android não se limita ao SELinux.
+Um dos maiores problemas do Android têm sido a segurança que oferece aos seus utilizadores, muitas aplicações são copiadas e modificadas para prejudicar ou danificar o utilizador.</description>
+    </item>
+    
+    <item>
+      <title>SE Android</title>
+      <link>https://miguellopes.net/blog/en/se-android/</link>
+      <pubDate>Mon, 23 Jan 2012 18:48:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/se-android/</guid>
+      <description>Security Enhanced (SE) Android é um projeto para identificar e resolver falhas críticas na segurança do Android. Inicialmente, o projeto SE Android iria permitir o uso de SELinux no Android, a fim de limitar os danos que pode ser feitos por falhas em aplicações ou virus e, a fim de reforçar as garantias de separação entre Apps. No entanto, o projeto SE Android não se limita ao SELinux.
+Um dos maiores problemas do Android têm sido a segurança que oferece aos seus utilizadores, muitas aplicações são copiadas e modificadas para prejudicar ou danificar o utilizador.</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/en/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>Normalização de dados</title>
+      <link>https://miguellopes.net/blog/normalizacao-de-dados/</link>
+      <pubDate>Tue, 25 Oct 2011 17:44:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/normalizacao-de-dados/</guid>
+      <description>A normalização de dados no modelo relacional é uma serie de etapas que permitem reduzir a redundancia e inconsistencia de dados, numa base de dados relacional. Existem varias formas normais no entanto considera-se que as bases de dados estão normalizadas se obedecerem á 3ª forma normal.
+Notações Básicas Na arquitectura de dados do modelo relacional existem duas formas de descrever a mesma, formal e informal. Na descrição informal lida-se com os termos práticos tabelas, linhas e colunas; Na descrição formal utiliza-se termos como Relação, Tupla e Cabeçalho.</description>
+    </item>
+    
+    <item>
+      <title>Normalização de dados</title>
+      <link>https://miguellopes.net/blog/en/normalizacao-de-dados/</link>
+      <pubDate>Tue, 25 Oct 2011 17:44:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/normalizacao-de-dados/</guid>
+      <description>A normalização de dados no modelo relacional é uma serie de etapas que permitem reduzir a redundancia e inconsistencia de dados, numa base de dados relacional. Existem varias formas normais no entanto considera-se que as bases de dados estão normalizadas se obedecerem á 3ª forma normal.
+Notações Básicas Na arquitectura de dados do modelo relacional existem duas formas de descrever a mesma, formal e informal. Na descrição informal lida-se com os termos práticos tabelas, linhas e colunas; Na descrição formal utiliza-se termos como Relação, Tupla e Cabeçalho.</description>
+    </item>
+    
+    <item>
+      <title>Mitigar o WPScan</title>
+      <link>https://miguellopes.net/blog/mitigar-o-wpscan/</link>
+      <pubDate>Mon, 17 Oct 2011 18:14:01 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/mitigar-o-wpscan/</guid>
+      <description>O WPScan é uma ferramenta criado pelo ethicalhack3r que pretende identificar falhas ou pontos fracos em sistemas Wordpress, permite enumerar utilizadores, plugins e as suas versões, alertando também para as versões com vulnerabilidades públicas.
+Antes de mais todas as medidas que apresento só foram testadas contra a _versão 1.1, _com isto quero dizer que nas próximas versões provavelmente quase todas estas mudanças podem se tornar inúteis. Deixo também claro que estas mudanças podem não servir para toda a gente já que á funcionalidades das quais abdico.</description>
+    </item>
+    
+    <item>
+      <title>Mitigar o WPScan</title>
+      <link>https://miguellopes.net/blog/en/mitigar-o-wpscan/</link>
+      <pubDate>Mon, 17 Oct 2011 18:14:01 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/mitigar-o-wpscan/</guid>
+      <description>O WPScan é uma ferramenta criado pelo ethicalhack3r que pretende identificar falhas ou pontos fracos em sistemas Wordpress, permite enumerar utilizadores, plugins e as suas versões, alertando também para as versões com vulnerabilidades públicas.
+Antes de mais todas as medidas que apresento só foram testadas contra a _versão 1.1, _com isto quero dizer que nas próximas versões provavelmente quase todas estas mudanças podem se tornar inúteis. Deixo também claro que estas mudanças podem não servir para toda a gente já que á funcionalidades das quais abdico.</description>
+    </item>
+    
+    <item>
+      <title>Findmyhashes - Hashes &#34;crackadas&#34; em serviços online</title>
+      <link>https://miguellopes.net/blog/findmyhashes/</link>
+      <pubDate>Sat, 15 Oct 2011 16:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/findmyhashes/</guid>
+      <description>_O findmyhashes é um script feito em Python que procura hashes em serviços de verificação de hashes online. _
+Este script open-source procura um grande numero de hashes em serviços online e tenta encontrar o valores a partir dos quais as hashes foram criadas, e caso não seja encontrada procura no Google.
+O findmyhashes suporta 17 tipos de hashes:
+MD4 - RFC 1320
+MD5 - RFC 1321
+SHA1 - RFC 3174 (FIPS 180-3)</description>
+    </item>
+    
+    <item>
+      <title>Findmyhashes - Hashes &#34;crackadas&#34; em serviços online</title>
+      <link>https://miguellopes.net/blog/en/findmyhashes/</link>
+      <pubDate>Sat, 15 Oct 2011 16:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/findmyhashes/</guid>
+      <description>_O findmyhashes é um script feito em Python que procura hashes em serviços de verificação de hashes online. _
+Este script open-source procura um grande numero de hashes em serviços online e tenta encontrar o valores a partir dos quais as hashes foram criadas, e caso não seja encontrada procura no Google.
+O findmyhashes suporta 17 tipos de hashes:
+MD4 - RFC 1320
+MD5 - RFC 1321
+SHA1 - RFC 3174 (FIPS 180-3)</description>
+    </item>
+    
+    <item>
+      <title>Lista de mais de 135.000 proxies</title>
+      <link>https://miguellopes.net/blog/lista-de-mais-de-135-000-proxies/</link>
+      <pubDate>Thu, 01 Sep 2011 14:23:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/lista-de-mais-de-135-000-proxies/</guid>
+      <description>Em julho, centenas de proxies chineses na porta 8909 começaram a aparecer todos os dias nas listas públicas de proxies. Em agosto, o números diários ficaram passaram aos milhares.
+Esta explosão de proxies abertos presume-se que se deva a adesão dos chineses a _media clients _que por defeito criem um proxy publico na porta 8909.
+Aqui fica a lista com aproximadamente 8 MB, notem que os ips que estiverem offline pode voltar a ficar online assim que os utilizadores iniciem o programa que controla o proxy.</description>
+    </item>
+    
+    <item>
+      <title>Lista de mais de 135.000 proxies</title>
+      <link>https://miguellopes.net/blog/en/lista-de-mais-de-135-000-proxies/</link>
+      <pubDate>Thu, 01 Sep 2011 14:23:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/lista-de-mais-de-135-000-proxies/</guid>
+      <description>Em julho, centenas de proxies chineses na porta 8909 começaram a aparecer todos os dias nas listas públicas de proxies. Em agosto, o números diários ficaram passaram aos milhares.
+Esta explosão de proxies abertos presume-se que se deva a adesão dos chineses a _media clients _que por defeito criem um proxy publico na porta 8909.
+Aqui fica a lista com aproximadamente 8 MB, notem que os ips que estiverem offline pode voltar a ficar online assim que os utilizadores iniciem o programa que controla o proxy.</description>
+    </item>
+    
+    <item>
+      <title>DefCon 19 (Slides)</title>
+      <link>https://miguellopes.net/blog/defcon-19-slides/</link>
+      <pubDate>Tue, 16 Aug 2011 13:53:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/defcon-19-slides/</guid>
+      <description>A DefCon é uma das convenções mais aguardadas pelas comunidades ligadas a segurança informatica, é lá que muitos dos ataques levados a cabo por centenas de hackers são analisados e demonstrados. É também sempre um ponto de referencia para as actualizações de programas utilizados por estas comunidades, já que estes programas recebem uma enorme atenção nesta convenção.
+Depois da convenção terminar são colocados os videos das apresentações em conjunto com os slides, visto que estes ainda não estão disponíveis no site oficial, deixo aqui um link para os slides que ja se encontram disponíveis.</description>
+    </item>
+    
+    <item>
+      <title>DefCon 19 (Slides)</title>
+      <link>https://miguellopes.net/blog/en/defcon-19-slides/</link>
+      <pubDate>Tue, 16 Aug 2011 13:53:18 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/defcon-19-slides/</guid>
+      <description>A DefCon é uma das convenções mais aguardadas pelas comunidades ligadas a segurança informatica, é lá que muitos dos ataques levados a cabo por centenas de hackers são analisados e demonstrados. É também sempre um ponto de referencia para as actualizações de programas utilizados por estas comunidades, já que estes programas recebem uma enorme atenção nesta convenção.
+Depois da convenção terminar são colocados os videos das apresentações em conjunto com os slides, visto que estes ainda não estão disponíveis no site oficial, deixo aqui um link para os slides que ja se encontram disponíveis.</description>
+    </item>
+    
+    <item>
+      <title>Departamento de Defesa dos USA lança o LPS</title>
+      <link>https://miguellopes.net/blog/departamento-de-defesa-dos-usa-lanca-o-lps/</link>
+      <pubDate>Tue, 26 Jul 2011 12:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/departamento-de-defesa-dos-usa-lanca-o-lps/</guid>
+      <description>O Departamento de Defesa dos Estados unidos lançou uma distro de linux publicamente, com o nome de _Lightweight Portable Security _ou LPS-public.
+Segundo a pagina da distro têm o proposito de tornar um computador inseguro, como por exemplo um computador de casa num computador seguro já que tudo se passa na RAM e como não escreve no disco não ficam marcas permanentes da presença da sua utilização.
+Esta é apenas uma das versões existem também outras que não estão disponíveis para o publico so para membros das varias agências depois de apresentarem os motivos para a sua utilização já que essas distros vêm preparadas para se ligar aos sistemas do Departamento de Defesa.</description>
+    </item>
+    
+    <item>
+      <title>Departamento de Defesa dos USA lança o LPS</title>
+      <link>https://miguellopes.net/blog/en/departamento-de-defesa-dos-usa-lanca-o-lps/</link>
+      <pubDate>Tue, 26 Jul 2011 12:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/departamento-de-defesa-dos-usa-lanca-o-lps/</guid>
+      <description>O Departamento de Defesa dos Estados unidos lançou uma distro de linux publicamente, com o nome de _Lightweight Portable Security _ou LPS-public.
+Segundo a pagina da distro têm o proposito de tornar um computador inseguro, como por exemplo um computador de casa num computador seguro já que tudo se passa na RAM e como não escreve no disco não ficam marcas permanentes da presença da sua utilização.
+Esta é apenas uma das versões existem também outras que não estão disponíveis para o publico so para membros das varias agências depois de apresentarem os motivos para a sua utilização já que essas distros vêm preparadas para se ligar aos sistemas do Departamento de Defesa.</description>
+    </item>
+    
+    <item>
+      <title>Atacar o Mac através da bateria</title>
+      <link>https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/</link>
+      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/</guid>
+      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
+Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
+    </item>
+    
+    <item>
+      <title>Atacar o Mac através da bateria</title>
+      <link>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</link>
+      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</guid>
+      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
+Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS X Lion</title>
+      <link>https://miguellopes.net/blog/mac-os-x-lion/</link>
+      <pubDate>Wed, 20 Jul 2011 12:53:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/mac-os-x-lion/</guid>
+      <description>Mac OS X 10.7 Lion, o novo sistema operativo da Apple, está agora disponível para aquisição na App Store Mac por 23,99 €, com peso de 3.49GB.
+O Lion têm mais de 250 novas funcionalidades, incluindo os novos comandos com o Multi-Touch, todo sistema suporta agora suporta para funcionar em fullscreen, o Controlo de Missão para ver tudo que se encontra em funcionamento no seu Mac, inclui também a aplicação Mail completamente redesenhada.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS X Lion</title>
+      <link>https://miguellopes.net/blog/en/mac-os-x-lion/</link>
+      <pubDate>Wed, 20 Jul 2011 12:53:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/mac-os-x-lion/</guid>
+      <description>Mac OS X 10.7 Lion, o novo sistema operativo da Apple, está agora disponível para aquisição na App Store Mac por 23,99 €, com peso de 3.49GB.
+O Lion têm mais de 250 novas funcionalidades, incluindo os novos comandos com o Multi-Touch, todo sistema suporta agora suporta para funcionar em fullscreen, o Controlo de Missão para ver tudo que se encontra em funcionamento no seu Mac, inclui também a aplicação Mail completamente redesenhada.</description>
+    </item>
+    
+    <item>
+      <title>LulzSec volta á carga</title>
+      <link>https://miguellopes.net/blog/lulsec-volta-a-carga/</link>
+      <pubDate>Mon, 18 Jul 2011 21:37:49 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/lulsec-volta-a-carga/</guid>
+      <description>Hoje a equipa de hackers LulzSec voltou á carga, ao atacar o site do jornal The Sun. O site foi atacado e continua a sofrer alterações feitas pelo grupo.
+O site foi invadido foram feitos redireccionamentos, para outros sites e para a conta do twitter dos LulzSec. Têm também partilhado informações sobre jornalistas, e-mails e passwords.
+(A noticia da morte de Rupert Murdoch é falsa e foi colocada pelos LulzSec)</description>
+    </item>
+    
+    <item>
+      <title>LulzSec volta á carga</title>
+      <link>https://miguellopes.net/blog/en/lulsec-volta-a-carga/</link>
+      <pubDate>Mon, 18 Jul 2011 21:37:49 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/lulsec-volta-a-carga/</guid>
+      <description>Hoje a equipa de hackers LulzSec voltou á carga, ao atacar o site do jornal The Sun. O site foi atacado e continua a sofrer alterações feitas pelo grupo.
+O site foi invadido foram feitos redireccionamentos, para outros sites e para a conta do twitter dos LulzSec. Têm também partilhado informações sobre jornalistas, e-mails e passwords.
+(A noticia da morte de Rupert Murdoch é falsa e foi colocada pelos LulzSec)</description>
+    </item>
+    
+    <item>
+      <title>Escutas com equipamentos da Vodafone UK</title>
+      <link>https://miguellopes.net/blog/escutas-com-equipamentos-da-vodafone-uk/</link>
+      <pubDate>Thu, 14 Jul 2011 02:52:47 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/escutas-com-equipamentos-da-vodafone-uk/</guid>
+      <description>_**O site THC anunciou ontem ter pirateado um equipamento da Vodafone e que assim é possível fazer escutas aos equipamentos da rede Vodafone.**_
+Este tipo de sistema de escutas não é novo já existem varios aparelhos similares que tornam estas escutas possíveis, o problema neste caso é que a Vodafone disponibiliza dados de acesso de todos os clientes da sua rede a estes dispositivos, e desta forma compromete todos os clientes.</description>
+    </item>
+    
+    <item>
+      <title>Escutas com equipamentos da Vodafone UK</title>
+      <link>https://miguellopes.net/blog/en/escutas-com-equipamentos-da-vodafone-uk/</link>
+      <pubDate>Thu, 14 Jul 2011 02:52:47 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/escutas-com-equipamentos-da-vodafone-uk/</guid>
+      <description>_**O site THC anunciou ontem ter pirateado um equipamento da Vodafone e que assim é possível fazer escutas aos equipamentos da rede Vodafone.**_
+Este tipo de sistema de escutas não é novo já existem varios aparelhos similares que tornam estas escutas possíveis, o problema neste caso é que a Vodafone disponibiliza dados de acesso de todos os clientes da sua rede a estes dispositivos, e desta forma compromete todos os clientes.</description>
+    </item>
+    
+    <item>
+      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
+      <link>https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
+      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
+      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
+O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
+shouldichangemypassword.com</description>
+    </item>
+    
+    <item>
+      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
+      <link>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
+      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
+      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
+O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
+shouldichangemypassword.com</description>
+    </item>
+    
+    <item>
+      <title>LulzSec coloca dados da Sony no Pirate Bay</title>
+      <link>https://miguellopes.net/blog/lulzsec-coloca-dados-da-sony-no-pirate-bay/</link>
+      <pubDate>Tue, 07 Jun 2011 19:35:38 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/lulzsec-coloca-dados-da-sony-no-pirate-bay/</guid>
+      <description>_**O grupo de Hackers conhecido como LulzSecurity, que afirma ter sido responsável pelos ataques feitos á Sony, colocou no Pirate Bay um torrent com os supostos dados dos utilizadores dos varios serviços da Sony.**_
+No passado dia 2 deste mês o LulzSecurity colocou a primeira parte dos dados obtidos através dos servidores da Sony. No torrent estavam também disponíveis códigos e cupões utilizados pelos sistemas de venda. Apesar de ontem ter sido colocada a suposta ultima parte dos dados(que iram ser publicados), é aconselhado que todos os utilizadores de serviços da Sony mudem as suas passwords mesmo que não tenham sido publicados já que podem ter sido também obtidos.</description>
+    </item>
+    
+    <item>
+      <title>LulzSec coloca dados da Sony no Pirate Bay</title>
+      <link>https://miguellopes.net/blog/en/lulzsec-coloca-dados-da-sony-no-pirate-bay/</link>
+      <pubDate>Tue, 07 Jun 2011 19:35:38 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/lulzsec-coloca-dados-da-sony-no-pirate-bay/</guid>
+      <description>_**O grupo de Hackers conhecido como LulzSecurity, que afirma ter sido responsável pelos ataques feitos á Sony, colocou no Pirate Bay um torrent com os supostos dados dos utilizadores dos varios serviços da Sony.**_
+No passado dia 2 deste mês o LulzSecurity colocou a primeira parte dos dados obtidos através dos servidores da Sony. No torrent estavam também disponíveis códigos e cupões utilizados pelos sistemas de venda. Apesar de ontem ter sido colocada a suposta ultima parte dos dados(que iram ser publicados), é aconselhado que todos os utilizadores de serviços da Sony mudem as suas passwords mesmo que não tenham sido publicados já que podem ter sido também obtidos.</description>
+    </item>
+    
+    <item>
+      <title>Conversas Seguras por Email e Chat</title>
+      <link>https://miguellopes.net/blog/conversas-seguras-por-email-e-chat/</link>
+      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/conversas-seguras-por-email-e-chat/</guid>
+      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
+Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
+    </item>
+    
+    <item>
+      <title>Conversas Seguras por Email e Chat</title>
+      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
+      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
+      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
+Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
+    </item>
+    
+    <item>
+      <title>Extrair ficheiros de Capturas de rede</title>
+      <link>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</link>
+      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</guid>
+      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
+Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
+    </item>
+    
+    <item>
+      <title>Extrair ficheiros de Capturas de rede</title>
+      <link>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</link>
+      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</guid>
+      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
+Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com webmitm</title>
+      <link>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</link>
+      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</guid>
+      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
+Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com webmitm</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</link>
+      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</guid>
+      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
+Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com SSLStrip</title>
+      <link>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</link>
+      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</guid>
+      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
+Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com SSLStrip</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</link>
+      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</guid>
+      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
+Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
+    </item>
+    
+    <item>
+      <title>Túneis SSH</title>
+      <link>https://miguellopes.net/blog/tuneis-ssh/</link>
+      <pubDate>Sat, 21 May 2011 22:27:07 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/tuneis-ssh/</guid>
+      <description>No ultimo post falei da segurança ou da falta dela em WebVPNs, e da alternativa dos túneis SSH. Pois aqui ficam algumas indicações para o fazerem.
+$ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
+    </item>
+    
+    <item>
+      <title>Túneis SSH</title>
+      <link>https://miguellopes.net/blog/en/tuneis-ssh/</link>
+      <pubDate>Sat, 21 May 2011 22:27:07 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/tuneis-ssh/</guid>
+      <description>No ultimo post falei da segurança ou da falta dela em WebVPNs, e da alternativa dos túneis SSH. Pois aqui ficam algumas indicações para o fazerem.
+$ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
+    </item>
+    
+    <item>
+      <title>A segurança de WebVPNs</title>
+      <link>https://miguellopes.net/blog/a-seguranca-de-webvpns/</link>
+      <pubDate>Sat, 21 May 2011 20:24:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/a-seguranca-de-webvpns/</guid>
+      <description>As WebVPNs ou VPN SSL, são aplicações web que pretendem disponibilizar acesso a recursos dentro da sua rede a utilizadores que venham do exterior. Este tipo de sistema actua como um proxy para os varios serviços dentro da rede.
+Este tipo de VPN é útil quando não é possível configurar uma VPN normal.
+O OpenVPN ALS (Adito) é uma solução WebVPN que permite a criação de varios grupos e utilizadores, e também definir o acesso aos serviços dentro da rede conforme o utilizador que acede.</description>
+    </item>
+    
+    <item>
+      <title>A segurança de WebVPNs</title>
+      <link>https://miguellopes.net/blog/en/a-seguranca-de-webvpns/</link>
+      <pubDate>Sat, 21 May 2011 20:24:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/a-seguranca-de-webvpns/</guid>
+      <description>As WebVPNs ou VPN SSL, são aplicações web que pretendem disponibilizar acesso a recursos dentro da sua rede a utilizadores que venham do exterior. Este tipo de sistema actua como um proxy para os varios serviços dentro da rede.
+Este tipo de VPN é útil quando não é possível configurar uma VPN normal.
+O OpenVPN ALS (Adito) é uma solução WebVPN que permite a criação de varios grupos e utilizadores, e também definir o acesso aos serviços dentro da rede conforme o utilizador que acede.</description>
+    </item>
+    
+    <item>
+      <title>A Google vai se opor aos sistemas de bloqueio Anti-Pirataria</title>
+      <link>https://miguellopes.net/blog/a-google-vai-se-opor-aos-sistemas-de-bloqueio-anti-pirataria/</link>
+      <pubDate>Thu, 19 May 2011 09:25:36 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/a-google-vai-se-opor-aos-sistemas-de-bloqueio-anti-pirataria/</guid>
+      <description>A Google, o motor de buscar mais utilizado em todo o mundo afirmou ontem que iria combater as propostas que se estão apresentar nos Estados Unidos e no Reino Unido, que pretendem o bloqueio dos sites que infrinjam as leis anti-pirataria.
+Este ano têm começado com bastantes propostas para criar sistemas e ferramentas que bloqueiem o acesso a sites pirata, desde A Grande Firewall Europeia ás propostas para criminalizar a partilha ilícita de musicas e filmes, nos Estados Unidos.</description>
+    </item>
+    
+    <item>
+      <title>A Google vai se opor aos sistemas de bloqueio Anti-Pirataria</title>
+      <link>https://miguellopes.net/blog/en/a-google-vai-se-opor-aos-sistemas-de-bloqueio-anti-pirataria/</link>
+      <pubDate>Thu, 19 May 2011 09:25:36 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/a-google-vai-se-opor-aos-sistemas-de-bloqueio-anti-pirataria/</guid>
+      <description>A Google, o motor de buscar mais utilizado em todo o mundo afirmou ontem que iria combater as propostas que se estão apresentar nos Estados Unidos e no Reino Unido, que pretendem o bloqueio dos sites que infrinjam as leis anti-pirataria.
+Este ano têm começado com bastantes propostas para criar sistemas e ferramentas que bloqueiem o acesso a sites pirata, desde A Grande Firewall Europeia ás propostas para criminalizar a partilha ilícita de musicas e filmes, nos Estados Unidos.</description>
+    </item>
+    
+    <item>
+      <title>Remover extensões de ficheiros com .htaccess</title>
+      <link>https://miguellopes.net/blog/remover-extensoes-de-ficheiros-com-htaccess/</link>
+      <pubDate>Wed, 18 May 2011 14:16:39 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/remover-extensoes-de-ficheiros-com-htaccess/</guid>
+      <description>Agora com a web 2.0, existem muita atenção aos pormenores, e a técnicas SEO. Alterar o url para um ficheiro é apenas mais uma, ajuda no SEO porque se torna mais facil para os motores de busca e fica sempre mais apelativo.
+No Apache basta adicionar um ficheiro .htaccess no directorio principal com o seguinte conteudo:
+RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
+    </item>
+    
+    <item>
+      <title>Remover extensões de ficheiros com .htaccess</title>
+      <link>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</link>
+      <pubDate>Wed, 18 May 2011 14:16:39 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</guid>
+      <description>Agora com a web 2.0, existem muita atenção aos pormenores, e a técnicas SEO. Alterar o url para um ficheiro é apenas mais uma, ajuda no SEO porque se torna mais facil para os motores de busca e fica sempre mais apelativo.
+No Apache basta adicionar um ficheiro .htaccess no directorio principal com o seguinte conteudo:
+RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
+    </item>
+    
+    <item>
+      <title>Liberta a memoria RAM que não esta a ser utilizada no Mac</title>
+      <link>https://miguellopes.net/blog/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</link>
+      <pubDate>Wed, 18 May 2011 08:49:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</guid>
+      <description>Quem utiliza-se o seu mac intensivamente, sabe que para gastar toda a RAM não é preciso muito. O Mac OS X armazena os dados das aplicações que acabamos de usar para se as utilizar-mos outra vez elas ja estarem prontas, no entanto para quem utiliza muitos programas &amp;ldquo;pesados&amp;rdquo; e precisa de flexibilidade para poder fechar uns programas e abrir outros, são poucas as soluções. Existem programas pagos como o Memory Cleaner, ou podemos recorrer ao terminal.</description>
+    </item>
+    
+    <item>
+      <title>Liberta a memoria RAM que não esta a ser utilizada no Mac</title>
+      <link>https://miguellopes.net/blog/en/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</link>
+      <pubDate>Wed, 18 May 2011 08:49:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/liberta-a-memoria-ram-que-nao-esta-a-ser-utilizada-no-mac/</guid>
+      <description>Quem utiliza-se o seu mac intensivamente, sabe que para gastar toda a RAM não é preciso muito. O Mac OS X armazena os dados das aplicações que acabamos de usar para se as utilizar-mos outra vez elas ja estarem prontas, no entanto para quem utiliza muitos programas &amp;ldquo;pesados&amp;rdquo; e precisa de flexibilidade para poder fechar uns programas e abrir outros, são poucas as soluções. Existem programas pagos como o Memory Cleaner, ou podemos recorrer ao terminal.</description>
+    </item>
+    
+    <item>
+      <title>Novas funcionalidades do Chrome Dev Tools</title>
+      <link>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</link>
+      <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/novas-funcionalidades-do-chrome-dev-tools/</guid>
+      <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
+Entre as novidades temos :
+Melhorias no Controlo dos estilos e Manipulação CSS
+Debugging remoto
+Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do CSS permitem-nos fazer alterações &amp;ldquo;ao vivo&amp;rdquo; no browser. Estas alterações tanto pode ser feitas po painel lateral do menu dos Elementos, ou nas folhas de estilos no menu recursos.</description>
+    </item>
+    
+    <item>
+      <title>Novas funcionalidades do Chrome Dev Tools</title>
+      <link>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</link>
+      <pubDate>Tue, 17 May 2011 14:19:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/novas-funcionalidades-do-chrome-dev-tools/</guid>
+      <description>No Google I/O 2011 foram apresentadas algumas funcionalidades novas do Chrome Dev Tools/Ferramentas do Programador.
+Entre as novidades temos :
+Melhorias no Controlo dos estilos e Manipulação CSS
+Debugging remoto
+Controlo de Estilos e Manipulação de CSS As novas funcionalidades na area do CSS permitem-nos fazer alterações &amp;ldquo;ao vivo&amp;rdquo; no browser. Estas alterações tanto pode ser feitas po painel lateral do menu dos Elementos, ou nas folhas de estilos no menu recursos.</description>
+    </item>
+    
+    <item>
+      <title>O código-fonte da Botnet Zeus caiu na internet</title>
+      <link>https://miguellopes.net/blog/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</link>
+      <pubDate>Sun, 15 May 2011 02:20:40 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</guid>
+      <description>O famoso botnet Zeus/Zbot, criado especificamente para roubar informações bancarias, teve o seu código-fonte publicado na internet. E assim começa uma corrida, entre os script kiddies e as empresas de anti-virus. Com este desenvolvimento é agora possível para qualquer pessoa fazer novos modulos para o virus ou compilarem para uso proprio.
+Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas windows, XP/Vista/7 para desktops, e 2003/2003R2/2008/2008R2 em servidores. O virus foi concebido para as versões 32 bits no entanto funciona também em 64 bits.</description>
+    </item>
+    
+    <item>
+      <title>O código-fonte da Botnet Zeus caiu na internet</title>
+      <link>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</link>
+      <pubDate>Sun, 15 May 2011 02:20:40 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/o-codigo-fonte-da-botnet-zeus-caiu-em-na-internet/</guid>
+      <description>O famoso botnet Zeus/Zbot, criado especificamente para roubar informações bancarias, teve o seu código-fonte publicado na internet. E assim começa uma corrida, entre os script kiddies e as empresas de anti-virus. Com este desenvolvimento é agora possível para qualquer pessoa fazer novos modulos para o virus ou compilarem para uso proprio.
+Sistemas Operativos Este botnet, foi desenvolvido para atacar as plataformas windows, XP/Vista/7 para desktops, e 2003/2003R2/2008/2008R2 em servidores. O virus foi concebido para as versões 32 bits no entanto funciona também em 64 bits.</description>
+    </item>
+    
+    <item>
+      <title>Aumenta a Performance do MySQL com o cache das querys</title>
+      <link>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
+      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
+      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
+Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
+    </item>
+    
+    <item>
+      <title>Aumenta a Performance do MySQL com o cache das querys</title>
+      <link>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
+      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
+      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
+Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
+    </item>
+    
+    <item>
+      <title>Passwords Seguras</title>
+      <link>https://miguellopes.net/blog/passwords-seguras/</link>
+      <pubDate>Tue, 10 May 2011 18:17:55 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/passwords-seguras/</guid>
+      <description>Muitas pessoas utilizam passwords obvias/fáceis (Top 100 das Passwords mais frequentes em Portugal) por falta de metodo para criar algo melhor sendo facil de recordar.
+Por isso aqui vai um metodo que torna a vossa password segura na medida em que se torna muito difícil ou impossível de adivinhar ou prever no entanto torna se facil de recordar. Para começar comecemos por uma frase &amp;ldquo;Uma boa password é facil de ser relembrada pelo dono; mais nada.</description>
+    </item>
+    
+    <item>
+      <title>Passwords Seguras</title>
+      <link>https://miguellopes.net/blog/en/passwords-seguras/</link>
+      <pubDate>Tue, 10 May 2011 18:17:55 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/passwords-seguras/</guid>
+      <description>Muitas pessoas utilizam passwords obvias/fáceis (Top 100 das Passwords mais frequentes em Portugal) por falta de metodo para criar algo melhor sendo facil de recordar.
+Por isso aqui vai um metodo que torna a vossa password segura na medida em que se torna muito difícil ou impossível de adivinhar ou prever no entanto torna se facil de recordar. Para começar comecemos por uma frase &amp;ldquo;Uma boa password é facil de ser relembrada pelo dono; mais nada.</description>
+    </item>
+    
+    <item>
+      <title>Slow Post com R.U.D.Y.</title>
+      <link>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</link>
+      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</guid>
+      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
+    </item>
+    
+    <item>
+      <title>Slow Post com R.U.D.Y.</title>
+      <link>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</link>
+      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</guid>
+      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
+    </item>
+    
+    <item>
+      <title>Os IPs de alguns anónimos foram publicados</title>
+      <link>https://miguellopes.net/blog/os-ips-de-alguns-anonimos-foram-publicados/</link>
+      <pubDate>Sun, 08 May 2011 14:39:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/os-ips-de-alguns-anonimos-foram-publicados/</guid>
+      <description>Esta semana parece ter havido uma confusão entre os Administradores e Operadores dos servidores da rede irc da Anonops, visto que foram publicados aproximadamente 650 IPs e usernames de anónimos assim como um estrutura da rede em que se encontram.
+A rede têm estado em manutenção ao que parece a estrutura irá ser modificada e os Operadores responsáveis foram expulsos dos seus cargos.
+Está lista existe so para tentar assustar alguns anónimos pois não serve de grande coisa ja que a maioria possui ips dinâmicos ou se liga através de proxies darknets ou vpns.</description>
+    </item>
+    
+    <item>
+      <title>Os IPs de alguns anónimos foram publicados</title>
+      <link>https://miguellopes.net/blog/en/os-ips-de-alguns-anonimos-foram-publicados/</link>
+      <pubDate>Sun, 08 May 2011 14:39:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/os-ips-de-alguns-anonimos-foram-publicados/</guid>
+      <description>Esta semana parece ter havido uma confusão entre os Administradores e Operadores dos servidores da rede irc da Anonops, visto que foram publicados aproximadamente 650 IPs e usernames de anónimos assim como um estrutura da rede em que se encontram.
+A rede têm estado em manutenção ao que parece a estrutura irá ser modificada e os Operadores responsáveis foram expulsos dos seus cargos.
+Está lista existe so para tentar assustar alguns anónimos pois não serve de grande coisa ja que a maioria possui ips dinâmicos ou se liga através de proxies darknets ou vpns.</description>
+    </item>
+    
+    <item>
+      <title>Recolha de informação com o Google</title>
+      <link>https://miguellopes.net/blog/recolha-de-informacao-com-o-google/</link>
+      <pubDate>Tue, 03 May 2011 21:15:35 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/recolha-de-informacao-com-o-google/</guid>
+      <description>O Google com ou sem os seus problemas de privacidade que têm perante os utilizadores é uma grande ferramenta para recolha de informação. Seja para pesquisar sobre algum assunto ou encontrar aquele site que visitamos no outro dia e que vale mais pesquisar no google do que procurar no historico, no entanto á quem suba a fasquia e utilize o google para bastante mais, um desses casos é o chamado _Google Hacking _este é um metodo que é utilizado para descobrir mais informações sobre um certo alvo, ou procurar certos tipos de software que possuam falhas (um pouco como o shodan).</description>
+    </item>
+    
+    <item>
+      <title>Recolha de informação com o Google</title>
+      <link>https://miguellopes.net/blog/en/recolha-de-informacao-com-o-google/</link>
+      <pubDate>Tue, 03 May 2011 21:15:35 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/recolha-de-informacao-com-o-google/</guid>
+      <description>O Google com ou sem os seus problemas de privacidade que têm perante os utilizadores é uma grande ferramenta para recolha de informação. Seja para pesquisar sobre algum assunto ou encontrar aquele site que visitamos no outro dia e que vale mais pesquisar no google do que procurar no historico, no entanto á quem suba a fasquia e utilize o google para bastante mais, um desses casos é o chamado _Google Hacking _este é um metodo que é utilizado para descobrir mais informações sobre um certo alvo, ou procurar certos tipos de software que possuam falhas (um pouco como o shodan).</description>
+    </item>
+    
+    <item>
+      <title>DDoS através de um ataque Slow Post</title>
+      <link>https://miguellopes.net/blog/ddos-atraves-de-um-ataque-slow-post/</link>
+      <pubDate>Mon, 02 May 2011 19:25:50 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ddos-atraves-de-um-ataque-slow-post/</guid>
+      <description>Um ataque DDoS, têm sempre o objectivo de deixar o alvo de uma tal forma que não lhe seja possível responder aos pedidos dos clientes.Até 2009 estes ataques consistiam em um numero extremamente grande de bots ou de utilizadores em protesto a aceder ao site duma forma insistente ao servidor, ou seja sempre a enviar pedidos ao servidor para que este chega-se á sua capacidade maxima e não consegui-se lidar com mais pedidos.</description>
+    </item>
+    
+    <item>
+      <title>DDoS através de um ataque Slow Post</title>
+      <link>https://miguellopes.net/blog/en/ddos-atraves-de-um-ataque-slow-post/</link>
+      <pubDate>Mon, 02 May 2011 19:25:50 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ddos-atraves-de-um-ataque-slow-post/</guid>
+      <description>Um ataque DDoS, têm sempre o objectivo de deixar o alvo de uma tal forma que não lhe seja possível responder aos pedidos dos clientes.Até 2009 estes ataques consistiam em um numero extremamente grande de bots ou de utilizadores em protesto a aceder ao site duma forma insistente ao servidor, ou seja sempre a enviar pedidos ao servidor para que este chega-se á sua capacidade maxima e não consegui-se lidar com mais pedidos.</description>
+    </item>
+    
+    <item>
+      <title>Vê as informações que o facebook armazena sobre ti</title>
+      <link>https://miguellopes.net/blog/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</link>
+      <pubDate>Fri, 29 Apr 2011 16:10:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</guid>
+      <description>O maior problema do facebook é como lida com as informações dos seus utilizadores. Se perderem tempo a ler os termos e condições, que só estão disponíveis em Inglês, podem observar que tudo o que é lá colocado passa a ser deles para utilizarem como quiserem.
+Um exemplo disso é experimentarem desactivar a vossa conta, essa opção só faz com que o vosso perfil deixe de estar publico, qualquer das informações que tenham colocado no facebook continua com eles, se recriarem a conta tudo o que lá tinham reaparece nada é perdido.</description>
+    </item>
+    
+    <item>
+      <title>Vê as informações que o facebook armazena sobre ti</title>
+      <link>https://miguellopes.net/blog/en/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</link>
+      <pubDate>Fri, 29 Apr 2011 16:10:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ve-as-informacoes-que-o-facebook-armazena-sobre-ti/</guid>
+      <description>O maior problema do facebook é como lida com as informações dos seus utilizadores. Se perderem tempo a ler os termos e condições, que só estão disponíveis em Inglês, podem observar que tudo o que é lá colocado passa a ser deles para utilizarem como quiserem.
+Um exemplo disso é experimentarem desactivar a vossa conta, essa opção só faz com que o vosso perfil deixe de estar publico, qualquer das informações que tenham colocado no facebook continua com eles, se recriarem a conta tudo o que lá tinham reaparece nada é perdido.</description>
+    </item>
+    
+    <item>
+      <title>CeWL uma ferramenta de geração de passwords</title>
+      <link>https://miguellopes.net/blog/cewl-uma-ferramenta-de-geracao-de-passwords/</link>
+      <pubDate>Mon, 25 Apr 2011 16:18:23 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/cewl-uma-ferramenta-de-geracao-de-passwords/</guid>
+      <description>O CeWL é uma ferramenta desenvolvida pelo Dijininja, para criar listas de passwords baseadas em palavras encontradas num site do alvo. Para o download da versão 3.0 podem utilizar este link.
+Instalação Esta aplicação foi desenvolvida em ruby gems e por isso para a instalação é necessario satisfazer algumas dependências.
+As _gems _das quais o CeWL depende são as seguintes:
+hpricot
+http_configuration
+mime-types
+exiftool
+mini_exiftool
+rubyzip
+spider
+Para instalar estas gems basta executar o comando como root</description>
+    </item>
+    
+    <item>
+      <title>CeWL uma ferramenta de geração de passwords</title>
+      <link>https://miguellopes.net/blog/en/cewl-uma-ferramenta-de-geracao-de-passwords/</link>
+      <pubDate>Mon, 25 Apr 2011 16:18:23 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/cewl-uma-ferramenta-de-geracao-de-passwords/</guid>
+      <description>O CeWL é uma ferramenta desenvolvida pelo Dijininja, para criar listas de passwords baseadas em palavras encontradas num site do alvo. Para o download da versão 3.0 podem utilizar este link.
+Instalação Esta aplicação foi desenvolvida em ruby gems e por isso para a instalação é necessario satisfazer algumas dependências.
+As _gems _das quais o CeWL depende são as seguintes:
+hpricot
+http_configuration
+mime-types
+exiftool
+mini_exiftool
+rubyzip
+spider
+Para instalar estas gems basta executar o comando como root</description>
+    </item>
+    
+    <item>
+      <title>Ataques com o LOIC</title>
+      <link>https://miguellopes.net/blog/ataques-com-o-loic/</link>
+      <pubDate>Mon, 25 Apr 2011 01:11:28 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-com-o-loic/</guid>
+      <description>_Neste artigo irei explicar o funcionamento basico do LOIC, com a intenção de transmitir a ideia de como funciona, e não estou de maneira alguma a tentar incentivar ou a explicar a alguém como infringir a Lei. Não se esqueçam usarem um loic ou uma ferramenta do genero numa maquina vossa é um teste á capacidade de resposta do vosso servidor, enquanto que numa maquina que não seja vossa é um DDoS.</description>
+    </item>
+    
+    <item>
+      <title>Ataques com o LOIC</title>
+      <link>https://miguellopes.net/blog/en/ataques-com-o-loic/</link>
+      <pubDate>Mon, 25 Apr 2011 01:11:28 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-com-o-loic/</guid>
+      <description>_Neste artigo irei explicar o funcionamento basico do LOIC, com a intenção de transmitir a ideia de como funciona, e não estou de maneira alguma a tentar incentivar ou a explicar a alguém como infringir a Lei. Não se esqueçam usarem um loic ou uma ferramenta do genero numa maquina vossa é um teste á capacidade de resposta do vosso servidor, enquanto que numa maquina que não seja vossa é um DDoS.</description>
+    </item>
+    
+    <item>
+      <title>Encripta os teus dados com o TrueCrypt</title>
+      <link>https://miguellopes.net/blog/encripta-a-tua-informacao-com-o-truecrypt/</link>
+      <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/encripta-a-tua-informacao-com-o-truecrypt/</guid>
+      <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
+Neste artigo irei explicar como criar um ficheiro encriptado.
+Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>
+    </item>
+    
+    <item>
+      <title>Encripta os teus dados com o TrueCrypt</title>
+      <link>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</link>
+      <pubDate>Sun, 24 Apr 2011 02:38:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/encripta-a-tua-informacao-com-o-truecrypt/</guid>
+      <description>O TrueCrypt é um dos melhores programas para encriptação de dados. Todos nós temos necessidade de utilizar algum sistema que nos forneça este tipo de serviço, seja para guardar dados de acesso a sites, passwords de emails, fotos&amp;hellip; Tudo o que acharem que não pode ser visto por ninguém a não ser quem nós proprios permitimos.
+Neste artigo irei explicar como criar um ficheiro encriptado.
+Antes de mais nada é necessário fazer o download do TrueCrypt, por ser open source ninguém fica de fora seja Windows, Mac ou Linux.</description>
+    </item>
+    
+    <item>
+      <title>Atalhos do teclado para o Mac</title>
+      <link>https://miguellopes.net/blog/atalhos-do-teclado-para-o-mac/</link>
+      <pubDate>Fri, 22 Apr 2011 02:19:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/atalhos-do-teclado-para-o-mac/</guid>
+      <description>Tenho andado a testar maneiras para aumentar a minha produtividade. Até agora tenho utilizado o Spaces com 8 ambientes de trabalho, no entanto isso pode-s tornar um pouco caotico, por isso decidi testar outros metodos e reduzi o numero de ambientes de trabalho para 4 e voltei ao processo de minimização das janelas. Visto que a minha Dock se esconde automaticamente para poupar espaço de trabalho, restaurar a janela depois de ter sido minimizada pode ser um pouco chato e acabar com o proposito de aumentar a produtividade.</description>
+    </item>
+    
+    <item>
+      <title>Atalhos do teclado para o Mac</title>
+      <link>https://miguellopes.net/blog/en/atalhos-do-teclado-para-o-mac/</link>
+      <pubDate>Fri, 22 Apr 2011 02:19:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/atalhos-do-teclado-para-o-mac/</guid>
+      <description>Tenho andado a testar maneiras para aumentar a minha produtividade. Até agora tenho utilizado o Spaces com 8 ambientes de trabalho, no entanto isso pode-s tornar um pouco caotico, por isso decidi testar outros metodos e reduzi o numero de ambientes de trabalho para 4 e voltei ao processo de minimização das janelas. Visto que a minha Dock se esconde automaticamente para poupar espaço de trabalho, restaurar a janela depois de ter sido minimizada pode ser um pouco chato e acabar com o proposito de aumentar a produtividade.</description>
+    </item>
+    
+    <item>
+      <title>Apreensão de dominios</title>
+      <link>https://miguellopes.net/blog/apreensao-de-dominios/</link>
+      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/apreensao-de-dominios/</guid>
+      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
+Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
+    </item>
+    
+    <item>
+      <title>Apreensão de dominios</title>
+      <link>https://miguellopes.net/blog/en/apreensao-de-dominios/</link>
+      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/apreensao-de-dominios/</guid>
+      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
+Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
+    </item>
+    
+    <item>
+      <title>Remover metadata no Mac</title>
+      <link>https://miguellopes.net/blog/remover-metadata-no-mac/</link>
+      <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/remover-metadata-no-mac/</guid>
+      <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
+    </item>
+    
+    <item>
+      <title>Remover metadata no Mac</title>
+      <link>https://miguellopes.net/blog/en/remover-metadata-no-mac/</link>
+      <pubDate>Thu, 14 Apr 2011 15:00:40 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/remover-metadata-no-mac/</guid>
+      <description>Agora com os iPhones, Androids e maquinas fotográficas actuais muitas informações ficam guardadas na imagem, o que pode facilitar quando queremos usar programas como o iPhoto ou o Picasa. No entanto quando as queremos publicar na internet isso deixa de ser útil alias torna-se um inconveniente. Pois podem ser transmitidas informações como coordenadas GPS de onde foi tirada a fotografia. Um exemplo disso foi quando o Adam Sandler (um comediante famoso) colocou uma foto e colocou no flickr que foi tirada no seu iPhone, um hacker fez download da imagem viu a metadata que continha as coordenadas foi ao ao google maps e poucos segundos depois estava a ver o local onde tinha sido tirada a fotografia.</description>
+    </item>
+    
+    <item>
+      <title>Google Translate</title>
+      <link>https://miguellopes.net/blog/google-translate/</link>
+      <pubDate>Tue, 12 Apr 2011 22:44:53 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/google-translate/</guid>
+      <description>O serviço de tradução da Google disponibiliza para além do serviço de tradução por escrito o serviço de leitura da tradução por um tradutor cujo a lingua mãe é a lingua em que o texto está escrito. Para alem disto ainda disponibiliza a representação fonética das palavras/frase.
+Nem todas as Lingua têm um voz para se poder ouvir a tradução, no entanto Portugal que já teve um tradutor de Portugal e agora passou a ter uma tradutora do Brazil!</description>
+    </item>
+    
+    <item>
+      <title>Google Translate</title>
+      <link>https://miguellopes.net/blog/en/google-translate/</link>
+      <pubDate>Tue, 12 Apr 2011 22:44:53 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/google-translate/</guid>
+      <description>O serviço de tradução da Google disponibiliza para além do serviço de tradução por escrito o serviço de leitura da tradução por um tradutor cujo a lingua mãe é a lingua em que o texto está escrito. Para alem disto ainda disponibiliza a representação fonética das palavras/frase.
+Nem todas as Lingua têm um voz para se poder ouvir a tradução, no entanto Portugal que já teve um tradutor de Portugal e agora passou a ter uma tradutora do Brazil!</description>
+    </item>
+    
+    <item>
+      <title>Testa a tua ligação anonima</title>
+      <link>https://miguellopes.net/blog/testa-a-tua-ligacao-anonima/</link>
+      <pubDate>Mon, 11 Apr 2011 23:10:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/testa-a-tua-ligacao-anonima/</guid>
+      <description>Aqui vão alguns links para testares a tua ligação seja ela por proxy, i2p, vpn, ssh, etc&amp;hellip;
+DeCloack
+Teste de anonimização
+Teste de Proxy</description>
+    </item>
+    
+    <item>
+      <title>Testa a tua ligação anonima</title>
+      <link>https://miguellopes.net/blog/en/testa-a-tua-ligacao-anonima/</link>
+      <pubDate>Mon, 11 Apr 2011 23:10:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/testa-a-tua-ligacao-anonima/</guid>
+      <description>Aqui vão alguns links para testares a tua ligação seja ela por proxy, i2p, vpn, ssh, etc&amp;hellip;
+DeCloack
+Teste de anonimização
+Teste de Proxy</description>
+    </item>
+    
+    <item>
+      <title>De um WebHosting para um VPS</title>
+      <link>https://miguellopes.net/blog/webhosting-vps/</link>
+      <pubDate>Mon, 11 Apr 2011 17:22:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/webhosting-vps/</guid>
+      <description>Neste ultimo mês expirou o meu contracto com a Dreamhost, e depois de ver o que havia disponível decidi optar por uma VPS, mas sem ter grande noção dos recursos que normalmente são usados pelo apache2, mysql e php. Comprei um VPS ainda mais barato do que o webhosting, mas com apenas 256 de ram não fica uma tarefa facil ter uma boa performance.
+Comecei sem olhar a gastos com o apache2, php e mysql quando reparei ja estava a utilizar toda a minha RAM sem sequer estar a receber visitas no blog.</description>
+    </item>
+    
+    <item>
+      <title>De um WebHosting para um VPS</title>
+      <link>https://miguellopes.net/blog/en/webhosting-vps/</link>
+      <pubDate>Mon, 11 Apr 2011 17:22:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/webhosting-vps/</guid>
+      <description>Neste ultimo mês expirou o meu contracto com a Dreamhost, e depois de ver o que havia disponível decidi optar por uma VPS, mas sem ter grande noção dos recursos que normalmente são usados pelo apache2, mysql e php. Comprei um VPS ainda mais barato do que o webhosting, mas com apenas 256 de ram não fica uma tarefa facil ter uma boa performance.
+Comecei sem olhar a gastos com o apache2, php e mysql quando reparei ja estava a utilizar toda a minha RAM sem sequer estar a receber visitas no blog.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao Windows (Parte 2)</title>
+      <link>https://miguellopes.net/blog/ataques-ao-windows-parte-2/</link>
+      <pubDate>Fri, 25 Mar 2011 12:28:19 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-windows-parte-2/</guid>
+      <description>No post anterior mostrei um pouco sobre as funcionalidades do nmap, hoje pretendo mostrar mais uma função do nmap e dar uma pequena demonstração da utilização do metasploit.
+O nmap possui desde o inicio da versão 5 um motor de scripts, isto permite automatizar certas tarefas e/ou proceder com o aumento de funcionalidades desta potente aplicação. Uma das funcionalidades adicionada ao nmap pelo motor de scripts (NSE - Nmap Script Engine) permite identificar maquinas infectadas com Conficker ( um worm recente que explora a vulnerabilidade_ MS08-067 _) bem como maquinas vulneráveis.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao Windows (Parte 2)</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-windows-parte-2/</link>
+      <pubDate>Fri, 25 Mar 2011 12:28:19 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-windows-parte-2/</guid>
+      <description>No post anterior mostrei um pouco sobre as funcionalidades do nmap, hoje pretendo mostrar mais uma função do nmap e dar uma pequena demonstração da utilização do metasploit.
+O nmap possui desde o inicio da versão 5 um motor de scripts, isto permite automatizar certas tarefas e/ou proceder com o aumento de funcionalidades desta potente aplicação. Uma das funcionalidades adicionada ao nmap pelo motor de scripts (NSE - Nmap Script Engine) permite identificar maquinas infectadas com Conficker ( um worm recente que explora a vulnerabilidade_ MS08-067 _) bem como maquinas vulneráveis.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao Windows (Parte 1)</title>
+      <link>https://miguellopes.net/blog/ataques-ao-windows-1/</link>
+      <pubDate>Thu, 24 Mar 2011 06:12:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-windows-1/</guid>
+      <description>Decidi começar uma serie de posts relacionados com testes de segurança informática em maquinas windows.
+Neste primeiro post iremos começar com o reconhecimento. É o primeiro paço em qualquer ataque informático, neste caso iremos usar uma das melhores ferramentas disponíveis actualmente, para cumprir esse propósito, o nmap.
+Nesta etapa é importante recolher o máximo de informação possível sobre os alvos para com isso poder seleccionar melhor o vector de ataque. Para está demonstração irei utilizar um alvo, nomeadamente o ip 192.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao Windows (Parte 1)</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-windows-1/</link>
+      <pubDate>Thu, 24 Mar 2011 06:12:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-windows-1/</guid>
+      <description>Decidi começar uma serie de posts relacionados com testes de segurança informática em maquinas windows.
+Neste primeiro post iremos começar com o reconhecimento. É o primeiro paço em qualquer ataque informático, neste caso iremos usar uma das melhores ferramentas disponíveis actualmente, para cumprir esse propósito, o nmap.
+Nesta etapa é importante recolher o máximo de informação possível sobre os alvos para com isso poder seleccionar melhor o vector de ataque. Para está demonstração irei utilizar um alvo, nomeadamente o ip 192.</description>
+    </item>
+    
+    <item>
+      <title>Firefox 4</title>
+      <link>https://miguellopes.net/blog/firefox-4/</link>
+      <pubDate>Wed, 23 Mar 2011 19:35:52 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/firefox-4/</guid>
+      <description>O novo Firefox 4 saiu esta semana e ja ultrapassou os (9) 10 milhões de downloads, segundo o site que a Mozilla criou para a visualização das estatísticas de downloads do Firefox 4.
+Esta nova versão apresenta-se com um novo design, melhor desempenho, através de uma velocidade superior aos seus antecessores, protecção contra crashes e o novo motor 3D WebGL que permite tirar proveito das novas e potentes placas gráficas.</description>
+    </item>
+    
+    <item>
+      <title>Firefox 4</title>
+      <link>https://miguellopes.net/blog/en/firefox-4/</link>
+      <pubDate>Wed, 23 Mar 2011 19:35:52 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/firefox-4/</guid>
+      <description>O novo Firefox 4 saiu esta semana e ja ultrapassou os (9) 10 milhões de downloads, segundo o site que a Mozilla criou para a visualização das estatísticas de downloads do Firefox 4.
+Esta nova versão apresenta-se com um novo design, melhor desempenho, através de uma velocidade superior aos seus antecessores, protecção contra crashes e o novo motor 3D WebGL que permite tirar proveito das novas e potentes placas gráficas.</description>
+    </item>
+    
+    <item>
+      <title>LOIC a arma dos Anónimos para os ataques DoS</title>
+      <link>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
+      <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
+      <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
+    </item>
+    
+    <item>
+      <title>LOIC a arma dos Anónimos para os ataques DoS</title>
+      <link>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
+      <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
+      <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
+    </item>
+    
+    <item>
+      <title>Zon viola a privacidade dos clientes</title>
+      <link>https://miguellopes.net/blog/zon-viola-a-privacidade-dos-clientes/</link>
+      <pubDate>Sun, 13 Mar 2011 20:00:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/zon-viola-a-privacidade-dos-clientes/</guid>
+      <description>Alguns ISP europeus têm adotado o Middleware Jungo para os routers dos clientes, no caso de Portugal a Zon. Este software controla todas as ligações feitas pelo router e registas, para que a Zon possa ter acesso aos dados sempre que assim o queira. Este acesso é omitido aos utilizadores todos e não pode ser desligado. Este acesso ao router permite alterar mais definições do que o acesso utilizado pelo utilizador.</description>
+    </item>
+    
+    <item>
+      <title>Zon viola a privacidade dos clientes</title>
+      <link>https://miguellopes.net/blog/en/zon-viola-a-privacidade-dos-clientes/</link>
+      <pubDate>Sun, 13 Mar 2011 20:00:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/zon-viola-a-privacidade-dos-clientes/</guid>
+      <description>Alguns ISP europeus têm adotado o Middleware Jungo para os routers dos clientes, no caso de Portugal a Zon. Este software controla todas as ligações feitas pelo router e registas, para que a Zon possa ter acesso aos dados sempre que assim o queira. Este acesso é omitido aos utilizadores todos e não pode ser desligado. Este acesso ao router permite alterar mais definições do que o acesso utilizado pelo utilizador.</description>
+    </item>
+    
+    <item>
+      <title>Injectar Codigo em Aplicações .NET</title>
+      <link>https://miguellopes.net/blog/injectar-codigo-em-aplicacoes-net/</link>
+      <pubDate>Sun, 13 Mar 2011 19:22:53 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/injectar-codigo-em-aplicacoes-net/</guid>
+      <description>Aqui está um vídeo educativo sobre segurança em .NET. Jon McCoy com o seu DotNetasploit, faz com que as aplicações .NET funcionem para o servir, com a aplicação dele é possível injectar novo código em qualquer aplicação. NET. No vídeo, ele mostra um pouco do que pode ser feito com o programa, desde modificar a interface gráfica até passar o formulário de registo da aplicação. (fonte: Irongeek).
+Jon McCoy Ninja Patching .</description>
+    </item>
+    
+    <item>
+      <title>Injectar Codigo em Aplicações .NET</title>
+      <link>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</link>
+      <pubDate>Sun, 13 Mar 2011 19:22:53 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</guid>
+      <description>Aqui está um vídeo educativo sobre segurança em .NET. Jon McCoy com o seu DotNetasploit, faz com que as aplicações .NET funcionem para o servir, com a aplicação dele é possível injectar novo código em qualquer aplicação. NET. No vídeo, ele mostra um pouco do que pode ser feito com o programa, desde modificar a interface gráfica até passar o formulário de registo da aplicação. (fonte: Irongeek).
+Jon McCoy Ninja Patching .</description>
+    </item>
+    
+    <item>
+      <title>Partilhas do Windows no Mac</title>
+      <link>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</link>
+      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</guid>
+      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
+    </item>
+    
+    <item>
+      <title>Partilhas do Windows no Mac</title>
+      <link>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</link>
+      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</guid>
+      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
+    </item>
+    
+    <item>
+      <title>Testar Lista de Proxys</title>
+      <link>https://miguellopes.net/blog/testar-lista-de-proxys/</link>
+      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/testar-lista-de-proxys/</guid>
+      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
+    </item>
+    
+    <item>
+      <title>Testar Lista de Proxys</title>
+      <link>https://miguellopes.net/blog/en/testar-lista-de-proxys/</link>
+      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/testar-lista-de-proxys/</guid>
+      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
+    </item>
+    
+    <item>
+      <title>Pesquisas Anonimas no Google</title>
+      <link>https://miguellopes.net/blog/pesquisas-no-google-anonimas/</link>
+      <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/pesquisas-no-google-anonimas/</guid>
+      <description>Encontrei por acaso este site https://ssl.scroogle.org/, que permite fazer pesquisas no google totalmente anonimo. Não tenho o design que têm o Google mas da uma segurança superior ja que usa ssl, e apaga os logs dentro de 48h.</description>
+    </item>
+    
+    <item>
+      <title>Pesquisas Anonimas no Google</title>
+      <link>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</link>
+      <pubDate>Fri, 11 Mar 2011 18:18:48 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/pesquisas-no-google-anonimas/</guid>
+      <description>Encontrei por acaso este site https://ssl.scroogle.org/, que permite fazer pesquisas no google totalmente anonimo. Não tenho o design que têm o Google mas da uma segurança superior ja que usa ssl, e apaga os logs dentro de 48h.</description>
+    </item>
+    
+    <item>
+      <title>Um Motor de Pesquisa para Computadores</title>
+      <link>https://miguellopes.net/blog/um-motor-de-pesquisa-para-computadores/</link>
+      <pubDate>Fri, 11 Mar 2011 16:17:55 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/um-motor-de-pesquisa-para-computadores/</guid>
+      <description>O SHODAN é um motor de Pesquisa que permite localizar dispositivos na internet, como computadores, webcams, routers, etc&amp;hellip;
+Está ferramenta permite filtrar resultados por País,serviço e termo. É uma ferramenta certamente útil para detectar vulnerabilidades ou localizar certos tipos de hardware.</description>
+    </item>
+    
+    <item>
+      <title>Um Motor de Pesquisa para Computadores</title>
+      <link>https://miguellopes.net/blog/en/um-motor-de-pesquisa-para-computadores/</link>
+      <pubDate>Fri, 11 Mar 2011 16:17:55 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/um-motor-de-pesquisa-para-computadores/</guid>
+      <description>O SHODAN é um motor de Pesquisa que permite localizar dispositivos na internet, como computadores, webcams, routers, etc&amp;hellip;
+Está ferramenta permite filtrar resultados por País,serviço e termo. É uma ferramenta certamente útil para detectar vulnerabilidades ou localizar certos tipos de hardware.</description>
+    </item>
+    
+    <item>
+      <title>Navegue em Anonimato</title>
+      <link>https://miguellopes.net/blog/navegue-anonimamente/</link>
+      <pubDate>Fri, 11 Mar 2011 08:14:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/navegue-anonimamente/</guid>
+      <description>De certeza que todos ja viram aqueles banners de forums e páginas que identificam o browser que está a utilizar, o País e a cidade de onde é proveniente, entre outras informações.
+Isso tudo é possível através das informações que o teu computador envia, nomeadamente o User-Agente (identificação do browser é um parametro por defeito do HTTP) e o IP que nos é atribuido pelo ISP.
+Localização
+Como referi o IP, varia por várias razões e cada IP pode ser localizado numa certa area de um pais (ex: Distrito).</description>
+    </item>
+    
+    <item>
+      <title>Navegue em Anonimato</title>
+      <link>https://miguellopes.net/blog/en/navegue-anonimamente/</link>
+      <pubDate>Fri, 11 Mar 2011 08:14:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/navegue-anonimamente/</guid>
+      <description>De certeza que todos ja viram aqueles banners de forums e páginas que identificam o browser que está a utilizar, o País e a cidade de onde é proveniente, entre outras informações.
+Isso tudo é possível através das informações que o teu computador envia, nomeadamente o User-Agente (identificação do browser é um parametro por defeito do HTTP) e o IP que nos é atribuido pelo ISP.
+Localização
+Como referi o IP, varia por várias razões e cada IP pode ser localizado numa certa area de um pais (ex: Distrito).</description>
+    </item>
+    
+    <item>
+      <title>Dicas da NSA para tornar o seu computador seguro</title>
+      <link>https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</link>
+      <pubDate>Fri, 11 Mar 2011 06:14:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</guid>
+      <description>Aqui estão alguns manuais de procedimentos de segurança tomados pela NSA para aumentar a segurança nos diferentes sistemas operativos segurança, Windows da Microsoft, as varias distribuições de linux e claro o Mac OSX da Apple.
+http://www.nsa.gov/ia/guidance/security_configuration_guides/operating_systems.shtml</description>
+    </item>
+    
+    <item>
+      <title>Dicas da NSA para tornar o seu computador seguro</title>
+      <link>https://miguellopes.net/blog/en/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</link>
+      <pubDate>Fri, 11 Mar 2011 06:14:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</guid>
+      <description>Aqui estão alguns manuais de procedimentos de segurança tomados pela NSA para aumentar a segurança nos diferentes sistemas operativos segurança, Windows da Microsoft, as varias distribuições de linux e claro o Mac OSX da Apple.
+http://www.nsa.gov/ia/guidance/security_configuration_guides/operating_systems.shtml</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/en/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+  </channel>
+</rss>

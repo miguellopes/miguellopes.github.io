@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add-on on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/add-on/</link>
+    <description>Recent content in Add-on on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 20 Apr 2011 16:00:24 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/add-on/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apreensão de dominios</title>
+      <link>https://miguellopes.net/blog/apreensao-de-dominios/</link>
+      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/apreensao-de-dominios/</guid>
+      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
+Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
+    </item>
+    
+    <item>
+      <title>Apreensão de dominios</title>
+      <link>https://miguellopes.net/blog/en/apreensao-de-dominios/</link>
+      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/apreensao-de-dominios/</guid>
+      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
+Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
+    </item>
+    
+  </channel>
+</rss>

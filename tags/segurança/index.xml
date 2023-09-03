@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segurança on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/seguran%C3%A7a/</link>
+    <description>Recent content in Segurança on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 25 Oct 2012 01:52:25 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/seguran%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/en/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>Atacar o Mac através da bateria</title>
+      <link>https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/</link>
+      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/</guid>
+      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
+Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
+    </item>
+    
+    <item>
+      <title>Atacar o Mac através da bateria</title>
+      <link>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</link>
+      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</guid>
+      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
+Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
+    </item>
+    
+    <item>
+      <title>LulzSec volta á carga</title>
+      <link>https://miguellopes.net/blog/lulsec-volta-a-carga/</link>
+      <pubDate>Mon, 18 Jul 2011 21:37:49 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/lulsec-volta-a-carga/</guid>
+      <description>Hoje a equipa de hackers LulzSec voltou á carga, ao atacar o site do jornal The Sun. O site foi atacado e continua a sofrer alterações feitas pelo grupo.
+O site foi invadido foram feitos redireccionamentos, para outros sites e para a conta do twitter dos LulzSec. Têm também partilhado informações sobre jornalistas, e-mails e passwords.
+(A noticia da morte de Rupert Murdoch é falsa e foi colocada pelos LulzSec)</description>
+    </item>
+    
+    <item>
+      <title>LulzSec volta á carga</title>
+      <link>https://miguellopes.net/blog/en/lulsec-volta-a-carga/</link>
+      <pubDate>Mon, 18 Jul 2011 21:37:49 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/lulsec-volta-a-carga/</guid>
+      <description>Hoje a equipa de hackers LulzSec voltou á carga, ao atacar o site do jornal The Sun. O site foi atacado e continua a sofrer alterações feitas pelo grupo.
+O site foi invadido foram feitos redireccionamentos, para outros sites e para a conta do twitter dos LulzSec. Têm também partilhado informações sobre jornalistas, e-mails e passwords.
+(A noticia da morte de Rupert Murdoch é falsa e foi colocada pelos LulzSec)</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao Windows (Parte 2)</title>
+      <link>https://miguellopes.net/blog/ataques-ao-windows-parte-2/</link>
+      <pubDate>Fri, 25 Mar 2011 12:28:19 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-windows-parte-2/</guid>
+      <description>No post anterior mostrei um pouco sobre as funcionalidades do nmap, hoje pretendo mostrar mais uma função do nmap e dar uma pequena demonstração da utilização do metasploit.
+O nmap possui desde o inicio da versão 5 um motor de scripts, isto permite automatizar certas tarefas e/ou proceder com o aumento de funcionalidades desta potente aplicação. Uma das funcionalidades adicionada ao nmap pelo motor de scripts (NSE - Nmap Script Engine) permite identificar maquinas infectadas com Conficker ( um worm recente que explora a vulnerabilidade_ MS08-067 _) bem como maquinas vulneráveis.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao Windows (Parte 2)</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-windows-parte-2/</link>
+      <pubDate>Fri, 25 Mar 2011 12:28:19 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-windows-parte-2/</guid>
+      <description>No post anterior mostrei um pouco sobre as funcionalidades do nmap, hoje pretendo mostrar mais uma função do nmap e dar uma pequena demonstração da utilização do metasploit.
+O nmap possui desde o inicio da versão 5 um motor de scripts, isto permite automatizar certas tarefas e/ou proceder com o aumento de funcionalidades desta potente aplicação. Uma das funcionalidades adicionada ao nmap pelo motor de scripts (NSE - Nmap Script Engine) permite identificar maquinas infectadas com Conficker ( um worm recente que explora a vulnerabilidade_ MS08-067 _) bem como maquinas vulneráveis.</description>
+    </item>
+    
+    <item>
+      <title>Dicas da NSA para tornar o seu computador seguro</title>
+      <link>https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</link>
+      <pubDate>Fri, 11 Mar 2011 06:14:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</guid>
+      <description>Aqui estão alguns manuais de procedimentos de segurança tomados pela NSA para aumentar a segurança nos diferentes sistemas operativos segurança, Windows da Microsoft, as varias distribuições de linux e claro o Mac OSX da Apple.
+http://www.nsa.gov/ia/guidance/security_configuration_guides/operating_systems.shtml</description>
+    </item>
+    
+    <item>
+      <title>Dicas da NSA para tornar o seu computador seguro</title>
+      <link>https://miguellopes.net/blog/en/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</link>
+      <pubDate>Fri, 11 Mar 2011 06:14:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/dicas-da-nsa-para-tornar-o-seu-computador-seguro/</guid>
+      <description>Aqui estão alguns manuais de procedimentos de segurança tomados pela NSA para aumentar a segurança nos diferentes sistemas operativos segurança, Windows da Microsoft, as varias distribuições de linux e claro o Mac OSX da Apple.
+http://www.nsa.gov/ia/guidance/security_configuration_guides/operating_systems.shtml</description>
+    </item>
+    
+  </channel>
+</rss>

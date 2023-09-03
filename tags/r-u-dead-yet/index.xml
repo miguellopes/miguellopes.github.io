@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r u dead yet on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/r-u-dead-yet/</link>
+    <description>Recent content in r u dead yet on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 08 May 2011 19:41:02 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/r-u-dead-yet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slow Post com R.U.D.Y.</title>
+      <link>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</link>
+      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</guid>
+      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
+    </item>
+    
+    <item>
+      <title>Slow Post com R.U.D.Y.</title>
+      <link>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</link>
+      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</guid>
+      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
+    </item>
+    
+  </channel>
+</rss>

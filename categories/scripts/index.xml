@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scripts on miguellopes.net</title>
+    <link>https://miguellopes.net/categories/scripts/</link>
+    <description>Recent content in Scripts on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 04 Mar 2016 00:28:14 +0000</lastBuildDate><atom:link href="https://miguellopes.net/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up Elasticsearch, Logstash and Kibana for QA and debugging</title>
+      <link>https://miguellopes.net/blog/setting-up-elasticsearch-logstash-and-kibana-for-qa/</link>
+      <pubDate>Fri, 04 Mar 2016 00:28:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/setting-up-elasticsearch-logstash-and-kibana-for-qa/</guid>
+      <description>One of my latests projects involves a deamon working with a lot of threads and the only valueable output is in the log file. Up until here is like every other daemon except that the number of threads that will be managed by the daemon is somewhat big. In 16h it has outputed almost 10000 lines each one corresponding to an event. Monitoring and debuging this daemon on the log file alone seems like a lost cause, so I turned to the ELK stack ( Elasticsearch, Logstash and Kibana) to make this task manageble.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Elasticsearch, Logstash and Kibana for QA and debugging</title>
+      <link>https://miguellopes.net/blog/en/setting-up-elasticsearch-logstash-and-kibana-for-qa/</link>
+      <pubDate>Fri, 04 Mar 2016 00:28:14 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/setting-up-elasticsearch-logstash-and-kibana-for-qa/</guid>
+      <description>One of my latests projects involves a deamon working with a lot of threads and the only valueable output is in the log file. Up until here is like every other daemon except that the number of threads that will be managed by the daemon is somewhat big. In 16h it has outputed almost 10000 lines each one corresponding to an event. Monitoring and debuging this daemon on the log file alone seems like a lost cause, so I turned to the ELK stack ( Elasticsearch, Logstash and Kibana) to make this task manageble.</description>
+    </item>
+    
+    <item>
+      <title>Simple Tracking Pixel</title>
+      <link>https://miguellopes.net/blog/simple-tracking-pixel/</link>
+      <pubDate>Fri, 18 Dec 2015 00:30:41 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/simple-tracking-pixel/</guid>
+      <description>Recently I felt the need to use an old trick. I needed to know when an email has been seen without expressly asking the recipient to do so. Yesterday before sending an email I was considering possible outcomes and decided to resort to what is now called a tracking pixel. A tracking pixel is a technique that consists in creating a link that is inserted in a email as an image, the nice part is that we record the event so we know when it happened.</description>
+    </item>
+    
+    <item>
+      <title>Simple Tracking Pixel</title>
+      <link>https://miguellopes.net/blog/en/simple-tracking-pixel/</link>
+      <pubDate>Fri, 18 Dec 2015 00:30:41 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/simple-tracking-pixel/</guid>
+      <description>Recently I felt the need to use an old trick. I needed to know when an email has been seen without expressly asking the recipient to do so. Yesterday before sending an email I was considering possible outcomes and decided to resort to what is now called a tracking pixel. A tracking pixel is a technique that consists in creating a link that is inserted in a email as an image, the nice part is that we record the event so we know when it happened.</description>
+    </item>
+    
+    <item>
+      <title>Remover extensões de ficheiros com .htaccess</title>
+      <link>https://miguellopes.net/blog/remover-extensoes-de-ficheiros-com-htaccess/</link>
+      <pubDate>Wed, 18 May 2011 14:16:39 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/remover-extensoes-de-ficheiros-com-htaccess/</guid>
+      <description>Agora com a web 2.0, existem muita atenção aos pormenores, e a técnicas SEO. Alterar o url para um ficheiro é apenas mais uma, ajuda no SEO porque se torna mais facil para os motores de busca e fica sempre mais apelativo.
+No Apache basta adicionar um ficheiro .htaccess no directorio principal com o seguinte conteudo:
+RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
+    </item>
+    
+    <item>
+      <title>Remover extensões de ficheiros com .htaccess</title>
+      <link>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</link>
+      <pubDate>Wed, 18 May 2011 14:16:39 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/remover-extensoes-de-ficheiros-com-htaccess/</guid>
+      <description>Agora com a web 2.0, existem muita atenção aos pormenores, e a técnicas SEO. Alterar o url para um ficheiro é apenas mais uma, ajuda no SEO porque se torna mais facil para os motores de busca e fica sempre mais apelativo.
+No Apache basta adicionar um ficheiro .htaccess no directorio principal com o seguinte conteudo:
+RewriteEngine on RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME}\.php -f RewriteRule ^(.*)$ $1.php Esta regra pode ser modificada para html, asp ou qualquer que seja a extensão.</description>
+    </item>
+    
+    <item>
+      <title>Partilhas do Windows no Mac</title>
+      <link>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</link>
+      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/partilhas-do-windows-no-mac/</guid>
+      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
+    </item>
+    
+    <item>
+      <title>Partilhas do Windows no Mac</title>
+      <link>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</link>
+      <pubDate>Sun, 13 Mar 2011 19:11:59 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/partilhas-do-windows-no-mac/</guid>
+      <description>Na minha faculdade, existem pastas em rede para que os alunos e professores possam transferir ficheiros de computador para computador e guarda-los na escola. Essas pastas nos computadores da faculdade são montadas no início da sessão, nos portáteis privados é necessário ir ao departamento de TI e pedir para instalar o script que automatiza isso, ou podes tentar fazê-lo tu proprio, e não tens de te dirigir ao departamento nas horas a que está a funcionar!</description>
+    </item>
+    
+    <item>
+      <title>Testar Lista de Proxys</title>
+      <link>https://miguellopes.net/blog/testar-lista-de-proxys/</link>
+      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/testar-lista-de-proxys/</guid>
+      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
+    </item>
+    
+    <item>
+      <title>Testar Lista de Proxys</title>
+      <link>https://miguellopes.net/blog/en/testar-lista-de-proxys/</link>
+      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/testar-lista-de-proxys/</guid>
+      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/en/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+  </channel>
+</rss>

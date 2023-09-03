@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssl on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/ssl/</link>
+    <description>Recent content in ssl on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 23 May 2011 20:18:24 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ataques ao SSL com webmitm</title>
+      <link>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</link>
+      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</guid>
+      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
+Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com webmitm</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</link>
+      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</guid>
+      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
+Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com SSLStrip</title>
+      <link>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</link>
+      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</guid>
+      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
+Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com SSLStrip</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</link>
+      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</guid>
+      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
+Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
+    </item>
+    
+  </channel>
+</rss>

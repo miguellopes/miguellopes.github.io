@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on miguellopes.net</title>
+    <link>https://miguellopes.net/categories/linux/</link>
+    <description>Recent content in Linux on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 26 Jul 2011 12:14:17 +0000</lastBuildDate><atom:link href="https://miguellopes.net/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Departamento de Defesa dos USA lança o LPS</title>
+      <link>https://miguellopes.net/blog/departamento-de-defesa-dos-usa-lanca-o-lps/</link>
+      <pubDate>Tue, 26 Jul 2011 12:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/departamento-de-defesa-dos-usa-lanca-o-lps/</guid>
+      <description>O Departamento de Defesa dos Estados unidos lançou uma distro de linux publicamente, com o nome de _Lightweight Portable Security _ou LPS-public.
+Segundo a pagina da distro têm o proposito de tornar um computador inseguro, como por exemplo um computador de casa num computador seguro já que tudo se passa na RAM e como não escreve no disco não ficam marcas permanentes da presença da sua utilização.
+Esta é apenas uma das versões existem também outras que não estão disponíveis para o publico so para membros das varias agências depois de apresentarem os motivos para a sua utilização já que essas distros vêm preparadas para se ligar aos sistemas do Departamento de Defesa.</description>
+    </item>
+    
+    <item>
+      <title>Departamento de Defesa dos USA lança o LPS</title>
+      <link>https://miguellopes.net/blog/en/departamento-de-defesa-dos-usa-lanca-o-lps/</link>
+      <pubDate>Tue, 26 Jul 2011 12:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/departamento-de-defesa-dos-usa-lanca-o-lps/</guid>
+      <description>O Departamento de Defesa dos Estados unidos lançou uma distro de linux publicamente, com o nome de _Lightweight Portable Security _ou LPS-public.
+Segundo a pagina da distro têm o proposito de tornar um computador inseguro, como por exemplo um computador de casa num computador seguro já que tudo se passa na RAM e como não escreve no disco não ficam marcas permanentes da presença da sua utilização.
+Esta é apenas uma das versões existem também outras que não estão disponíveis para o publico so para membros das varias agências depois de apresentarem os motivos para a sua utilização já que essas distros vêm preparadas para se ligar aos sistemas do Departamento de Defesa.</description>
+    </item>
+    
+    <item>
+      <title>Conversas Seguras por Email e Chat</title>
+      <link>https://miguellopes.net/blog/conversas-seguras-por-email-e-chat/</link>
+      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/conversas-seguras-por-email-e-chat/</guid>
+      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
+Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
+    </item>
+    
+    <item>
+      <title>Conversas Seguras por Email e Chat</title>
+      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
+      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
+      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
+Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
+    </item>
+    
+    <item>
+      <title>Extrair ficheiros de Capturas de rede</title>
+      <link>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</link>
+      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</guid>
+      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
+Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
+    </item>
+    
+    <item>
+      <title>Extrair ficheiros de Capturas de rede</title>
+      <link>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</link>
+      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</guid>
+      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
+Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com webmitm</title>
+      <link>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</link>
+      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-webmitm/</guid>
+      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
+Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com webmitm</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</link>
+      <pubDate>Mon, 23 May 2011 20:18:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-webmitm/</guid>
+      <description>**O webmitm é uma ferramenta semelhante ao SSLStrip do post anterior, excepto que em vez de passar a ligação do utilizador a uma ligação não encriptada, cria um certificado auto-assinado e envia ao utilizador, deixando assim a ligação encriptada mas com uma encriptação da qual temos a chave.**
+Para o webmitm funcionar correctamente também são necessários completar alguns passos tal como com o SSLStrip, no entanto embora alguns dos passos sejam iguais irei alcança-los de forma diferente para dar a conhecer mais do que um metodo de os atingir.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com SSLStrip</title>
+      <link>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</link>
+      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/ataques-ao-ssl-com-sslstrip/</guid>
+      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
+Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
+    </item>
+    
+    <item>
+      <title>Ataques ao SSL com SSLStrip</title>
+      <link>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</link>
+      <pubDate>Sun, 22 May 2011 21:24:45 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/ataques-ao-ssl-com-sslstrip/</guid>
+      <description>**O _SSLStrip _é uma ferramenta que pode num ataque de mitm ( Man-in-the-middle ou Homem no meio) pode passar as ligações SSL a ligações normais sem SSL, permitindo assim que os dados que deveriam estar encriptados passarem sem qualquer tipo de protecção.**
+Para o SSLStrip funcionar são precisas reunir algumas condições, nomeadamente conseguir colocar-se entre a vitima do ataque e trocar os valores dados pelos servidor dns para que a vitima aceda á nossa versão da pagina em questão.</description>
+    </item>
+    
+    <item>
+      <title>Túneis SSH</title>
+      <link>https://miguellopes.net/blog/tuneis-ssh/</link>
+      <pubDate>Sat, 21 May 2011 22:27:07 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/tuneis-ssh/</guid>
+      <description>No ultimo post falei da segurança ou da falta dela em WebVPNs, e da alternativa dos túneis SSH. Pois aqui ficam algumas indicações para o fazerem.
+$ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
+    </item>
+    
+    <item>
+      <title>Túneis SSH</title>
+      <link>https://miguellopes.net/blog/en/tuneis-ssh/</link>
+      <pubDate>Sat, 21 May 2011 22:27:07 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/tuneis-ssh/</guid>
+      <description>No ultimo post falei da segurança ou da falta dela em WebVPNs, e da alternativa dos túneis SSH. Pois aqui ficam algumas indicações para o fazerem.
+$ ssh -L 110:localhost:110 utilizador@mail.servidor.com O parametro -L cria uma ligação encriptada da porta destino á porta local escolhida pelo utilizador. Ou seja a:ip_destino:b o parametro -L liga a porta &amp;lsquo;a&amp;rsquo; ao endereço dado e porta &amp;lsquo;b&amp;rsquo;. Sendo o ip_destino qualquer maquina a que o servidor tenha acesso.</description>
+    </item>
+    
+    <item>
+      <title>Aumenta a Performance do MySQL com o cache das querys</title>
+      <link>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
+      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
+      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
+Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
+    </item>
+    
+    <item>
+      <title>Aumenta a Performance do MySQL com o cache das querys</title>
+      <link>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
+      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
+      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
+Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
+    </item>
+    
+    <item>
+      <title>De um WebHosting para um VPS</title>
+      <link>https://miguellopes.net/blog/webhosting-vps/</link>
+      <pubDate>Mon, 11 Apr 2011 17:22:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/webhosting-vps/</guid>
+      <description>Neste ultimo mês expirou o meu contracto com a Dreamhost, e depois de ver o que havia disponível decidi optar por uma VPS, mas sem ter grande noção dos recursos que normalmente são usados pelo apache2, mysql e php. Comprei um VPS ainda mais barato do que o webhosting, mas com apenas 256 de ram não fica uma tarefa facil ter uma boa performance.
+Comecei sem olhar a gastos com o apache2, php e mysql quando reparei ja estava a utilizar toda a minha RAM sem sequer estar a receber visitas no blog.</description>
+    </item>
+    
+    <item>
+      <title>De um WebHosting para um VPS</title>
+      <link>https://miguellopes.net/blog/en/webhosting-vps/</link>
+      <pubDate>Mon, 11 Apr 2011 17:22:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/webhosting-vps/</guid>
+      <description>Neste ultimo mês expirou o meu contracto com a Dreamhost, e depois de ver o que havia disponível decidi optar por uma VPS, mas sem ter grande noção dos recursos que normalmente são usados pelo apache2, mysql e php. Comprei um VPS ainda mais barato do que o webhosting, mas com apenas 256 de ram não fica uma tarefa facil ter uma boa performance.
+Comecei sem olhar a gastos com o apache2, php e mysql quando reparei ja estava a utilizar toda a minha RAM sem sequer estar a receber visitas no blog.</description>
+    </item>
+    
+  </channel>
+</rss>

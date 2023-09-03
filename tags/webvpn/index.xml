@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webvpn on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/webvpn/</link>
+    <description>Recent content in webvpn on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 21 May 2011 20:24:43 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/webvpn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A segurança de WebVPNs</title>
+      <link>https://miguellopes.net/blog/a-seguranca-de-webvpns/</link>
+      <pubDate>Sat, 21 May 2011 20:24:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/a-seguranca-de-webvpns/</guid>
+      <description>As WebVPNs ou VPN SSL, são aplicações web que pretendem disponibilizar acesso a recursos dentro da sua rede a utilizadores que venham do exterior. Este tipo de sistema actua como um proxy para os varios serviços dentro da rede.
+Este tipo de VPN é útil quando não é possível configurar uma VPN normal.
+O OpenVPN ALS (Adito) é uma solução WebVPN que permite a criação de varios grupos e utilizadores, e também definir o acesso aos serviços dentro da rede conforme o utilizador que acede.</description>
+    </item>
+    
+    <item>
+      <title>A segurança de WebVPNs</title>
+      <link>https://miguellopes.net/blog/en/a-seguranca-de-webvpns/</link>
+      <pubDate>Sat, 21 May 2011 20:24:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/a-seguranca-de-webvpns/</guid>
+      <description>As WebVPNs ou VPN SSL, são aplicações web que pretendem disponibilizar acesso a recursos dentro da sua rede a utilizadores que venham do exterior. Este tipo de sistema actua como um proxy para os varios serviços dentro da rede.
+Este tipo de VPN é útil quando não é possível configurar uma VPN normal.
+O OpenVPN ALS (Adito) é uma solução WebVPN que permite a criação de varios grupos e utilizadores, e também definir o acesso aos serviços dentro da rede conforme o utilizador que acede.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ips on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/ips/</link>
+    <description>Recent content in ips on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 08 May 2011 14:39:31 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/ips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Os IPs de alguns anónimos foram publicados</title>
+      <link>https://miguellopes.net/blog/os-ips-de-alguns-anonimos-foram-publicados/</link>
+      <pubDate>Sun, 08 May 2011 14:39:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/os-ips-de-alguns-anonimos-foram-publicados/</guid>
+      <description>Esta semana parece ter havido uma confusão entre os Administradores e Operadores dos servidores da rede irc da Anonops, visto que foram publicados aproximadamente 650 IPs e usernames de anónimos assim como um estrutura da rede em que se encontram.
+A rede têm estado em manutenção ao que parece a estrutura irá ser modificada e os Operadores responsáveis foram expulsos dos seus cargos.
+Está lista existe so para tentar assustar alguns anónimos pois não serve de grande coisa ja que a maioria possui ips dinâmicos ou se liga através de proxies darknets ou vpns.</description>
+    </item>
+    
+    <item>
+      <title>Os IPs de alguns anónimos foram publicados</title>
+      <link>https://miguellopes.net/blog/en/os-ips-de-alguns-anonimos-foram-publicados/</link>
+      <pubDate>Sun, 08 May 2011 14:39:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/os-ips-de-alguns-anonimos-foram-publicados/</guid>
+      <description>Esta semana parece ter havido uma confusão entre os Administradores e Operadores dos servidores da rede irc da Anonops, visto que foram publicados aproximadamente 650 IPs e usernames de anónimos assim como um estrutura da rede em que se encontram.
+A rede têm estado em manutenção ao que parece a estrutura irá ser modificada e os Operadores responsáveis foram expulsos dos seus cargos.
+Está lista existe so para tentar assustar alguns anónimos pois não serve de grande coisa ja que a maioria possui ips dinâmicos ou se liga através de proxies darknets ou vpns.</description>
+    </item>
+    
+  </channel>
+</rss>

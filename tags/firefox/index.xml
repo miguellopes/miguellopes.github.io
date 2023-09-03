@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firefox on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/firefox/</link>
+    <description>Recent content in Firefox on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 20 Apr 2011 16:00:24 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apreensão de dominios</title>
+      <link>https://miguellopes.net/blog/apreensao-de-dominios/</link>
+      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/apreensao-de-dominios/</guid>
+      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
+Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
+    </item>
+    
+    <item>
+      <title>Apreensão de dominios</title>
+      <link>https://miguellopes.net/blog/en/apreensao-de-dominios/</link>
+      <pubDate>Wed, 20 Apr 2011 16:00:24 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/apreensao-de-dominios/</guid>
+      <description>Têm havido apreensões de nomes de domínio relacionados com partilha de ficheiros pelo Governo dos EUA que nos últimos meses provocaram muita polêmica. Apesar das pesadas críticas de vários lados, o final ainda não está à vista.
+Para combater isto foi criado um Add-on para o Firefox (um para o Chrome está a caminho) que usa dominios alternativos quando os originais são apreendidos. O nome do plugin MafiaaFire.</description>
+    </item>
+    
+    <item>
+      <title>Firefox 4</title>
+      <link>https://miguellopes.net/blog/firefox-4/</link>
+      <pubDate>Wed, 23 Mar 2011 19:35:52 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/firefox-4/</guid>
+      <description>O novo Firefox 4 saiu esta semana e ja ultrapassou os (9) 10 milhões de downloads, segundo o site que a Mozilla criou para a visualização das estatísticas de downloads do Firefox 4.
+Esta nova versão apresenta-se com um novo design, melhor desempenho, através de uma velocidade superior aos seus antecessores, protecção contra crashes e o novo motor 3D WebGL que permite tirar proveito das novas e potentes placas gráficas.</description>
+    </item>
+    
+    <item>
+      <title>Firefox 4</title>
+      <link>https://miguellopes.net/blog/en/firefox-4/</link>
+      <pubDate>Wed, 23 Mar 2011 19:35:52 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/firefox-4/</guid>
+      <description>O novo Firefox 4 saiu esta semana e ja ultrapassou os (9) 10 milhões de downloads, segundo o site que a Mozilla criou para a visualização das estatísticas de downloads do Firefox 4.
+Esta nova versão apresenta-se com um novo design, melhor desempenho, através de uma velocidade superior aos seus antecessores, protecção contra crashes e o novo motor 3D WebGL que permite tirar proveito das novas e potentes placas gráficas.</description>
+    </item>
+    
+  </channel>
+</rss>

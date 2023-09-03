@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macbook on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/macbook/</link>
+    <description>Recent content in macbook on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 25 Jul 2011 09:12:42 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atacar o Mac através da bateria</title>
+      <link>https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/</link>
+      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/</guid>
+      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
+Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
+    </item>
+    
+    <item>
+      <title>Atacar o Mac através da bateria</title>
+      <link>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</link>
+      <pubDate>Mon, 25 Jul 2011 09:12:42 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/atacar-o-mac-atraves-da-bateria/</guid>
+      <description>_**Depois do lançamento do sistema operativo mais avançado e seguro por parte da Apple, começam a ser explorados outros vectores de ataque que até agora não tinham sido considerados.**_
+Charlie Miller, um consultor da firma de segurança de sistemas de informação Accuvant, e co-autor do livro &amp;ldquo;The Mac Hacker&amp;rsquo;s Handbook&amp;rdquo;, afirma que é possível obter acesso aos Macs que possuam uma bateria através do sistema de gestão da bateria. A falha está na opção da Apple de não modificar as passwords de acesso aos sistemas incorporados para gerir a bateria dos seus dispositivos.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sms on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/sms/</link>
+    <description>Recent content in sms on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 25 Oct 2012 01:52:25 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/sms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+    <item>
+      <title>Comunicações seguras no Android</title>
+      <link>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</link>
+      <pubDate>Thu, 25 Oct 2012 01:52:25 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/comunicacoes-seguras-no-android/</guid>
+      <description>Para quem se preocupa com a segurança das suas comunicações ficam aqui duas sugestões para se assegurar que mais ninguém têm acesso aos seus dados.
+Normalmente quando pensamos em fazer uma chamada ou enviar um SMS não consideramos sequer, a segurança que temos ao faze-lo, não sabemos se está alguém mais a ouvir a conversa ou a ver a mensagem. Mas esta questão torna-se pertinente quando a facilidade de aquisição de equipamentos que permitem simular uma central de telecomunicações aumenta.</description>
+    </item>
+    
+  </channel>
+</rss>

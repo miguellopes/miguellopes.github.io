@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/mysql/</link>
+    <description>Recent content in mysql on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 13 May 2011 17:12:16 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aumenta a Performance do MySQL com o cache das querys</title>
+      <link>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
+      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
+      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
+Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
+    </item>
+    
+    <item>
+      <title>Aumenta a Performance do MySQL com o cache das querys</title>
+      <link>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</link>
+      <pubDate>Fri, 13 May 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/aumenta-a-performance-do-mysql-com-o-cache-das-querys/</guid>
+      <description>O MySQL é o maior sistema de base-dados open source existente. É utilizado em milhões de aplicações que utilizamos na web e não só, para uma lista de clientes podem visitar o site.
+Este sistema de base-dados por muito bom que seja não vêm totalmente optimizado para cada aplicação no momento em que é instalado, isto nota-se mais em sistemas com poucos recursos. A utilização do cache das querys pode aumentar a performance significativamente.</description>
+    </item>
+    
+  </channel>
+</rss>

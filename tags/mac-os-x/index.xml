@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac os x on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/mac-os-x/</link>
+    <description>Recent content in mac os x on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 22 Apr 2011 02:19:43 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/mac-os-x/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atalhos do teclado para o Mac</title>
+      <link>https://miguellopes.net/blog/atalhos-do-teclado-para-o-mac/</link>
+      <pubDate>Fri, 22 Apr 2011 02:19:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/atalhos-do-teclado-para-o-mac/</guid>
+      <description>Tenho andado a testar maneiras para aumentar a minha produtividade. Até agora tenho utilizado o Spaces com 8 ambientes de trabalho, no entanto isso pode-s tornar um pouco caotico, por isso decidi testar outros metodos e reduzi o numero de ambientes de trabalho para 4 e voltei ao processo de minimização das janelas. Visto que a minha Dock se esconde automaticamente para poupar espaço de trabalho, restaurar a janela depois de ter sido minimizada pode ser um pouco chato e acabar com o proposito de aumentar a produtividade.</description>
+    </item>
+    
+    <item>
+      <title>Atalhos do teclado para o Mac</title>
+      <link>https://miguellopes.net/blog/en/atalhos-do-teclado-para-o-mac/</link>
+      <pubDate>Fri, 22 Apr 2011 02:19:43 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/atalhos-do-teclado-para-o-mac/</guid>
+      <description>Tenho andado a testar maneiras para aumentar a minha produtividade. Até agora tenho utilizado o Spaces com 8 ambientes de trabalho, no entanto isso pode-s tornar um pouco caotico, por isso decidi testar outros metodos e reduzi o numero de ambientes de trabalho para 4 e voltei ao processo de minimização das janelas. Visto que a minha Dock se esconde automaticamente para poupar espaço de trabalho, restaurar a janela depois de ter sido minimizada pode ser um pouco chato e acabar com o proposito de aumentar a produtividade.</description>
+    </item>
+    
+  </channel>
+</rss>

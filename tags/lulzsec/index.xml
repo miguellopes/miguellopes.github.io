@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lulzsec on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/lulzsec/</link>
+    <description>Recent content in lulzsec on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 18 Jul 2011 21:37:49 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/lulzsec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LulzSec volta á carga</title>
+      <link>https://miguellopes.net/blog/lulsec-volta-a-carga/</link>
+      <pubDate>Mon, 18 Jul 2011 21:37:49 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/lulsec-volta-a-carga/</guid>
+      <description>Hoje a equipa de hackers LulzSec voltou á carga, ao atacar o site do jornal The Sun. O site foi atacado e continua a sofrer alterações feitas pelo grupo.
+O site foi invadido foram feitos redireccionamentos, para outros sites e para a conta do twitter dos LulzSec. Têm também partilhado informações sobre jornalistas, e-mails e passwords.
+(A noticia da morte de Rupert Murdoch é falsa e foi colocada pelos LulzSec)</description>
+    </item>
+    
+    <item>
+      <title>LulzSec volta á carga</title>
+      <link>https://miguellopes.net/blog/en/lulsec-volta-a-carga/</link>
+      <pubDate>Mon, 18 Jul 2011 21:37:49 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/lulsec-volta-a-carga/</guid>
+      <description>Hoje a equipa de hackers LulzSec voltou á carga, ao atacar o site do jornal The Sun. O site foi atacado e continua a sofrer alterações feitas pelo grupo.
+O site foi invadido foram feitos redireccionamentos, para outros sites e para a conta do twitter dos LulzSec. Têm também partilhado informações sobre jornalistas, e-mails e passwords.
+(A noticia da morte de Rupert Murdoch é falsa e foi colocada pelos LulzSec)</description>
+    </item>
+    
+    <item>
+      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
+      <link>https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
+      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
+      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
+O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
+shouldichangemypassword.com</description>
+    </item>
+    
+    <item>
+      <title>Será que o meu mail foi comprometido pelo LulzSec</title>
+      <link>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</link>
+      <pubDate>Tue, 21 Jun 2011 23:12:34 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/</guid>
+      <description>_**Um analista de segurança de Sydney criou um pequeno site que verifica se o teu email já foi publicado com a respectiva password pelo LulzSec**_
+O site é de facil utilização basta introduzir o email e clicar em _check it _e é logo feita uma buscar por esse email numa base de dados com todos as credenciais que os LulzSec publicaram até agora.
+shouldichangemypassword.com</description>
+    </item>
+    
+    <item>
+      <title>LulzSec coloca dados da Sony no Pirate Bay</title>
+      <link>https://miguellopes.net/blog/lulzsec-coloca-dados-da-sony-no-pirate-bay/</link>
+      <pubDate>Tue, 07 Jun 2011 19:35:38 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/lulzsec-coloca-dados-da-sony-no-pirate-bay/</guid>
+      <description>_**O grupo de Hackers conhecido como LulzSecurity, que afirma ter sido responsável pelos ataques feitos á Sony, colocou no Pirate Bay um torrent com os supostos dados dos utilizadores dos varios serviços da Sony.**_
+No passado dia 2 deste mês o LulzSecurity colocou a primeira parte dos dados obtidos através dos servidores da Sony. No torrent estavam também disponíveis códigos e cupões utilizados pelos sistemas de venda. Apesar de ontem ter sido colocada a suposta ultima parte dos dados(que iram ser publicados), é aconselhado que todos os utilizadores de serviços da Sony mudem as suas passwords mesmo que não tenham sido publicados já que podem ter sido também obtidos.</description>
+    </item>
+    
+    <item>
+      <title>LulzSec coloca dados da Sony no Pirate Bay</title>
+      <link>https://miguellopes.net/blog/en/lulzsec-coloca-dados-da-sony-no-pirate-bay/</link>
+      <pubDate>Tue, 07 Jun 2011 19:35:38 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/lulzsec-coloca-dados-da-sony-no-pirate-bay/</guid>
+      <description>_**O grupo de Hackers conhecido como LulzSecurity, que afirma ter sido responsável pelos ataques feitos á Sony, colocou no Pirate Bay um torrent com os supostos dados dos utilizadores dos varios serviços da Sony.**_
+No passado dia 2 deste mês o LulzSecurity colocou a primeira parte dos dados obtidos através dos servidores da Sony. No torrent estavam também disponíveis códigos e cupões utilizados pelos sistemas de venda. Apesar de ontem ter sido colocada a suposta ultima parte dos dados(que iram ser publicados), é aconselhado que todos os utilizadores de serviços da Sony mudem as suas passwords mesmo que não tenham sido publicados já que podem ter sido também obtidos.</description>
+    </item>
+    
+  </channel>
+</rss>

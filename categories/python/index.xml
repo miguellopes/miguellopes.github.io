@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on miguellopes.net</title>
+    <link>https://miguellopes.net/categories/python/</link>
+    <description>Recent content in Python on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 15 Oct 2011 16:14:17 +0000</lastBuildDate><atom:link href="https://miguellopes.net/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Findmyhashes - Hashes &#34;crackadas&#34; em serviços online</title>
+      <link>https://miguellopes.net/blog/findmyhashes/</link>
+      <pubDate>Sat, 15 Oct 2011 16:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/findmyhashes/</guid>
+      <description>_O findmyhashes é um script feito em Python que procura hashes em serviços de verificação de hashes online. _
+Este script open-source procura um grande numero de hashes em serviços online e tenta encontrar o valores a partir dos quais as hashes foram criadas, e caso não seja encontrada procura no Google.
+O findmyhashes suporta 17 tipos de hashes:
+MD4 - RFC 1320
+MD5 - RFC 1321
+SHA1 - RFC 3174 (FIPS 180-3)</description>
+    </item>
+    
+    <item>
+      <title>Findmyhashes - Hashes &#34;crackadas&#34; em serviços online</title>
+      <link>https://miguellopes.net/blog/en/findmyhashes/</link>
+      <pubDate>Sat, 15 Oct 2011 16:14:17 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/findmyhashes/</guid>
+      <description>_O findmyhashes é um script feito em Python que procura hashes em serviços de verificação de hashes online. _
+Este script open-source procura um grande numero de hashes em serviços online e tenta encontrar o valores a partir dos quais as hashes foram criadas, e caso não seja encontrada procura no Google.
+O findmyhashes suporta 17 tipos de hashes:
+MD4 - RFC 1320
+MD5 - RFC 1321
+SHA1 - RFC 3174 (FIPS 180-3)</description>
+    </item>
+    
+    <item>
+      <title>Slow Post com R.U.D.Y.</title>
+      <link>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</link>
+      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/slow-post-com-r-u-d-y/</guid>
+      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
+    </item>
+    
+    <item>
+      <title>Slow Post com R.U.D.Y.</title>
+      <link>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</link>
+      <pubDate>Sun, 08 May 2011 19:41:02 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/slow-post-com-r-u-d-y/</guid>
+      <description>Num post anterior falei dum ataque DoS recentemente descoberto, o slow post. Que consiste em enviar POSTs extremamente grandes para que os servidores não consigam lidar com mais pedidos. E como até agora não tinha encontrado mais nenhuma ferramenta que executa-se o mesmo ataque para alem da do OWASP decidi fazer uma em python no entanto antes de começar descobri que o que isso ja existia, apenas tinha um nome completamente script kiddie que devia ser esperado para este tipo de ferramentas ja que não requerem muitos conhecimentos.</description>
+    </item>
+    
+    <item>
+      <title>Testar Lista de Proxys</title>
+      <link>https://miguellopes.net/blog/testar-lista-de-proxys/</link>
+      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/testar-lista-de-proxys/</guid>
+      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
+    </item>
+    
+    <item>
+      <title>Testar Lista de Proxys</title>
+      <link>https://miguellopes.net/blog/en/testar-lista-de-proxys/</link>
+      <pubDate>Sun, 13 Mar 2011 16:54:26 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/testar-lista-de-proxys/</guid>
+      <description>Anteriormente, falei sobre servidores proxy (Navegue em Anonimato). Eles são realmente úteis para esconder o teu verdadeiro endereço IP, e para evitar algumas regras das firewall. Mas por vezes é difícil encontrar um proxy que funcione, então á algumas semanas atrás fiz um script para a partir de uma lista de endereços IP e portas os testa-se e cria-se uma nova lista dos proxys que realmente funcionam. Vou postar o script mesmo sem comentários, e quando tiver tempo comento e tento melhorar o script.</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/en/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tcpxtract on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/tcpxtract/</link>
+    <description>Recent content in tcpxtract on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 03 Jun 2011 17:56:27 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/tcpxtract/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extrair ficheiros de Capturas de rede</title>
+      <link>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</link>
+      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/extrair-ficheiros-de-capturas-de-rede/</guid>
+      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
+Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
+    </item>
+    
+    <item>
+      <title>Extrair ficheiros de Capturas de rede</title>
+      <link>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</link>
+      <pubDate>Fri, 03 Jun 2011 17:56:27 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/extrair-ficheiros-de-capturas-de-rede/</guid>
+      <description>_**Em muitas ocasiões é útil ver o que se passa na rede, e numa auditoria na semana passada, para uma vista mais rapida do que se passava decidi usar alguns programas que juntam os pacotes que encontram e constroem o resultado final como imagens, videos e ficheros de texto.**_
+Nessa auditoria juntamente com o wireshark, estava também a correr o driftnet que captura as imagens e as apresenta numa janela.</description>
+    </item>
+    
+  </channel>
+</rss>

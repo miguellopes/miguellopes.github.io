@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/.net/</link>
+    <description>Recent content in .NET on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 13 Mar 2011 20:17:08 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LOIC a arma dos Anónimos para os ataques DoS</title>
+      <link>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
+      <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
+      <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
+    </item>
+    
+    <item>
+      <title>LOIC a arma dos Anónimos para os ataques DoS</title>
+      <link>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</link>
+      <pubDate>Sun, 13 Mar 2011 20:17:08 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/loic-a-arma-dos-anonimos-para-os-ataques-dos/</guid>
+      <description>Tem havido uma ciber-guerra na internet. Anónimos contra empresas cinematográficas e as instituições que lutam por elas, governos de tirania em países como Egito, e a recentemente a Líbia. Mas como podem eles ampliar seus ataques a esses grupos tão grandes e poderosos? Bem, eles planeiam unificam os recursos que têm para derrubar um servidor de cada vez. Eles desenvolveram uma ferramenta chamada LOIC em C# . NET que é capaz de ser ajustada manualmente para atacar ou receber ordens de um canal de IRC.</description>
+    </item>
+    
+    <item>
+      <title>Injectar Codigo em Aplicações .NET</title>
+      <link>https://miguellopes.net/blog/injectar-codigo-em-aplicacoes-net/</link>
+      <pubDate>Sun, 13 Mar 2011 19:22:53 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/injectar-codigo-em-aplicacoes-net/</guid>
+      <description>Aqui está um vídeo educativo sobre segurança em .NET. Jon McCoy com o seu DotNetasploit, faz com que as aplicações .NET funcionem para o servir, com a aplicação dele é possível injectar novo código em qualquer aplicação. NET. No vídeo, ele mostra um pouco do que pode ser feito com o programa, desde modificar a interface gráfica até passar o formulário de registo da aplicação. (fonte: Irongeek).
+Jon McCoy Ninja Patching .</description>
+    </item>
+    
+    <item>
+      <title>Injectar Codigo em Aplicações .NET</title>
+      <link>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</link>
+      <pubDate>Sun, 13 Mar 2011 19:22:53 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/injectar-codigo-em-aplicacoes-net/</guid>
+      <description>Aqui está um vídeo educativo sobre segurança em .NET. Jon McCoy com o seu DotNetasploit, faz com que as aplicações .NET funcionem para o servir, com a aplicação dele é possível injectar novo código em qualquer aplicação. NET. No vídeo, ele mostra um pouco do que pode ser feito com o programa, desde modificar a interface gráfica até passar o formulário de registo da aplicação. (fonte: Irongeek).
+Jon McCoy Ninja Patching .</description>
+    </item>
+    
+  </channel>
+</rss>

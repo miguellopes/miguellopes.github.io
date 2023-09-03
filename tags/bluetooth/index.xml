@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bluetooth on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/bluetooth/</link>
+    <description>Recent content in Bluetooth on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 26 Dec 2010 21:11:31 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/bluetooth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+    <item>
+      <title>Receptor de GPS Bluetooth (Python)</title>
+      <link>https://miguellopes.net/blog/en/bluetooth-gps-python/</link>
+      <pubDate>Sun, 26 Dec 2010 21:11:31 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/bluetooth-gps-python/</guid>
+      <description>Um dos projectos no qual estou actualmente a trabalhar requer que eu trabalhe com dispositivos GPS e coordenadas.
+No processo de desenvolvimento do projecto necessitei de um programa/script que fosse capaz de obter algumas informações dadas por um receptor de GPS Bluetooth.
+O dispositivo em questão utilizava o protocolo NMEA 0183, e neste caso a ligação bluetooth é gerida pelo SO, deixando o dispositivo ligado numa porta serial virtual, permitindo-nos conectar e recolher informações.</description>
+    </item>
+    
+  </channel>
+</rss>

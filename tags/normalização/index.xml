@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Normalização on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/normaliza%C3%A7%C3%A3o/</link>
+    <description>Recent content in Normalização on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 25 Oct 2011 17:44:29 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/normaliza%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Normalização de dados</title>
+      <link>https://miguellopes.net/blog/normalizacao-de-dados/</link>
+      <pubDate>Tue, 25 Oct 2011 17:44:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/normalizacao-de-dados/</guid>
+      <description>A normalização de dados no modelo relacional é uma serie de etapas que permitem reduzir a redundancia e inconsistencia de dados, numa base de dados relacional. Existem varias formas normais no entanto considera-se que as bases de dados estão normalizadas se obedecerem á 3ª forma normal.
+Notações Básicas Na arquitectura de dados do modelo relacional existem duas formas de descrever a mesma, formal e informal. Na descrição informal lida-se com os termos práticos tabelas, linhas e colunas; Na descrição formal utiliza-se termos como Relação, Tupla e Cabeçalho.</description>
+    </item>
+    
+    <item>
+      <title>Normalização de dados</title>
+      <link>https://miguellopes.net/blog/en/normalizacao-de-dados/</link>
+      <pubDate>Tue, 25 Oct 2011 17:44:29 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/normalizacao-de-dados/</guid>
+      <description>A normalização de dados no modelo relacional é uma serie de etapas que permitem reduzir a redundancia e inconsistencia de dados, numa base de dados relacional. Existem varias formas normais no entanto considera-se que as bases de dados estão normalizadas se obedecerem á 3ª forma normal.
+Notações Básicas Na arquitectura de dados do modelo relacional existem duas formas de descrever a mesma, formal e informal. Na descrição informal lida-se com os termos práticos tabelas, linhas e colunas; Na descrição formal utiliza-se termos como Relação, Tupla e Cabeçalho.</description>
+    </item>
+    
+  </channel>
+</rss>

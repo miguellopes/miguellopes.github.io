@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chat on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/chat/</link>
+    <description>Recent content in chat on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 05 Jun 2011 16:15:33 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/chat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conversas Seguras por Email e Chat</title>
+      <link>https://miguellopes.net/blog/conversas-seguras-por-email-e-chat/</link>
+      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/conversas-seguras-por-email-e-chat/</guid>
+      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
+Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
+    </item>
+    
+    <item>
+      <title>Conversas Seguras por Email e Chat</title>
+      <link>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</link>
+      <pubDate>Sun, 05 Jun 2011 16:15:33 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/conversas-seguras-por-email-e-chat/</guid>
+      <description>**_No artigo anterior mostrei que era possível reconstruir muito do conteúdo que passa pela rede. Para além do que foi previamente mostrado como ver os ficheiros que estão a passar é também possível ver emails e as conversas que são utilizadas por diferentes protocolos._**
+Mesmo que as ligações aos serviços que estão a ser utilizados utilizem SSL, é possível conseguir ver o que se passa entre o cliente e o servidor.</description>
+    </item>
+    
+  </channel>
+</rss>

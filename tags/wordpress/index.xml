@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/wordpress/</link>
+    <description>Recent content in wordpress on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 26 Nov 2011 15:15:06 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>WPScan versão 1.1 </title>
+      <link>https://miguellopes.net/blog/en/wpscan-versao-1-1/</link>
+      <pubDate>Sat, 26 Nov 2011 15:15:06 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/wpscan-versao-1-1/</guid>
+      <description>O WPScan é uma ferramenta desenvolvida pelo ethicalhack3r, que pretende avaliar e alertar para falhas conhecidas em sistemas Wordpress.
+Está ferramenta foi agora lançada na sua versão 1.1 com a correcção de alguns bugs e adição de mais 107 vulnerabilidades conhecidas no Wordpress.
+Para descarregarem a nova versão podem faze-lo por SVN com o comando:
+svn checkout http://wpscan.googlecode.com/svn/trunk/ ./wpscan-1.1 Links relacionados www.ethicalhack3r.co.uk
+code.google.com/p/wpscan/</description>
+    </item>
+    
+    <item>
+      <title>Mitigar o WPScan</title>
+      <link>https://miguellopes.net/blog/mitigar-o-wpscan/</link>
+      <pubDate>Mon, 17 Oct 2011 18:14:01 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/mitigar-o-wpscan/</guid>
+      <description>O WPScan é uma ferramenta criado pelo ethicalhack3r que pretende identificar falhas ou pontos fracos em sistemas Wordpress, permite enumerar utilizadores, plugins e as suas versões, alertando também para as versões com vulnerabilidades públicas.
+Antes de mais todas as medidas que apresento só foram testadas contra a _versão 1.1, _com isto quero dizer que nas próximas versões provavelmente quase todas estas mudanças podem se tornar inúteis. Deixo também claro que estas mudanças podem não servir para toda a gente já que á funcionalidades das quais abdico.</description>
+    </item>
+    
+    <item>
+      <title>Mitigar o WPScan</title>
+      <link>https://miguellopes.net/blog/en/mitigar-o-wpscan/</link>
+      <pubDate>Mon, 17 Oct 2011 18:14:01 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/mitigar-o-wpscan/</guid>
+      <description>O WPScan é uma ferramenta criado pelo ethicalhack3r que pretende identificar falhas ou pontos fracos em sistemas Wordpress, permite enumerar utilizadores, plugins e as suas versões, alertando também para as versões com vulnerabilidades públicas.
+Antes de mais todas as medidas que apresento só foram testadas contra a _versão 1.1, _com isto quero dizer que nas próximas versões provavelmente quase todas estas mudanças podem se tornar inúteis. Deixo também claro que estas mudanças podem não servir para toda a gente já que á funcionalidades das quais abdico.</description>
+    </item>
+    
+  </channel>
+</rss>

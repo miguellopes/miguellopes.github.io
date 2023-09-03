@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vps on miguellopes.net</title>
+    <link>https://miguellopes.net/tags/vps/</link>
+    <description>Recent content in vps on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Apr 2011 17:22:21 +0000</lastBuildDate><atom:link href="https://miguellopes.net/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De um WebHosting para um VPS</title>
+      <link>https://miguellopes.net/blog/webhosting-vps/</link>
+      <pubDate>Mon, 11 Apr 2011 17:22:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/webhosting-vps/</guid>
+      <description>Neste ultimo mês expirou o meu contracto com a Dreamhost, e depois de ver o que havia disponível decidi optar por uma VPS, mas sem ter grande noção dos recursos que normalmente são usados pelo apache2, mysql e php. Comprei um VPS ainda mais barato do que o webhosting, mas com apenas 256 de ram não fica uma tarefa facil ter uma boa performance.
+Comecei sem olhar a gastos com o apache2, php e mysql quando reparei ja estava a utilizar toda a minha RAM sem sequer estar a receber visitas no blog.</description>
+    </item>
+    
+    <item>
+      <title>De um WebHosting para um VPS</title>
+      <link>https://miguellopes.net/blog/en/webhosting-vps/</link>
+      <pubDate>Mon, 11 Apr 2011 17:22:21 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/en/webhosting-vps/</guid>
+      <description>Neste ultimo mês expirou o meu contracto com a Dreamhost, e depois de ver o que havia disponível decidi optar por uma VPS, mas sem ter grande noção dos recursos que normalmente são usados pelo apache2, mysql e php. Comprei um VPS ainda mais barato do que o webhosting, mas com apenas 256 de ram não fica uma tarefa facil ter uma boa performance.
+Comecei sem olhar a gastos com o apache2, php e mysql quando reparei ja estava a utilizar toda a minha RAM sem sequer estar a receber visitas no blog.</description>
+    </item>
+    
+  </channel>
+</rss>
