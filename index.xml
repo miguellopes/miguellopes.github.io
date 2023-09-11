@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 03 Sep 2023 00:14:20 +0000</lastBuildDate><atom:link href="https://miguellopes.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 02:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptographic modes and catastrophic implementations</title>
+      <link>https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/</link>
+      <pubDate>Mon, 11 Sep 2023 02:37:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/</guid>
+      <description>In my professional journey, I&amp;rsquo;ve meticulously examined a myriad of cryptographic implementations. Whenever I stumbled upon non-standard practices, a surge of excitement would course through me. For my own intellectual curiosity, I&amp;rsquo;d often catalog various potential exploitation methods, even if only a couple would make it to my final assessment. In this article, I&amp;rsquo;ll delve into some alarmingly popular modes that I&amp;rsquo;ve come across, underscoring the gravity of their widespread use.</description>
+    </item>
+    
     <item>
       <title>Predictions with linear regression</title>
       <link>https://miguellopes.net/blog/predictions-with-linear-regression/</link>

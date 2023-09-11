@@ -10,11 +10,8 @@
     <meta name="author" content="Miguel Lopes">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
 
-    <title>Blog -- miguellopes.net</title>
+    <title>Cryptographic modes and catastrophic implementations -- miguellopes.net</title>
 
-
-<link href="https://miguellopes.net/blog/index.xml" rel="alternate" type="application/rss+xml" title="miguellopes.net" />
-<link href="https://miguellopes.net/blog/index.xml" rel="feed" type="application/rss+xml" title="miguellopes.net" />
 
     
 
@@ -252,230 +249,108 @@
     </nav>
 
 
+<link href="https://miguellopes.net/css/prism.css" rel="stylesheet" />
+
     
-    <header class="intro-header" style="background-image: url('https://miguellopes.net/img/blog.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="mx-auto">
-           <div class="site-heading">
-             <h1>Blog</h1>
-             <hr class="small">
-             <span class="subheading"></span>
+    
+    <header class="intro-header" style="background-image: url('https://miguellopes.net/img/post-bg.jpg')">
+    
+      <div class="container">
+        <div class="row">
+           <div class="mx-auto">
+             <div class="post-heading">
+               <h1>Cryptographic modes and catastrophic implementations</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Sep 11, 2023
+                 <br />
+                 
+In <pta href="https://miguellopes.net/categories/cryptography" >Cryptography</a>, 
+
+
+               </span>
+             </div>
            </div>
-         </div>
-       </div>
-     </div>
+        </div>
+      </div>
     </header>
 
     
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto">
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/setting-up-elasticsearch-logstash-and-kibana-for-qa/">
-                      <h2 class="post-title">Setting up Elasticsearch, Logstash and Kibana for QA and debugging</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Fri, Mar 4, 2016
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/scripts" >Scripts</a>, 
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto" style="text-align:justify;">
+                  <p>In my professional journey, I&rsquo;ve meticulously examined a myriad of cryptographic implementations. Whenever I stumbled upon non-standard practices, a surge of excitement would course through me. For my own intellectual curiosity, I&rsquo;d often catalog various potential exploitation methods, even if only a couple would make it to my final assessment. In this article, I&rsquo;ll delve into some alarmingly popular modes that I&rsquo;ve come across, underscoring the gravity of their widespread use.</p>
+<h2 id="electronic-codebook-ecb-mode">Electronic Codebook (ECB) Mode</h2>
+<p><strong>Flaw</strong>: <em>Pattern Recognition, Replay Attacks and so much more..</em>.</p>
+<p><strong>Fatal Scenario</strong>:
+Imagine an encrypted communication system for a military base using ECB. If the base sends out a standard &ldquo;All Clear&rdquo; message daily, an adversary could recognize the recurring pattern in the ciphertext. This predictability could allow the enemy to inject false messages, leading to misinformation and potential security breaches.</p>
+<h2 id="cipher-block-chaining-cbc-mode">Cipher Block Chaining (CBC) Mode</h2>
+<p><strong>Flaw</strong>: <em>IV Reuse and Predictability</em>.</p>
+<p><strong>Fatal Scenario</strong>:
+Consider an online banking system that uses CBC for encrypting transaction details. If the IV is predictable or reused, a malicious actor could manipulate transaction details in a way that, when decrypted, would transfer funds to their account, leading to financial losses and a compromised banking system.</p>
+<h2 id="counter-ctr-mode">Counter (CTR) Mode</h2>
+<p><strong>Flaw</strong>: <em>Counter Reuse</em>.</p>
+<p><strong>Fatal Scenario</strong>:
+In a secure messaging app using CTR mode, if a counter is reused, an attacker could intercept multiple messages and XOR them. This could reveal patterns or even exact message contents, compromising confidential communications, and potentially exposing sensitive information.</p>
+<p>This is not exclusive to CTR but generaly through out stream ciphers.</p>
+<h2 id="galoiscounter-mode-gcm">Galois/Counter Mode (GCM)</h2>
+<p><strong>Flaw</strong>: <em>IV Uniqueness and Message Forgery</em>.</p>
+<p><strong>Fatal Scenario</strong>:
+GCM&rsquo;s flaw is especially treacherous. In a cloud storage system using GCM for file encryption, if an IV is reused, an attacker could exploit this to recover the XOR of two ciphertexts. This could reveal the negative of a ciphered message, allowing the attacker to manipulate file contents. Furthermore, the ability to produce valid tags for arbitrary messages means an attacker could inject malicious data into the system, leading to data corruption, malware spread, or data breaches.</p>
+<p>The danger of GCM&rsquo;s flaw cannot be understated. The ability to recover the negative of a ciphered message means that if an attacker has a guess about the plaintext (like a standard header), they can confirm their guess and potentially recover the entire plaintext.</p>
+<p>In the realm of cryptography, understanding these potential catastrophes is crucial. It&rsquo;s not just about encrypting data; it&rsquo;s about ensuring that the chosen method doesn&rsquo;t inadvertently open the door to even graver threats. As I&rsquo;ve navigated the complex waters of cryptographic systems in my career, I&rsquo;ve seen firsthand the ramifications of these flaws. These are just some basic and straightforward examples. Yet, when mastered and applied during an assessment, they can appear almost like magic tricks. It&rsquo;s especially astonishing when, without access to source code, one can manipulate or decrypt data without obtaining a key, code, or any piece that would typically offer an advantage.</p>
 
-
-                    <br />
-                    <br />
-                  </p>
                 </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/simple-tracking-pixel/">
-                      <h2 class="post-title">Simple Tracking Pixel</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Fri, Dec 18, 2015
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/scripts" >Scripts</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/rebuilding-my-website/">
-                      <h2 class="post-title">Rebuilding my website</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Nov 16, 2015
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/sem-categoria" >Sem Categoria</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/analise-jscrambler/">
-                      <h2 class="post-title">Análise ao Jscrambler</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Tue, Sep 17, 2013
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/na-minha-opini%C3%A3o" >Na Minha Opinião</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/dentro-dos-routers-da-zon/">
-                      <h2 class="post-title">Dentro dos routers da Zon</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Wed, Feb 13, 2013
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/internet" >Internet</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/comunicacoes-seguras-no-android/">
-                      <h2 class="post-title">Comunicações seguras no Android</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Thu, Oct 25, 2012
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/android" >Android</a>, <pta href="https://miguellopes.net/categories/encripta%C3%A7%C3%A3o" >Encriptação</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/se-android/">
-                      <h2 class="post-title">SE Android</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Jan 23, 2012
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/wpscan-versao-1-1/">
-                      <h2 class="post-title">WPScan versão 1.1 </h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Sat, Nov 26, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/internet" >Internet</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/normalizacao-de-dados/">
-                      <h2 class="post-title">Normalização de dados</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Tue, Oct 25, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/base-de-dados" >Base De Dados</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/mitigar-o-wpscan/">
-                      <h2 class="post-title">Mitigar o WPScan</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Oct 17, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-          
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/3/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/7/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
+            </div>
+            <hr>
+            <div class="row navega">
+               <span class="col-md-12 dot">*</span>
+               <div class="col-md-6">
+                  
+               </div>
+               <div class="col-md-6">
+                  
+                  <span style="float:right;">
+                     <a href="https://miguellopes.net/blog/predictions-with-linear-regression/">Predictions with linear regression
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29.69px" height="10.52px" viewBox="0 0 29.69 10.52" enable-background="new 0 0 29.69 10.52" xml:space="preserve">
+<polygon points="8.179,4.01 20.581,4.01 20.581,0 29.69,5.26 20.581,10.52 20.581,6.51 8.179,6.51 "/>
+</svg>
+</a>
+                  </span>
+                  
+               </div>
+            </div>
         </div>
-      </div>
+    </article>
+
+    <hr>
+    <div class="container">
+       <div class="row">
+             <div class="col-lg-12 col-md-10">
+               <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.port == "1313")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'miguellopes';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+             </div>
+       </div>
     </div>
 
+<script src="https://miguellopes.net/js/prism.js"></script>
     <hr>
     
     <footer>

@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://miguellopes.net/about/</loc>
-    <lastmod>2023-09-03T00:14:20+00:00</lastmod>
-  </url><url>
-    <loc>https://miguellopes.net/</loc>
-    <lastmod>2023-09-03T00:14:20+00:00</lastmod>
-  </url><url>
     <loc>https://miguellopes.net/blog/</loc>
-    <lastmod>2016-10-17T02:37:13+00:00</lastmod>
+    <lastmod>2023-09-11T02:37:13+00:00</lastmod>
   </url><url>
     <loc>https://miguellopes.net/categories/</loc>
-    <lastmod>2016-10-17T02:37:13+00:00</lastmod>
+    <lastmod>2023-09-11T02:37:13+00:00</lastmod>
+  </url><url>
+    <loc>https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/</loc>
+    <lastmod>2023-09-11T02:37:13+00:00</lastmod>
+  </url><url>
+    <loc>https://miguellopes.net/categories/cryptography/</loc>
+    <lastmod>2023-09-11T02:37:13+00:00</lastmod>
+  </url><url>
+    <loc>https://miguellopes.net/</loc>
+    <lastmod>2023-09-11T02:37:13+00:00</lastmod>
+  </url><url>
+    <loc>https://miguellopes.net/about/</loc>
+    <lastmod>2023-09-03T00:14:20+00:00</lastmod>
   </url><url>
     <loc>https://miguellopes.net/blog/predictions-with-linear-regression/</loc>
     <lastmod>2016-10-17T02:37:13+00:00</lastmod>

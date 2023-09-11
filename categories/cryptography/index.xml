@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptography on miguellopes.net</title>
+    <link>https://miguellopes.net/categories/cryptography/</link>
+    <description>Recent content in Cryptography on miguellopes.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Sep 2023 02:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/categories/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptographic modes and catastrophic implementations</title>
+      <link>https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/</link>
+      <pubDate>Mon, 11 Sep 2023 02:37:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/</guid>
+      <description>In my professional journey, I&amp;rsquo;ve meticulously examined a myriad of cryptographic implementations. Whenever I stumbled upon non-standard practices, a surge of excitement would course through me. For my own intellectual curiosity, I&amp;rsquo;d often catalog various potential exploitation methods, even if only a couple would make it to my final assessment. In this article, I&amp;rsquo;ll delve into some alarmingly popular modes that I&amp;rsquo;ve come across, underscoring the gravity of their widespread use.</description>
+    </item>
+    
+  </channel>
+</rss>
