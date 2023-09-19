@@ -10,11 +10,8 @@
     <meta name="author" content="Miguel Lopes">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
 
-    <title>Blog -- miguellopes.net</title>
+    <title>Java Serialization: Understanding and Mitigating Risks -- miguellopes.net</title>
 
-
-<link href="https://miguellopes.net/blog/index.xml" rel="alternate" type="application/rss+xml" title="miguellopes.net" />
-<link href="https://miguellopes.net/blog/index.xml" rel="feed" type="application/rss+xml" title="miguellopes.net" />
 
     
 
@@ -252,230 +249,109 @@
     </nav>
 
 
+<link href="https://miguellopes.net/css/prism.css" rel="stylesheet" />
+
     
-    <header class="intro-header" style="background-image: url('https://miguellopes.net/img/blog.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="mx-auto">
-           <div class="site-heading">
-             <h1>Blog</h1>
-             <hr class="small">
-             <span class="subheading"></span>
+    
+    <header class="intro-header" style="background-image: url('https://miguellopes.net/img/post-bg.jpg')">
+    
+      <div class="container">
+        <div class="row">
+           <div class="mx-auto">
+             <div class="post-heading">
+               <h1>Java Serialization: Understanding and Mitigating Risks</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">Posted by <a href="#">Miguel Lopes</a> on Tue, Sep 19, 2023
+                 <br />
+                 
+In <pta href="https://miguellopes.net/categories/java" >Java</a>, <pta href="https://miguellopes.net/categories/vulnerabilities" >Vulnerabilities</a>, 
+
+
+               </span>
+             </div>
            </div>
-         </div>
-       </div>
-     </div>
+        </div>
+      </div>
     </header>
 
     
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto">
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/mitigar-o-wpscan/">
-                      <h2 class="post-title">Mitigar o WPScan</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Oct 17, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto" style="text-align:justify;">
+                  <p>In the vast world of Java applications, serialization and deserialization play a pivotal role. At a glance, these processes seem straightforward. Serialization is the art of turning an object into a byte stream, while deserialization brings that byte stream back to life as an object. But beneath this simplicity lies a maze of potential security pitfalls.</p>
+<h2 id="the-intricacies-of-serialization-vulnerabilities">The Intricacies of Serialization Vulnerabilities</h2>
+<p>When we talk about serialization in Java, we&rsquo;re referring to the transformation of an object into a sequence of bytes. This byte representation isn&rsquo;t just about the data; it encapsulates the object&rsquo;s type, its fields, and a myriad of other structural details. And here&rsquo;s where things get tricky. When Java deserializes this byte stream, it faithfully tries to recreate the original object. But what if the byte stream has been tampered with? Java often doesn&rsquo;t question the data&rsquo;s legitimacy, and this trust can be exploited.</p>
+<p>The act of serialization itself is a double-edged sword. On one hand, it&rsquo;s a powerful tool for preserving object state. On the other, it&rsquo;s an open invitation for attackers. They can modify this byte stream, introducing behaviors that the original developers never intended.</p>
+<p>Moreover, Java&rsquo;s approach to deserialization can sometimes be too trusting. For instance, it can create objects without even calling their constructors. This might seem like a neat optimization, but it can sidestep security checks that are typically performed during object creation.</p>
+<p>And then there&rsquo;s the matter of reflection. Java&rsquo;s serialization and deserialization mechanisms are heavily reliant on reflection, a powerful feature that allows for introspection of objects. But in the wrong hands, reflection can be used to access and even modify private fields in objects.</p>
+<h2 id="real-world-implications">Real-world Implications</h2>
+<p>The theoretical vulnerabilities translate into tangible threats. Imagine a serialized object crafted with malicious intent. When deserialized, it could execute arbitrary code, compromising the system it&rsquo;s running on. Or consider the impact of deserializing data that causes an application to consume all available memory, leading to a denial of service.</p>
+<p>Remote command execution is another grim possibility. Some classes, when deserialized, can be manipulated to execute commands on the host system. And if serialized data is intercepted during transmission, it can be tampered with, leading to all sorts of data integrity issues upon deserialization.</p>
+<h2 id="where-things-typically-go-awry">Where Things Typically Go Awry</h2>
+<p>API endpoints are often the first line of defense, and also the first point of failure. If an endpoint accepts serialized objects without proper validation or sanitization, it&rsquo;s essentially rolling out the red carpet for attackers.</p>
+<p>Data storage is another vulnerable spot. Serialized objects tucked away in databases or files aren&rsquo;t always safe. If an attacker gains access, they can tamper with these objects, leading to unpredictable behavior when they&rsquo;re eventually deserialized.</p>
+<p>And let&rsquo;s not forget about data in transit. Serialized objects whisked across networks are susceptible to interception. Once intercepted, they can be modified and then sent on their way, setting the stage for potential breaches.</p>
+<h2 id="safeguarding-the-serialization-process">Safeguarding the Serialization Process</h2>
+<p>Java developers aren&rsquo;t powerless against these threats. By overriding the default <code>writeObject()</code> and <code>readObject()</code> methods, they can implement custom serialization logic that&rsquo;s more resilient to attacks.</p>
+<p>There are also alternative libraries, like Google&rsquo;s Protocol Buffers or JSON-based serialization methods, which offer a departure from Java&rsquo;s native serialization and its associated risks.</p>
+<p>Whitelisting is another potent tool. By maintaining a list of classes that are safe to deserialize and rejecting everything else, applications can shield themselves from many threats.</p>
+<p>Before diving into deserialization, it&rsquo;s always a good idea to validate the data. Ensure it&rsquo;s from a trusted source and hasn&rsquo;t been tampered with. And if serialization is a frequent operation, consider reducing its use. There are other ways to represent and transfer data, like Data Transfer Objects (DTOs).</p>
+<p>Lastly, if serialized data must be stored or transmitted, wrapping it in a layer of encryption can deter tampering.</p>
+<h2 id="wrapping-up">Wrapping Up</h2>
+<p>Serialization and deserialization in Java are powerful, but with great power comes great responsibility. By understanding the associated risks and proactively addressing them, developers can ensure that their applications remain both functional and secure.</p>
 
-
-                    <br />
-                    <br />
-                  </p>
                 </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/findmyhashes/">
-                      <h2 class="post-title">Findmyhashes - Hashes &#34;crackadas&#34; em serviços online</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Sat, Oct 15, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/python" >Python</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/lista-de-mais-de-135-000-proxies/">
-                      <h2 class="post-title">Lista de mais de 135.000 proxies</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Thu, Sep 1, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/anonimato" >Anonimato</a>, <pta href="https://miguellopes.net/categories/links" >Links</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/defcon-19-slides/">
-                      <h2 class="post-title">DefCon 19 (Slides)</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Tue, Aug 16, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/departamento-de-defesa-dos-usa-lanca-o-lps/">
-                      <h2 class="post-title">Departamento de Defesa dos USA lança o LPS</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Tue, Jul 26, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/linux" >Linux</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/atacar-o-mac-atraves-da-bateria/">
-                      <h2 class="post-title">Atacar o Mac através da bateria</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Jul 25, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/mac" >Mac</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/mac-os-x-lion/">
-                      <h2 class="post-title">Mac OS X Lion</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Wed, Jul 20, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/mac" >Mac</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/lulsec-volta-a-carga/">
-                      <h2 class="post-title">LulzSec volta á carga</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Mon, Jul 18, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/escutas-com-equipamentos-da-vodafone-uk/">
-                      <h2 class="post-title">Escutas com equipamentos da Vodafone UK</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Thu, Jul 14, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/encripta%C3%A7%C3%A3o" >Encriptação</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/sera-que-o-meu-mail-foi-comprometido-pelo-lulzsec/">
-                      <h2 class="post-title">Será que o meu mail foi comprometido pelo LulzSec</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Tue, Jun 21, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/links" >Links</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-          
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/4/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/8/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
+            </div>
+            <hr>
+            <div class="row navega">
+               <span class="col-md-12 dot">*</span>
+               <div class="col-md-6">
+                  
+               </div>
+               <div class="col-md-6">
+                  
+                  <span style="float:right;">
+                     <a href="https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/">Cryptographic modes and catastrophic implementations
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29.69px" height="10.52px" viewBox="0 0 29.69 10.52" enable-background="new 0 0 29.69 10.52" xml:space="preserve">
+<polygon points="8.179,4.01 20.581,4.01 20.581,0 29.69,5.26 20.581,10.52 20.581,6.51 8.179,6.51 "/>
+</svg>
+</a>
+                  </span>
+                  
+               </div>
+            </div>
         </div>
-      </div>
+    </article>
+
+    <hr>
+    <div class="container">
+       <div class="row">
+             <div class="col-lg-12 col-md-10">
+               <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.port == "1313")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'miguellopes';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+             </div>
+       </div>
     </div>
 
+<script src="https://miguellopes.net/js/prism.js"></script>
     <hr>
     
     <footer>

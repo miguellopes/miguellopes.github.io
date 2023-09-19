@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Sep 2023 02:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Sep 2023 22:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Serialization: Understanding and Mitigating Risks</title>
+      <link>https://miguellopes.net/blog/java-serialization/</link>
+      <pubDate>Tue, 19 Sep 2023 22:37:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/java-serialization/</guid>
+      <description>In the vast world of Java applications, serialization and deserialization play a pivotal role. At a glance, these processes seem straightforward. Serialization is the art of turning an object into a byte stream, while deserialization brings that byte stream back to life as an object. But beneath this simplicity lies a maze of potential security pitfalls.
+The Intricacies of Serialization Vulnerabilities When we talk about serialization in Java, we&amp;rsquo;re referring to the transformation of an object into a sequence of bytes.</description>
+    </item>
+    
     <item>
       <title>Cryptographic modes and catastrophic implementations</title>
       <link>https://miguellopes.net/blog/cryptographic-modes-and-catastrophic-implementations/</link>
