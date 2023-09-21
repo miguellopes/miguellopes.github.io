@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://miguellopes.net/categories/appsec/</loc>
+    <lastmod>2023-09-21T17:37:13+00:00</lastmod>
+  </url><url>
     <loc>https://miguellopes.net/blog/</loc>
-    <lastmod>2023-09-19T22:37:13+00:00</lastmod>
+    <lastmod>2023-09-21T17:37:13+00:00</lastmod>
   </url><url>
     <loc>https://miguellopes.net/categories/</loc>
-    <lastmod>2023-09-19T22:37:13+00:00</lastmod>
+    <lastmod>2023-09-21T17:37:13+00:00</lastmod>
+  </url><url>
+    <loc>https://miguellopes.net/blog/semgrep-multi-file/</loc>
+    <lastmod>2023-09-21T17:37:13+00:00</lastmod>
+  </url><url>
+    <loc>https://miguellopes.net/</loc>
+    <lastmod>2023-09-21T17:37:13+00:00</lastmod>
   </url><url>
     <loc>https://miguellopes.net/categories/java/</loc>
     <lastmod>2023-09-19T22:37:13+00:00</lastmod>
   </url><url>
     <loc>https://miguellopes.net/blog/java-serialization/</loc>
-    <lastmod>2023-09-19T22:37:13+00:00</lastmod>
-  </url><url>
-    <loc>https://miguellopes.net/</loc>
     <lastmod>2023-09-19T22:37:13+00:00</lastmod>
   </url><url>
     <loc>https://miguellopes.net/categories/vulnerabilities/</loc>

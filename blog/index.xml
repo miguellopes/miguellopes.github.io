@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2010 - 2023, Miguel Lopes; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 19 Sep 2023 22:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Sep 2023 17:37:13 +0000</lastBuildDate><atom:link href="https://miguellopes.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harnessing Semgrep for Multi-File Vulnerability Detection and Reducing False Positives</title>
+      <link>https://miguellopes.net/blog/semgrep-multi-file/</link>
+      <pubDate>Thu, 21 Sep 2023 17:37:13 +0000</pubDate>
+      
+      <guid>https://miguellopes.net/blog/semgrep-multi-file/</guid>
+      <description>In the realm of application security, the term &amp;ldquo;shift-left&amp;rdquo; has gained prominence. It emphasizes identifying and addressing security issues earlier in the development lifecycle, ideally as code is being written. Semgrep, with its pattern-based code scanning capabilities, is a quintessential tool for this shift-left movement. However, while it&amp;rsquo;s adept at flagging potential vulnerabilities in individual files, it operates on each file in isolation. This can sometimes lead to false positives, especially when the context spanning multiple files is crucial for accurate vulnerability detection.</description>
+    </item>
+    
     <item>
       <title>Java Serialization: Understanding and Mitigating Risks</title>
       <link>https://miguellopes.net/blog/java-serialization/</link>

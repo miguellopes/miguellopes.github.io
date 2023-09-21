@@ -10,11 +10,8 @@
     <meta name="author" content="Miguel Lopes">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
 
-    <title>Blog -- miguellopes.net</title>
+    <title>Harnessing Semgrep for Multi-File Vulnerability Detection and Reducing False Positives -- miguellopes.net</title>
 
-
-<link href="https://miguellopes.net/blog/index.xml" rel="alternate" type="application/rss+xml" title="miguellopes.net" />
-<link href="https://miguellopes.net/blog/index.xml" rel="feed" type="application/rss+xml" title="miguellopes.net" />
 
     
 
@@ -252,94 +249,177 @@
     </nav>
 
 
+<link href="https://miguellopes.net/css/prism.css" rel="stylesheet" />
+
     
-    <header class="intro-header" style="background-image: url('https://miguellopes.net/img/blog.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="mx-auto">
-           <div class="site-heading">
-             <h1>Blog</h1>
-             <hr class="small">
-             <span class="subheading"></span>
+    
+    <header class="intro-header" style="background-image: url('https://miguellopes.net/img/post-bg.jpg')">
+    
+      <div class="container">
+        <div class="row">
+           <div class="mx-auto">
+             <div class="post-heading">
+               <h1>Harnessing Semgrep for Multi-File Vulnerability Detection and Reducing False Positives</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">Posted by <a href="#">Miguel Lopes</a> on Thu, Sep 21, 2023
+                 <br />
+                 
+In <pta href="https://miguellopes.net/categories/appsec" >AppSec</a>, 
+
+
+               </span>
+             </div>
            </div>
-         </div>
-       </div>
-     </div>
+        </div>
+      </div>
     </header>
 
     
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto">
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/dicas-da-nsa-para-tornar-o-seu-computador-seguro/">
-                      <h2 class="post-title">Dicas da NSA para tornar o seu computador seguro</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Fri, Mar 11, 2011
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/links" >Links</a>, <pta href="https://miguellopes.net/categories/seguran%C3%A7a" >Segurança</a>, 
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto" style="text-align:justify;">
+                  <p>In the realm of application security, the term &ldquo;shift-left&rdquo; has gained prominence. It emphasizes identifying and addressing security issues earlier in the development lifecycle, ideally as code is being written. Semgrep, with its pattern-based code scanning capabilities, is a quintessential tool for this shift-left movement. However, while it&rsquo;s adept at flagging potential vulnerabilities in individual files, it operates on each file in isolation. This can sometimes lead to false positives, especially when the context spanning multiple files is crucial for accurate vulnerability detection.</p>
+<p>In this post, we&rsquo;ll explore a method to not only harness Semgrep for multi-file vulnerability detection but also to significantly reduce false positives by understanding the broader context.</p>
+<h3 id="the-multi-file-vulnerability-challenge">The Multi-File Vulnerability Challenge</h3>
+<p>Consider a hypothetical scenario in a Python application:</p>
+<p><strong>1. <code>source.py</code>:</strong> A module that captures user input.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># source.py</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_user_input</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> input(<span style="color:#e6db74">&#34;Enter a query: &#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    user_query <span style="color:#f92672">=</span> get_user_input()
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">from</span> database_sink <span style="color:#f92672">import</span> execute_query
+</span></span><span style="display:flex;"><span>    execute_query_internal(user_query)
+</span></span></code></pre></div><p><strong>2. <code>database_sink.py</code>:</strong> A module with multiple functions that interact with a database. While some functions are safe, others can introduce vulnerabilities like SQL injection if used improperly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># database_sink.py</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sqlite3
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">safe_execute_query</span>(query):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Uses parameterized query to prevent SQL injection</span>
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect(<span style="color:#e6db74">&#39;example.db&#39;</span>)
+</span></span><span style="display:flex;"><span>    cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+</span></span><span style="display:flex;"><span>    cursor<span style="color:#f92672">.</span>execute(<span style="color:#e6db74">&#34;SELECT * FROM users WHERE name=?&#34;</span>, (query,))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> cursor<span style="color:#f92672">.</span>fetchall()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute_query_internal</span>(query):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Vulnerable to SQL injection</span>
+</span></span><span style="display:flex;"><span>    conn <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect(<span style="color:#e6db74">&#39;example.db&#39;</span>)
+</span></span><span style="display:flex;"><span>    cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+</span></span><span style="display:flex;"><span>    cursor<span style="color:#f92672">.</span>execute(query)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> cursor<span style="color:#f92672">.</span>fetchall()
+</span></span></code></pre></div><p>In this setup, the <code>execute_query_internal</code> function in <code>database_sink.py</code> is vulnerable to SQL injection, especially if it directly receives unvalidated input from <code>source.py</code>.</p>
+<h3 id="a-two-pronged-solution-semgrep--python">A Two-Pronged Solution: Semgrep + Python</h3>
+<h4 id="1-crafting-semgrep-rules">1. Crafting Semgrep Rules:</h4>
+<p>Using Semgrep&rsquo;s YAML-based rule definitions, we create:</p>
+<ul>
+<li><strong>Source Rule</strong>: Detects functions or lines capturing user input.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">rules</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#f92672">id</span>: <span style="color:#ae81ff">user-input-source</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">languages</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#ae81ff">python</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">message</span>: <span style="color:#ae81ff">User input source detected</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">patterns</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">pattern</span>: <span style="color:#ae81ff">input(...)</span>
+</span></span></code></pre></div><ul>
+<li><strong>Sink Rule</strong>: Pinpoints the vulnerable database interaction function.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">rules</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#f92672">id</span>: <span style="color:#ae81ff">vulnerable-db-function</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">languages</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#ae81ff">python</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">message</span>: <span style="color:#ae81ff">Vulnerable database function detected</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">patterns</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">pattern</span>: <span style="color:#ae81ff">cursor.execute($QUERY)</span>
+</span></span></code></pre></div><h4 id="2-python-script-for-contextual-correlation">2. Python Script for Contextual Correlation:</h4>
+<p>With our Semgrep rules in place, we use Python to:</p>
+<ul>
+<li>Execute the Semgrep rules on the respective files.</li>
+<li>Analyze the results. If the source and the vulnerable sink are detected, and there&rsquo;s a logical flow between them, the script flags a potential vulnerability.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> subprocess
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> json
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ... [Semgrep rules defined here] ...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run_semgrep</span>(rule_content, target_file):
+</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> subprocess<span style="color:#f92672">.</span>run(
+</span></span><span style="display:flex;"><span>        [<span style="color:#e6db74">&#34;semgrep&#34;</span>, <span style="color:#e6db74">&#34;--config&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>, target_file],
+</span></span><span style="display:flex;"><span>        input<span style="color:#f92672">=</span>rule_content,
+</span></span><span style="display:flex;"><span>        text<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>,
+</span></span><span style="display:flex;"><span>        capture_output<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> json<span style="color:#f92672">.</span>loads(result<span style="color:#f92672">.</span>stdout)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>source_results <span style="color:#f92672">=</span> run_semgrep(source_rule, <span style="color:#e6db74">&#34;source.py&#34;</span>)
+</span></span><span style="display:flex;"><span>sink_results <span style="color:#f92672">=</span> run_semgrep(sink_rule, <span style="color:#e6db74">&#34;database_sink.py&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> source_results[<span style="color:#e6db74">&#34;results&#34;</span>] <span style="color:#f92672">and</span> sink_results[<span style="color:#e6db74">&#34;results&#34;</span>]:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Potential vulnerability detected!&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Source in:&#34;</span>, source_results[<span style="color:#e6db74">&#34;results&#34;</span>][<span style="color:#ae81ff">0</span>][<span style="color:#e6db74">&#34;path&#34;</span>])
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Sink in:&#34;</span>, sink_results[<span style="color:#e6db74">&#34;results&#34;</span>][<span style="color:#ae81ff">0</span>][<span style="color:#e6db74">&#34;path&#34;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;No correlated vulnerability found.&#34;</span>)
+</span></span></code></pre></div><h3 id="reducing-false-positives">Reducing False Positives</h3>
+<p>By understanding the broader context and the flow of data across multiple files, this approach significantly reduces false positives. Instead of flagging every instance of user input or every database function, we only raise alarms when there&rsquo;s a clear and unsafe data flow between a source and a vulnerable sink. This ensures developers are alerted to genuine vulnerabilities, reducing the noise and the risk of &ldquo;alert fatigue&rdquo;. More importantly, it lets teams focus on real, proven problems rather than getting sidetracked by potential but unproven issues.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Semgrep is undeniably a powerful tool for the shift-left movement, allowing developers to catch vulnerabilities early in the development process. However, the approach of extending its capabilities for multi-file vulnerability detection, as outlined in this post, is particularly suited for application security (AppSec) engineers during code reviews. This method provides a deeper, more holistic view of potential vulnerabilities, especially those that span across multiple files or modules. While developers can benefit from running Semgrep on an ad-hoc basis to catch straightforward issues, the nuanced detection of multi-file vulnerabilities is best handled by AppSec professionals who can understand and interpret the broader context. By leveraging this approach, AppSec engineers can ensure a more comprehensive and accurate security review, further bolstering the application&rsquo;s defense against potential threats.</p>
 
-
-                    <br />
-                    <br />
-                  </p>
                 </div>
-
-          
-                             <div class="post-preview">
-                 <a href="https://miguellopes.net/blog/bluetooth-gps-python/">
-                      <h2 class="post-title">Receptor de GPS Bluetooth (Python)</h2>
-                      <h3 class="post-subtitle"></h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Miguel Lopes</a> on Sun, Dec 26, 2010
-                    <br />
-                    
-In <pta href="https://miguellopes.net/categories/programa%C3%A7%C3%A3o" >Programação</a>, <pta href="https://miguellopes.net/categories/python" >Python</a>, <pta href="https://miguellopes.net/categories/scripts" >Scripts</a>, 
-
-
-                    <br />
-                    <br />
-                  </p>
-                </div>
-
-          
-          
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/7/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
-      </li>
-      <li class="page-item">
-        <a href="https://miguellopes.net/blog/page/7/" aria-label="Page 7" class="page-link" role="button">7</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 8" class="page-link" role="button">8</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
+            </div>
+            <hr>
+            <div class="row navega">
+               <span class="col-md-12 dot">*</span>
+               <div class="col-md-6">
+                  
+               </div>
+               <div class="col-md-6">
+                  
+                  <span style="float:right;">
+                     <a href="https://miguellopes.net/blog/java-serialization/">Java Serialization: Understanding and Mitigating Risks
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29.69px" height="10.52px" viewBox="0 0 29.69 10.52" enable-background="new 0 0 29.69 10.52" xml:space="preserve">
+<polygon points="8.179,4.01 20.581,4.01 20.581,0 29.69,5.26 20.581,10.52 20.581,6.51 8.179,6.51 "/>
+</svg>
+</a>
+                  </span>
+                  
+               </div>
+            </div>
         </div>
-      </div>
+    </article>
+
+    <hr>
+    <div class="container">
+       <div class="row">
+             <div class="col-lg-12 col-md-10">
+               <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.port == "1313")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'miguellopes';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+             </div>
+       </div>
     </div>
 
+<script src="https://miguellopes.net/js/prism.js"></script>
     <hr>
     
     <footer>
